@@ -49,8 +49,10 @@ For testing out features, the [escpos-php](https://github.com/mike42/escpos-php/
 
 ## License
 
-TBD
+This data and documentation is provided under [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/). See LICENSE.md for details.
 
-## Affiliated projects
+## Participating projects
 
-TBD
+- [python-escpos](https://github.com/python-escpos/python-escpos)
+- [escpos-php](https://github.com/mike42/escpos-php)
+
