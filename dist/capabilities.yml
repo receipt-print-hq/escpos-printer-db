@@ -317,6 +317,165 @@ profiles:
     name: "P822D"
     notes:
     vendor: "PBM"
+  SP2000:
+    codePages:
+      0: "CP437"
+      1: "CP437"
+      2: "CP932"
+      3: "CP437"
+      4: "CP858"
+      5: "CP852"
+      6: "CP860"
+      7: "CP861"
+      8: "CP863"
+      9: "CP865"
+      10: "CP866"
+      11: "CP855"
+      12: "CP857"
+      13: "CP862"
+      14: "CP864"
+      15: "CP737"
+      16: "CP851"
+      17: "CP869"
+      18: "CP928"
+      19: "CP772"
+      20: "CP774"
+      21: "CP874"
+      32: "CP1252"
+      33: "CP1250"
+      34: "CP1251"
+      64: "CP3840"
+      65: "CP3841"
+      66: "CP3843"
+      67: "CP3844"
+      68: "CP3845"
+      69: "CP3846"
+      70: "CP3847"
+      71: "CP3848"
+      72: "CP1001"
+      73: "CP2001"
+      74: "CP3001"
+      75: "CP3002"
+      76: "CP3011"
+      77: "CP3012"
+      78: "CP3021"
+      79: "CP3041"
+      96: "Unknown"
+      97: "Unknown"
+      98: "Unknown"
+      99: "Unknown"
+      100: "Unknown"
+      101: "Unknown"
+      102: "Unknown"
+      255: "Unknown"
+    colors:
+      0: "black"
+    features:
+      BarcodeB: true
+      BitImageColumn: true
+      BitImageRaster: true
+      Graphics: true
+      HighDensity: true
+      QrCode: true
+      StarCommands: true
+    fonts:
+      0:
+        columns: 40
+      1:
+        columns: 50
+    media:
+      width:
+        mm: "Unknown"
+        pixels: "Unknown"
+    name: "SP2000 Series"
+    notes: "Star SP2000 impact printer series with ESC/POS emulation enabled"
+    vendor: "Star Micronics"
+  TEP-200M:
+    codePages:
+      0: "CP437"
+      1: "CP932"
+      2: "CP850"
+      3: "CP860"
+      4: "CP863"
+      5: "CP865"
+      6: "Unknown"
+      7: "Unknown"
+      8: "Unknown"
+      11: "CP851"
+      12: "CP853"
+      13: "CP857"
+      14: "CP737"
+      15: "ISO_8859-7"
+      16: "CP1252"
+      17: "CP866"
+      18: "CP852"
+      19: "CP858"
+      20: "Unknown"
+      21: "CP874"
+      22: "Unknown"
+      23: "Unknown"
+      24: "Unknown"
+      25: "Unknown"
+      26: "Unknown"
+      30: "TCVN-3-1"
+      31: "TCVN-3-2"
+      32: "CP720"
+      33: "CP775"
+      34: "CP855"
+      35: "CP861"
+      36: "CP862"
+      37: "CP864"
+      38: "CP869"
+      39: "ISO_8859-2"
+      40: "ISO_8859-15"
+      41: "CP1098"
+      42: "CP774"
+      43: "CP772"
+      44: "CP1125"
+      45: "CP1250"
+      46: "CP1251"
+      47: "CP1253"
+      48: "CP1254"
+      49: "CP1255"
+      50: "CP1256"
+      51: "CP1257"
+      52: "CP1258"
+      53: "RK1048"
+      66: "Unknown"
+      67: "Unknown"
+      68: "Unknown"
+      69: "Unknown"
+      70: "Unknown"
+      71: "Unknown"
+      72: "Unknown"
+      73: "Unknown"
+      74: "Unknown"
+      75: "Unknown"
+      82: "Unknown"
+      254: "Unknown"
+      255: "Unknown"
+    colors:
+      0: "black"
+    features:
+      BarcodeB: true
+      BitImageColumn: true
+      BitImageRaster: true
+      Graphics: true
+      HighDensity: true
+      QrCode: true
+      StarCommands: false
+    fonts:
+      0:
+        columns: 40
+      1:
+        columns: 50
+    media:
+      width:
+        mm: "Unknown"
+        pixels: "Unknown"
+    name: "TEP200M Series"
+    notes: ""
+    vendor: "EPOS"
   TM-P80:
     codePages:
       0: "CP437"
@@ -429,6 +588,152 @@ profiles:
     name: "TM-U220"
     notes: "Two-color impact printer with 80mm output"
     vendor: "Epson"
+  TSP600:
+    codePages:
+      0: "CP437"
+      1: "CP437"
+      2: "CP932"
+      3: "CP437"
+      4: "CP858"
+      5: "CP852"
+      6: "CP860"
+      7: "CP861"
+      8: "CP863"
+      9: "CP865"
+      10: "CP866"
+      11: "CP855"
+      12: "CP857"
+      13: "CP862"
+      14: "CP864"
+      15: "CP737"
+      16: "CP851"
+      17: "CP869"
+      18: "CP928"
+      19: "CP772"
+      20: "CP774"
+      21: "CP874"
+      32: "CP1252"
+      33: "CP1250"
+      34: "CP1251"
+      64: "CP3840"
+      65: "CP3841"
+      66: "CP3843"
+      67: "CP3844"
+      68: "CP3845"
+      69: "CP3846"
+      70: "CP3847"
+      71: "CP3848"
+      72: "CP1001"
+      73: "CP2001"
+      74: "CP3001"
+      75: "CP3002"
+      76: "CP3011"
+      77: "CP3012"
+      78: "CP3021"
+      79: "CP3041"
+      96: "Unknown"
+      97: "Unknown"
+      98: "Unknown"
+      99: "Unknown"
+      100: "Unknown"
+      101: "Unknown"
+      102: "Unknown"
+      255: "Unknown"
+    colors:
+      0: "black"
+    features:
+      BarcodeB: true
+      BitImageColumn: true
+      BitImageRaster: true
+      Graphics: true
+      HighDensity: true
+      QrCode: true
+      StarCommands: true
+    fonts:
+      0:
+        columns: 40
+      1:
+        columns: 50
+    media:
+      width:
+        mm: "Unknown"
+        pixels: "Unknown"
+    name: "TSP600 Series"
+    notes: "Star TSP600 thermal printer series with ESC/POS emulation enabled"
+    vendor: "Star Micronics"
+  TUP500:
+    codePages:
+      0: "CP437"
+      1: "CP437"
+      2: "CP932"
+      3: "CP437"
+      4: "CP858"
+      5: "CP852"
+      6: "CP860"
+      7: "CP861"
+      8: "CP863"
+      9: "CP865"
+      10: "CP866"
+      11: "CP855"
+      12: "CP857"
+      13: "CP862"
+      14: "CP864"
+      15: "CP737"
+      16: "CP851"
+      17: "CP869"
+      18: "CP928"
+      19: "CP772"
+      20: "CP774"
+      21: "CP874"
+      32: "CP1252"
+      33: "CP1250"
+      34: "CP1251"
+      64: "CP3840"
+      65: "CP3841"
+      66: "CP3843"
+      67: "CP3844"
+      68: "CP3845"
+      69: "CP3846"
+      70: "CP3847"
+      71: "CP3848"
+      72: "CP1001"
+      73: "CP2001"
+      74: "CP3001"
+      75: "CP3002"
+      76: "CP3011"
+      77: "CP3012"
+      78: "CP3021"
+      79: "CP3041"
+      96: "Unknown"
+      97: "Unknown"
+      98: "Unknown"
+      99: "Unknown"
+      100: "Unknown"
+      101: "Unknown"
+      102: "Unknown"
+      255: "Unknown"
+    colors:
+      0: "black"
+    features:
+      BarcodeB: true
+      BitImageColumn: true
+      BitImageRaster: true
+      Graphics: true
+      HighDensity: true
+      QrCode: true
+      StarCommands: true
+    fonts:
+      0:
+        columns: 40
+      1:
+        columns: 50
+    media:
+      width:
+        mm: "Unknown"
+        pixels: "Unknown"
+    name: "TUP500 Series"
+    notes: "Star TUP500 thermal printer series with ESC/POS emulation enabled"
+    vendor: "Star Micronics"
   default:
     codePages:
       0: "CP437"
