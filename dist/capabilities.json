@@ -656,6 +656,10 @@
                     "name": "Font A"
                 },
                 "1": {
+                    "columns": 56,
+                    "name": "Font B"
+                },
+                "2": {
                     "columns": 24,
                     "name": "Kanji"
                 }
@@ -753,6 +757,10 @@
                     "name": "Font A"
                 },
                 "1": {
+                    "columns": 60,
+                    "name": "Font B"
+                },
+                "2": {
                     "columns": 21,
                     "name": "Kanji"
                 }

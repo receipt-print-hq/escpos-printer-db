@@ -6,7 +6,8 @@ TM-T88II:
   notes: ""
   codePages:
     0: CP437
-    # Katakana, test before enabling, but looks like https://en.wikipedia.org/wiki/JIS_X_0201
+    # Katakana, test before enabling, but looks like
+    # https://en.wikipedia.org/wiki/JIS_X_0201
     1: Unknown
     2: CP850
     3: CP860

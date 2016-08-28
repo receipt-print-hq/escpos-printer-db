@@ -11,7 +11,7 @@ TM-P80-42col:
     1:
       name: Font B
       columns: 60
-    1:
+    2:
       name: Kanji
       columns: 21
   media:
