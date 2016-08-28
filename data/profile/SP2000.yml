@@ -2,10 +2,10 @@
 SP2000:
   name: SP2000 Series
   vendor: Star Micronics
-  notes: Star SP2000 impact printer series with ESC/POS emulation enabled
   inherits: default
+  notes: Star SP2000 impact printer series with ESC/POS emulation enabled
   features:
-    StarCommands: True
+    starCommands: True
   codePages:
     # "Normal"
     0: CP437

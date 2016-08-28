@@ -3,7 +3,7 @@ P822D:
   name: P822D
   vendor: PBM
   inherits: default
-  notes:
+  notes: ""
   codePages:
     0: CP437
     # Katakana
