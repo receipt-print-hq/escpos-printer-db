@@ -1,7 +1,10 @@
 ---
-before_install:
-  - sudo apt-get -qq update
-  - sudo apt-get install -y yamllint
+dist: trusty
+
+language: python
+
+install:
+  - sudo pip install yamllint
 
 script:
   - find . -name '*.yml' | xargs yamllint
