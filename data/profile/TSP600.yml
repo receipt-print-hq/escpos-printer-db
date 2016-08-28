@@ -2,6 +2,6 @@
 TSP600:
   name: TSP600 Series
   vendor: Star Micronics
-  notes: Star TSP600 thermal printer series with ESC/POS emulation enabled
   inherits: SP2000
+  notes: Star TSP600 thermal printer series with ESC/POS emulation enabled
 ...

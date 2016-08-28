@@ -298,13 +298,13 @@ profiles:
     colors:
       0: "black"
     features:
-      BarcodeB: true
-      BitImageColumn: true
-      BitImageRaster: true
-      Graphics: true
-      HighDensity: true
-      QrCode: true
-      StarCommands: false
+      barcodeB: true
+      bitImageColumn: true
+      bitImageRaster: true
+      graphics: true
+      highDensity: true
+      qrCode: true
+      starCommands: false
     fonts:
       0:
         columns: 40
@@ -312,10 +312,10 @@ profiles:
         columns: 50
     media:
       width:
-        mm: "unknown"
-        pixels: "unknown"
+        mm: "Unknown"
+        pixels: "Unknown"
     name: "P822D"
-    notes:
+    notes: ""
     vendor: "PBM"
   SP2000:
     codePages:
@@ -371,13 +371,13 @@ profiles:
     colors:
       0: "black"
     features:
-      BarcodeB: true
-      BitImageColumn: true
-      BitImageRaster: true
-      Graphics: true
-      HighDensity: true
-      QrCode: true
-      StarCommands: true
+      barcodeB: true
+      bitImageColumn: true
+      bitImageRaster: true
+      graphics: true
+      highDensity: true
+      qrCode: true
+      starCommands: true
     fonts:
       0:
         columns: 40
@@ -457,13 +457,13 @@ profiles:
     colors:
       0: "black"
     features:
-      BarcodeB: true
-      BitImageColumn: true
-      BitImageRaster: true
-      Graphics: true
-      HighDensity: true
-      QrCode: true
-      StarCommands: false
+      barcodeB: true
+      bitImageColumn: true
+      bitImageRaster: true
+      graphics: true
+      highDensity: true
+      qrCode: true
+      starCommands: false
     fonts:
       0:
         columns: 40
@@ -543,13 +543,13 @@ profiles:
     colors:
       0: "black"
     features:
-      BarcodeB: true
-      BitImageColumn: true
-      BitImageRaster: true
-      Graphics: true
-      HighDensity: true
-      QrCode: true
-      StarCommands: false
+      barcodeB: true
+      bitImageColumn: true
+      bitImageRaster: true
+      graphics: true
+      highDensity: true
+      qrCode: true
+      starCommands: false
     fonts:
       0:
         columns: 40
@@ -569,13 +569,13 @@ profiles:
       0: "black"
       1: "alternate"
     features:
-      BarcodeB: false
-      BitImageColumn: true
-      BitImageRaster: false
-      Graphics: false
-      HighDensity: false
-      QrCode: false
-      StarCommands: false
+      barcodeB: false
+      bitImageColumn: true
+      bitImageRaster: false
+      graphics: false
+      highDensity: false
+      qrCode: false
+      starCommands: false
     fonts:
       0:
         columns: 40
@@ -642,13 +642,13 @@ profiles:
     colors:
       0: "black"
     features:
-      BarcodeB: true
-      BitImageColumn: true
-      BitImageRaster: true
-      Graphics: true
-      HighDensity: true
-      QrCode: true
-      StarCommands: true
+      barcodeB: true
+      bitImageColumn: true
+      bitImageRaster: true
+      graphics: true
+      highDensity: true
+      qrCode: true
+      starCommands: true
     fonts:
       0:
         columns: 40
@@ -715,13 +715,13 @@ profiles:
     colors:
       0: "black"
     features:
-      BarcodeB: true
-      BitImageColumn: true
-      BitImageRaster: true
-      Graphics: true
-      HighDensity: true
-      QrCode: true
-      StarCommands: true
+      barcodeB: true
+      bitImageColumn: true
+      bitImageRaster: true
+      graphics: true
+      highDensity: true
+      qrCode: true
+      starCommands: true
     fonts:
       0:
         columns: 40
@@ -801,13 +801,13 @@ profiles:
     colors:
       0: "black"
     features:
-      BarcodeB: true
-      BitImageColumn: true
-      BitImageRaster: true
-      Graphics: true
-      HighDensity: true
-      QrCode: true
-      StarCommands: false
+      barcodeB: true
+      bitImageColumn: true
+      bitImageRaster: true
+      graphics: true
+      highDensity: true
+      qrCode: true
+      starCommands: false
     fonts:
       0:
         columns: 40
@@ -828,13 +828,13 @@ profiles:
     colors:
       0: "black"
     features:
-      BarcodeB: false
-      BitImageColumn: false
-      BitImageRaster: true
-      Graphics: false
-      HighDensity: true
-      QrCode: false
-      StarCommands: false
+      barcodeB: false
+      bitImageColumn: false
+      bitImageRaster: true
+      graphics: false
+      highDensity: true
+      qrCode: false
+      starCommands: false
     fonts:
       0:
         columns: 40

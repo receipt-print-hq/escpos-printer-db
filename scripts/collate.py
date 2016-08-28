@@ -83,8 +83,8 @@ def substitute_profile(profile_name, profiles_raw, encodings_raw):
             .format(profile_name, i)
 
     # Sanity check for required features exist
-    required_features = ['StarCommands', 'HighDensity', 'BarcodeB', \
-                         'BitImageColumn', 'Graphics', 'QrCode', 'BitImageRaster']
+    required_features = ['starCommands', 'highDensity', 'barcodeB', \
+                         'bitImageColumn', 'graphics', 'qrCode', 'bitImageRaster']
     for i in required_features:
         assert i in profile['features'].keys(), \
             "{}: Profile feature '{}' must be defined or inherited" \

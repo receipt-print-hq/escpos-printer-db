@@ -2,16 +2,16 @@
 simple:
   name: Simple
   vendor: Generic
+  inherits: default
   notes: >
       A profile for use in printers with unknown or poor compatibility. This
       profile indicates that a small number of features are supported, so that
       commands are not sent a printer that is unlikely to understand them.
-  inherits: default
   features:
-    BarcodeB: False
-    BitImageColumn: False
-    Graphics: False
-    QrCode: False
+    barcodeB: false
+    bitImageColumn: false
+    graphics: false
+    qrCode: false
   codePages:
     0: CP437
 ...
