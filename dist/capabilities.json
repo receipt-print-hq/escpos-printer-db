@@ -374,10 +374,10 @@
             },
             "fonts": {
                 "0": {
-                    "columns": 40
+                    "columns": 42
                 },
                 "1": {
-                    "columns": 50
+                    "columns": 56
                 }
             },
             "media": {
@@ -456,10 +456,10 @@
             },
             "fonts": {
                 "0": {
-                    "columns": 40
+                    "columns": 42
                 },
                 "1": {
-                    "columns": 50
+                    "columns": 56
                 }
             },
             "media": {
@@ -551,10 +551,10 @@
             },
             "fonts": {
                 "0": {
-                    "columns": 40
+                    "columns": 42
                 },
                 "1": {
-                    "columns": 50
+                    "columns": 56
                 }
             },
             "media": {
@@ -646,10 +646,10 @@
             },
             "fonts": {
                 "0": {
-                    "columns": 40
+                    "columns": 42
                 },
                 "1": {
-                    "columns": 50
+                    "columns": 56
                 }
             },
             "media": {
@@ -660,6 +660,91 @@
             },
             "name": "TM-P80",
             "notes": "Portable printer",
+            "vendor": "Epson"
+        },
+        "TM-T88II": {
+            "codePages": {
+                "0": "CP437",
+                "1": "Unknown",
+                "2": "CP850",
+                "3": "CP860",
+                "4": "CP863",
+                "5": "CP865",
+                "16": "CP1252",
+                "255": "Unknown"
+            },
+            "colors": {
+                "0": "black"
+            },
+            "features": {
+                "barcodeB": true,
+                "bitImageColumn": true,
+                "bitImageRaster": true,
+                "graphics": true,
+                "highDensity": true,
+                "qrCode": true,
+                "starCommands": false
+            },
+            "fonts": {
+                "0": {
+                    "columns": 42
+                },
+                "1": {
+                    "columns": 56
+                }
+            },
+            "media": {
+                "width": {
+                    "mm": "Unknown",
+                    "pixels": "Unknown"
+                }
+            },
+            "name": "TM-T88II",
+            "notes": "",
+            "vendor": "Epson"
+        },
+        "TM-T88III": {
+            "codePages": {
+                "0": "CP437",
+                "1": "Unknown",
+                "2": "CP850",
+                "3": "CP860",
+                "4": "CP863",
+                "5": "CP865",
+                "16": "CP1252",
+                "17": "CP866",
+                "18": "CP862",
+                "19": "CP858",
+                "255": "Unknown"
+            },
+            "colors": {
+                "0": "black"
+            },
+            "features": {
+                "barcodeB": true,
+                "bitImageColumn": true,
+                "bitImageRaster": true,
+                "graphics": true,
+                "highDensity": true,
+                "qrCode": true,
+                "starCommands": false
+            },
+            "fonts": {
+                "0": {
+                    "columns": 42
+                },
+                "1": {
+                    "columns": 56
+                }
+            },
+            "media": {
+                "width": {
+                    "mm": "Unknown",
+                    "pixels": "Unknown"
+                }
+            },
+            "name": "TM-T88III",
+            "notes": "",
             "vendor": "Epson"
         },
         "TM-U220": {
@@ -681,10 +766,10 @@
             },
             "fonts": {
                 "0": {
-                    "columns": 40
+                    "columns": 42
                 },
                 "1": {
-                    "columns": 50
+                    "columns": 56
                 }
             },
             "media": {
@@ -763,10 +848,10 @@
             },
             "fonts": {
                 "0": {
-                    "columns": 40
+                    "columns": 42
                 },
                 "1": {
-                    "columns": 50
+                    "columns": 56
                 }
             },
             "media": {
@@ -845,10 +930,10 @@
             },
             "fonts": {
                 "0": {
-                    "columns": 40
+                    "columns": 42
                 },
                 "1": {
-                    "columns": 50
+                    "columns": 56
                 }
             },
             "media": {
@@ -940,10 +1025,10 @@
             },
             "fonts": {
                 "0": {
-                    "columns": 40
+                    "columns": 42
                 },
                 "1": {
-                    "columns": 50
+                    "columns": 56
                 }
             },
             "media": {
@@ -974,10 +1059,10 @@
             },
             "fonts": {
                 "0": {
-                    "columns": 40
+                    "columns": 42
                 },
                 "1": {
-                    "columns": 50
+                    "columns": 56
                 }
             },
             "media": {
