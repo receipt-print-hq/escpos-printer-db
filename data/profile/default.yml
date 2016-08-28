@@ -2,7 +2,7 @@
 default:
   name: Default
   vendor: Generic
-  description: >
+  notes: >
       Default ESC/POS profile, suitable for standards-compliant or
       Epson-branded printers. This profile allows the use of standard
       ESC/POS features, and can encode a variety of code pages.
@@ -21,6 +21,10 @@ default:
       columns: 40
     1:
       columns: 50
+  media:
+    width:
+      mm: Unknown
+      pixels: Unknown
   codePages:
     0: CP437
     1: CP932
@@ -38,7 +42,7 @@ default:
     12: CP853
     13: CP857
     14: CP737
-    15: ISO8859-7
+    15: ISO_8859-7
     16: CP1252
     17: CP866
     18: CP852
@@ -66,8 +70,8 @@ default:
     36: CP862
     37: CP864
     38: CP869
-    39: ISO8859-2
-    40: ISO8859-15
+    39: ISO_8859-2
+    40: ISO_8859-15
     41: CP1098
     42: CP774
     43: CP772

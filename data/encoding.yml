@@ -78,7 +78,7 @@ CP737:
   iconv: CP737
   python_encode: cp737
 
-CP747: []
+CP747: {}
 
 CP770:
   iconv: CP770
@@ -120,7 +120,7 @@ CP852:
   iconv: CP852
   python_encode: cp852
 
-CP853: []
+CP853: {}
 
 CP855:
   iconv: CP855
@@ -231,7 +231,7 @@ CP921:
 CP922:
   iconv: CP922
 
-CP928: []
+CP928: {}
 
 CP930:
   iconv: CP930
@@ -306,7 +306,7 @@ CP1089:
 CP1097:
   iconv: CP1097
 
-CP1098: []
+CP1098: {}
 
 CP1112:
   iconv: CP1112

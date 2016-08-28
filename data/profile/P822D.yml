@@ -1,9 +1,9 @@
 ---
 P822D:
-  vendor: PBM
   name: P822D
+  vendor: PBM
   inherits: default
-  description:
+  notes:
   codePages:
     0: CP437
     # Katakana
@@ -50,7 +50,7 @@ P822D:
     35: CP1257
     # Thai
     255: Unknown
-    50: CP437,
+    50: CP437
     # Jatakana
     51: Unknown
     52: CP437

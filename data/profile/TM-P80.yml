@@ -2,6 +2,7 @@
 TM-P80:
   name: TM-P80
   vendor: Epson
+  notes: Portable printer
   inherits: default
   media:
     width:
