@@ -9,6 +9,7 @@ import yaml
 import json
 import pyaml
 import os
+import collections
 
 def load_encodings():
     # Load in all the encodings
@@ -89,8 +90,8 @@ if __name__ == "__main__":
     # Dump output in format that is safe for human consumption in reasonable quantities
     json_capabilities = json.dumps(capabilities, sort_keys=True, indent=4, separators=(',', ': '))
     with open(os.path.dirname(__file__) + "/../dist/capabilities.json", "wb+") as f:
-        f.write(json_capabilities)
+        f.write(json_capabilities.encode('utf-8'))
         
-    yml_capabilities = pyaml.dumps(json.loads(json_capabilities), string_val_style='"')
+    yml_capabilities = pyaml.dumps(json.loads(json_capabilities, object_pairs_hook=collections.OrderedDict), string_val_style='"')
     with open(os.path.dirname(__file__) + "/../dist/capabilities.yml", "wb+") as f:
         f.write(yml_capabilities)
