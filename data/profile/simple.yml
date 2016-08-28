@@ -1,0 +1,17 @@
+---
+simple:
+  name: Simple
+  vendor: Generic
+  inherits: default
+  description: >
+      A profile for use in printers with unknown or poor compatibility. This
+      profile indicates that a small number of features are supported, so that
+      commands are not sent a printer that is unlikely to understand them.
+  features:
+    BarcodeB: False
+    BitImageColumn: False
+    Graphics: False
+    QrCode: False
+  codePages:
+    0: CP437
+...

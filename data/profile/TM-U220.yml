@@ -1,0 +1,17 @@
+---
+TM-U220:
+  name: TM-U220
+  vendor: Epson
+  inherits: simple
+  features:
+    BitImageRaster: False
+    BitImageColumn: True
+    HighDensity: False
+  colors:
+    0: black
+    1: alternate
+  media:
+    width:
+      mm: 80
+      pixels: Unknown
+...

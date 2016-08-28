@@ -1,0 +1,10 @@
+---
+TM-P80:
+  name: TM-P80
+  vendor: Epson
+  inherits: default
+  media:
+    width:
+      mm: 72
+      pixels: Unknown
+...
