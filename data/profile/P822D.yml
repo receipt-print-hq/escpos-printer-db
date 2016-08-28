@@ -4,6 +4,8 @@ P822D:
   vendor: PBM
   inherits: default
   notes: ""
+  features:
+    graphics: false
   codePages:
     0: CP437
     # Katakana
