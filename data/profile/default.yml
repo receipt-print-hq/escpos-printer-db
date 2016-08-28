@@ -18,9 +18,11 @@ default:
     0: black
   fonts:
     0:
-      columns: 40
+      name: Font A
+      columns: 42
     1:
-      columns: 50
+      name: Font B
+      columns: 56
   media:
     width:
       mm: Unknown

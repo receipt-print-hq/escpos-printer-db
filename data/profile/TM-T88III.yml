@@ -1,0 +1,21 @@
+---
+TM-T88III:
+  name: TM-T88III
+  vendor: "Epson"
+  inherits: default
+  notes: ""
+  codePages:
+    0: CP437
+    # Katakana, test before enabling, but looks like
+    # https://en.wikipedia.org/wiki/JIS_X_0201
+    1: Unknown
+    2: CP850
+    3: CP860
+    4: CP863
+    5: CP865
+    16: CP1252
+    17: CP866
+    18: CP862
+    19: CP858
+    255: Unknown
+...
