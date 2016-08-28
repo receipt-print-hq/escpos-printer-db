@@ -4,7 +4,7 @@ dist: trusty
 language: python
 
 install:
-  - sudo pip install yamllint pyaml
+  - sudo pip install pyyaml yamllint pyaml
 
 script:
   - find data/ -name '*.yml' | xargs yamllint
