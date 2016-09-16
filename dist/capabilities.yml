@@ -667,12 +667,12 @@ profiles:
   TM-T88II:
     codePages:
       0: "CP437"
-      1: "Unknown"
+      1: "CP932"
       2: "CP850"
       3: "CP860"
       4: "CP863"
       5: "CP865"
-      16: "CP1252"
+      19: "CP858"
       255: "Unknown"
     colors:
       0: "black"
@@ -696,12 +696,14 @@ profiles:
         mm: "Unknown"
         pixels: "Unknown"
     name: "TM-T88II"
-    notes: ""
+    notes: "Epson TM-T88II profile. This printer is discontinued by the Vendor, and\
+      \ has similar feature support to the TM-T88III. The code page mapping is documented\
+      \ in the \"TM-T88II/T88III Technical Reference Guide\".\n"
     vendor: "Epson"
   TM-T88III:
     codePages:
       0: "CP437"
-      1: "Unknown"
+      1: "CP932"
       2: "CP850"
       3: "CP860"
       4: "CP863"
@@ -733,7 +735,9 @@ profiles:
         mm: "Unknown"
         pixels: "Unknown"
     name: "TM-T88III"
-    notes: ""
+    notes: "Epson TM-T88III profile. This printer has similar feature support to the\
+      \ TM-T88II. The code page mapping is documented in the \"TM-T88II/T88III Technical\
+      \ Reference Guide\".\n"
     vendor: "Epson"
   TM-U220:
     codePages:
