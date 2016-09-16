@@ -3,16 +3,17 @@ TM-T88II:
   name: TM-T88II
   vendor: "Epson"
   inherits: default
-  notes: ""
+  notes: >
+      Epson TM-T88II profile. This printer is discontinued by the Vendor,
+      and has similar feature support to the TM-T88III. The code page mapping
+      is documented in the "TM-T88II/T88III Technical Reference Guide".
   codePages:
     0: CP437
-    # Katakana, test before enabling, but looks like
-    # https://en.wikipedia.org/wiki/JIS_X_0201
-    1: Unknown
+    1: CP932
     2: CP850
     3: CP860
     4: CP863
     5: CP865
-    16: CP1252
+    19: CP858
     255: Unknown
 ...
