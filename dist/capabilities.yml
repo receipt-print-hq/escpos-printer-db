@@ -303,6 +303,8 @@ profiles:
       bitImageRaster: true
       graphics: false
       highDensity: true
+      pulseBel: false
+      pulseStandard: true
       qrCode: true
       starCommands: false
     fonts:
@@ -378,6 +380,8 @@ profiles:
       bitImageRaster: true
       graphics: true
       highDensity: true
+      pulseBel: false
+      pulseStandard: true
       qrCode: true
       starCommands: true
     fonts:
@@ -466,6 +470,8 @@ profiles:
       bitImageRaster: true
       graphics: true
       highDensity: true
+      pulseBel: false
+      pulseStandard: true
       qrCode: true
       starCommands: false
     fonts:
@@ -554,6 +560,8 @@ profiles:
       bitImageRaster: true
       graphics: true
       highDensity: true
+      pulseBel: false
+      pulseStandard: true
       qrCode: true
       starCommands: false
     fonts:
@@ -645,6 +653,8 @@ profiles:
       bitImageRaster: true
       graphics: true
       highDensity: true
+      pulseBel: false
+      pulseStandard: true
       qrCode: true
       starCommands: false
     fonts:
@@ -682,6 +692,8 @@ profiles:
       bitImageRaster: true
       graphics: true
       highDensity: true
+      pulseBel: false
+      pulseStandard: true
       qrCode: true
       starCommands: false
     fonts:
@@ -721,6 +733,8 @@ profiles:
       bitImageRaster: true
       graphics: true
       highDensity: true
+      pulseBel: false
+      pulseStandard: true
       qrCode: true
       starCommands: false
     fonts:
@@ -751,6 +765,8 @@ profiles:
       bitImageRaster: false
       graphics: false
       highDensity: false
+      pulseBel: false
+      pulseStandard: true
       qrCode: false
       starCommands: false
     fonts:
@@ -826,6 +842,8 @@ profiles:
       bitImageRaster: true
       graphics: true
       highDensity: true
+      pulseBel: false
+      pulseStandard: true
       qrCode: true
       starCommands: true
     fonts:
@@ -901,6 +919,8 @@ profiles:
       bitImageRaster: true
       graphics: true
       highDensity: true
+      pulseBel: false
+      pulseStandard: true
       qrCode: true
       starCommands: true
     fonts:
@@ -989,6 +1009,8 @@ profiles:
       bitImageRaster: true
       graphics: true
       highDensity: true
+      pulseBel: false
+      pulseStandard: true
       qrCode: true
       starCommands: false
     fonts:
@@ -1018,6 +1040,8 @@ profiles:
       bitImageRaster: true
       graphics: false
       highDensity: true
+      pulseBel: false
+      pulseStandard: true
       qrCode: false
       starCommands: false
     fonts:

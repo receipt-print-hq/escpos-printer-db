@@ -14,6 +14,8 @@ default:
     starCommands: false
     qrCode: true
     highDensity: true
+    pulseStandard: true
+    pulseBel: false
   colors:
     0: black
   fonts:
