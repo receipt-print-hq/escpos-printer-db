@@ -12,6 +12,7 @@ simple:
     bitImageColumn: false
     graphics: false
     qrCode: false
+    pdf417Code: false
   codePages:
     0: CP437
 ...

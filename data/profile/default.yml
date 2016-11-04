@@ -13,6 +13,7 @@ default:
     graphics: true
     starCommands: false
     qrCode: true
+    pdf417Code: true
     highDensity: true
     pulseStandard: true
     pulseBel: false

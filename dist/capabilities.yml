@@ -303,6 +303,7 @@ profiles:
       bitImageRaster: true
       graphics: false
       highDensity: true
+      pdf417Code: true
       pulseBel: false
       pulseStandard: true
       qrCode: true
@@ -380,6 +381,7 @@ profiles:
       bitImageRaster: true
       graphics: true
       highDensity: true
+      pdf417Code: true
       pulseBel: false
       pulseStandard: true
       qrCode: true
@@ -470,6 +472,7 @@ profiles:
       bitImageRaster: true
       graphics: true
       highDensity: true
+      pdf417Code: true
       pulseBel: false
       pulseStandard: true
       qrCode: true
@@ -560,6 +563,7 @@ profiles:
       bitImageRaster: true
       graphics: true
       highDensity: true
+      pdf417Code: true
       pulseBel: false
       pulseStandard: true
       qrCode: true
@@ -653,6 +657,7 @@ profiles:
       bitImageRaster: true
       graphics: true
       highDensity: true
+      pdf417Code: true
       pulseBel: false
       pulseStandard: true
       qrCode: true
@@ -692,6 +697,7 @@ profiles:
       bitImageRaster: true
       graphics: true
       highDensity: true
+      pdf417Code: true
       pulseBel: false
       pulseStandard: true
       qrCode: true
@@ -733,6 +739,7 @@ profiles:
       bitImageRaster: true
       graphics: true
       highDensity: true
+      pdf417Code: true
       pulseBel: false
       pulseStandard: true
       qrCode: true
@@ -765,6 +772,7 @@ profiles:
       bitImageRaster: false
       graphics: false
       highDensity: false
+      pdf417Code: false
       pulseBel: false
       pulseStandard: true
       qrCode: false
@@ -842,6 +850,7 @@ profiles:
       bitImageRaster: true
       graphics: true
       highDensity: true
+      pdf417Code: true
       pulseBel: false
       pulseStandard: true
       qrCode: true
@@ -919,6 +928,7 @@ profiles:
       bitImageRaster: true
       graphics: true
       highDensity: true
+      pdf417Code: true
       pulseBel: false
       pulseStandard: true
       qrCode: true
@@ -1009,6 +1019,7 @@ profiles:
       bitImageRaster: true
       graphics: true
       highDensity: true
+      pdf417Code: true
       pulseBel: false
       pulseStandard: true
       qrCode: true
@@ -1040,6 +1051,7 @@ profiles:
       bitImageRaster: true
       graphics: false
       highDensity: true
+      pdf417Code: false
       pulseBel: false
       pulseStandard: true
       qrCode: false
