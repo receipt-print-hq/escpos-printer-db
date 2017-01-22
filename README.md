@@ -1,4 +1,4 @@
-# ESC/POS printer database [![Build Status](https://travis-ci.org/mike42/escpos-printer-db.svg?branch=master)](https://travis-ci.org/receipt-print-hq/escpos-printer-db)
+# ESC/POS printer database [![Build Status](https://travis-ci.org/receipt-print-hq/escpos-printer-db.svg?branch=master)](https://travis-ci.org/receipt-print-hq/escpos-printer-db)
 
 This is a community-maintained database of thermal receipt printer capabilities.
 
