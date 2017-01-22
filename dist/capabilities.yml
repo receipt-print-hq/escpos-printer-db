@@ -222,6 +222,54 @@ encodings:
     name: "Unknown"
     notes: "Code page that has not yet been identified."
 profiles:
+  OCD-300:
+    codePages:
+      0: "CP437"
+      1: "CP932"
+      2: "CP850"
+      3: "CP860"
+      4: "CP863"
+      5: "CP865"
+      6: "Unknown"
+      7: "Unknown"
+      8: "Unknown"
+      9: "CP852"
+      10: "CP862"
+      11: "CP866"
+      12: "CP1251"
+      13: "CP1254"
+      14: "CP1255"
+      15: "CP1257"
+      16: "CP1252"
+      17: "CP1253"
+      18: "CP1250"
+      19: "CP858"
+      20: "Unknown"
+    colors:
+      0: "black"
+    features:
+      barcodeB: false
+      bitImageColumn: false
+      bitImageRaster: false
+      graphics: false
+      highDensity: true
+      pdf417Code: false
+      pulseBel: false
+      pulseStandard: true
+      qrCode: false
+      starCommands: false
+    fonts:
+      0:
+        columns: 20
+        name: "Font A"
+    media:
+      width:
+        mm: "Unknown"
+        pixels: "Unknown"
+    name: "Aures OCP-300 Customer Display"
+    notes: "This is a two-line, ESC/POS-aware customer display from Aures. It has\
+      \ some graphics support via vendor-provided tools, but is otherwise text-only.\n"
+    vendor: "Aures"
   P822D:
     codePages:
       0: "CP437"
