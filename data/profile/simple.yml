@@ -13,6 +13,8 @@ simple:
     graphics: false
     qrCode: false
     pdf417Code: false
+    paperFullCut: false
+    paperPartCut: false
   codePages:
     0: CP437
 ...
