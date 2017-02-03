@@ -1,6 +1,5 @@
 ---
 NT-5890K:
-  # Specification: http://www.gzxlscan.com/ru/product-detail/nt-5890k-58mm-thermal-receipt-printer/
   name: NT-5890K
   vendor: Netum
   inherits: default
