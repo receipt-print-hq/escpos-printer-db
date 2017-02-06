@@ -289,7 +289,7 @@
         "NT-5890K": {
             "codePages": {
                 "0": "CP437",
-                "1": "Unknown",
+                "1": "CP932",
                 "2": "CP850",
                 "3": "CP860",
                 "4": "CP863",
@@ -309,7 +309,7 @@
                 "23": "Unknown",
                 "24": "CP747",
                 "25": "CP1257",
-                "27": "Unknown",
+                "27": "CP1258",
                 "28": "CP864",
                 "31": "Unknown",
                 "32": "CP1255",
@@ -331,7 +331,6 @@
                 "66": "CP869",
                 "68": "CP772",
                 "69": "CP774",
-                "70": "CP874",
                 "71": "CP1252",
                 "72": "CP1250",
                 "73": "CP1251",
@@ -362,17 +361,17 @@
                 "0": "black"
             },
             "features": {
-                "barcodeB": true,
+                "barcodeB": false,
                 "bitImageColumn": true,
                 "bitImageRaster": true,
-                "graphics": true,
+                "graphics": false,
                 "highDensity": true,
                 "paperFullCut": false,
                 "paperPartCut": false,
-                "pdf417Code": true,
+                "pdf417Code": false,
                 "pulseBel": false,
                 "pulseStandard": true,
-                "qrCode": true,
+                "qrCode": false,
                 "starCommands": false
             },
             "fonts": {
@@ -653,18 +652,18 @@
             },
             "fonts": {
                 "0": {
-                    "columns": 42,
+                    "columns": 32,
                     "name": "Font A"
                 },
                 "1": {
-                    "columns": 56,
+                    "columns": 42,
                     "name": "Font B"
                 }
             },
             "media": {
                 "width": {
-                    "mm": "Unknown",
-                    "pixels": "Unknown"
+                    "mm": 57.5,
+                    "pixels": 384
                 }
             },
             "name": "POS5890 Series",
