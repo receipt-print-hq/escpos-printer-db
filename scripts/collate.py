@@ -29,6 +29,9 @@ def load_profiles():
     profiles_raw = {}
     profiles_dir = os.path.dirname(__file__) + "/../data/profile/"
     for profile_fn in os.listdir(profiles_dir):
+        if not profile_fn[-3:] == 'yml':
+            continue
+
         profile_dict = yaml.safe_load(open(profiles_dir + profile_fn).read())
         # One item per file
         assert len(profile_dict) == 1, "{}: expected one entry, got {}" \
