@@ -17,6 +17,8 @@ default:
     highDensity: true
     pulseStandard: true
     pulseBel: false
+    paperFullCut: true
+    paperPartCut: true
   colors:
     0: black
   fonts:

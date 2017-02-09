@@ -3,6 +3,17 @@ POS-5890:
   name: POS5890 Series
   vendor: Zjiang
   inherits: simple
+  fonts:
+    0:
+      name: Font A
+      columns: 32
+    1:
+      name: Font B
+      columns: 42
+  media:
+    width:
+      mm: 57.5
+      pixels: 384
   notes: >
       POS-5890 thermal printer series, also marketed under various other names.
   codePages:
