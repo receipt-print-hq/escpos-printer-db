@@ -6,7 +6,7 @@ The capability data is shared by multiple open source receipt printing projects,
 to allow improvements in hardware support, compatibility and localization.
 
 Only features of ESC/POS printers are tracked at this stage. If you have a ZPL,
-DPL, or ESC/P printer, it is not in-scope for being listed in this databse.
+DPL, or ESC/P printer, it is not in-scope for being listed in this database.
 
 ## Browse
 
@@ -32,7 +32,7 @@ If your printer is not listed, or has an incomplete profile, it may be because
 nobody with a similar printer has contributed to this project yet.
 
 To get your printer included in the database, try to find out some technical
-info about what it supports, and post a new ussue with what you find out.
+info about what it supports, and post a new issue with what you found out.
 
 Minimum info is:
 
