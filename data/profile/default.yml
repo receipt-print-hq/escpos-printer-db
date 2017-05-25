@@ -7,6 +7,7 @@ default:
       Epson-branded printers. This profile allows the use of standard
       ESC/POS features, and can encode a variety of code pages.
   features:
+    barcodeA: true
     barcodeB: true
     bitImageRaster: true
     bitImageColumn: true

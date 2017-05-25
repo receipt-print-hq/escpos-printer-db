@@ -361,6 +361,7 @@
                 "0": "black"
             },
             "features": {
+                "barcodeA": false,
                 "barcodeB": false,
                 "bitImageColumn": true,
                 "bitImageRaster": true,
@@ -422,6 +423,7 @@
                 "0": "black"
             },
             "features": {
+                "barcodeA": false,
                 "barcodeB": false,
                 "bitImageColumn": false,
                 "bitImageRaster": false,
@@ -529,6 +531,7 @@
                 "0": "black"
             },
             "features": {
+                "barcodeA": true,
                 "barcodeB": true,
                 "bitImageColumn": true,
                 "bitImageRaster": true,
@@ -637,6 +640,7 @@
                 "0": "black"
             },
             "features": {
+                "barcodeA": false,
                 "barcodeB": false,
                 "bitImageColumn": false,
                 "bitImageRaster": true,
@@ -726,6 +730,7 @@
                 "0": "black"
             },
             "features": {
+                "barcodeA": true,
                 "barcodeB": true,
                 "bitImageColumn": true,
                 "bitImageRaster": true,
@@ -828,6 +833,7 @@
                 "0": "black"
             },
             "features": {
+                "barcodeA": true,
                 "barcodeB": true,
                 "bitImageColumn": true,
                 "bitImageRaster": true,
@@ -930,6 +936,7 @@
                 "0": "black"
             },
             "features": {
+                "barcodeA": true,
                 "barcodeB": true,
                 "bitImageColumn": true,
                 "bitImageRaster": true,
@@ -1036,6 +1043,7 @@
                 "0": "black"
             },
             "features": {
+                "barcodeA": true,
                 "barcodeB": true,
                 "bitImageColumn": true,
                 "bitImageRaster": true,
@@ -1088,6 +1096,7 @@
                 "0": "black"
             },
             "features": {
+                "barcodeA": true,
                 "barcodeB": true,
                 "bitImageColumn": true,
                 "bitImageRaster": true,
@@ -1139,6 +1148,7 @@
                 "0": "black"
             },
             "features": {
+                "barcodeA": true,
                 "barcodeB": true,
                 "bitImageColumn": true,
                 "bitImageRaster": true,
@@ -1181,6 +1191,7 @@
                 "1": "alternate"
             },
             "features": {
+                "barcodeA": false,
                 "barcodeB": false,
                 "bitImageColumn": true,
                 "bitImageRaster": false,
@@ -1270,6 +1281,7 @@
                 "0": "black"
             },
             "features": {
+                "barcodeA": true,
                 "barcodeB": true,
                 "bitImageColumn": true,
                 "bitImageRaster": true,
@@ -1359,6 +1371,7 @@
                 "0": "black"
             },
             "features": {
+                "barcodeA": true,
                 "barcodeB": true,
                 "bitImageColumn": true,
                 "bitImageRaster": true,
@@ -1461,6 +1474,7 @@
                 "0": "black"
             },
             "features": {
+                "barcodeA": true,
                 "barcodeB": true,
                 "bitImageColumn": true,
                 "bitImageRaster": true,
@@ -1502,6 +1516,7 @@
                 "0": "black"
             },
             "features": {
+                "barcodeA": false,
                 "barcodeB": false,
                 "bitImageColumn": false,
                 "bitImageRaster": true,
