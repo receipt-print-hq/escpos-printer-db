@@ -295,6 +295,7 @@ profiles:
     colors:
       0: "black"
     features:
+      barcodeA: false
       barcodeB: false
       bitImageColumn: true
       bitImageRaster: true
@@ -347,6 +348,7 @@ profiles:
     colors:
       0: "black"
     features:
+      barcodeA: false
       barcodeB: false
       bitImageColumn: false
       bitImageRaster: false
@@ -447,6 +449,7 @@ profiles:
     colors:
       0: "black"
     features:
+      barcodeA: true
       barcodeB: true
       bitImageColumn: true
       bitImageRaster: true
@@ -546,6 +549,7 @@ profiles:
     colors:
       0: "black"
     features:
+      barcodeA: false
       barcodeB: false
       bitImageColumn: false
       bitImageRaster: true
@@ -626,6 +630,7 @@ profiles:
     colors:
       0: "black"
     features:
+      barcodeA: true
       barcodeB: true
       bitImageColumn: true
       bitImageRaster: true
@@ -719,6 +724,7 @@ profiles:
     colors:
       0: "black"
     features:
+      barcodeA: true
       barcodeB: true
       bitImageColumn: true
       bitImageRaster: true
@@ -812,6 +818,7 @@ profiles:
     colors:
       0: "black"
     features:
+      barcodeA: true
       barcodeB: true
       bitImageColumn: true
       bitImageRaster: true
@@ -908,6 +915,7 @@ profiles:
     colors:
       0: "black"
     features:
+      barcodeA: true
       barcodeB: true
       bitImageColumn: true
       bitImageRaster: true
@@ -950,6 +958,7 @@ profiles:
     colors:
       0: "black"
     features:
+      barcodeA: true
       barcodeB: true
       bitImageColumn: true
       bitImageRaster: true
@@ -994,6 +1003,7 @@ profiles:
     colors:
       0: "black"
     features:
+      barcodeA: true
       barcodeB: true
       bitImageColumn: true
       bitImageRaster: true
@@ -1029,6 +1039,7 @@ profiles:
       0: "black"
       1: "alternate"
     features:
+      barcodeA: false
       barcodeB: false
       bitImageColumn: true
       bitImageRaster: false
@@ -1109,6 +1120,7 @@ profiles:
     colors:
       0: "black"
     features:
+      barcodeA: true
       barcodeB: true
       bitImageColumn: true
       bitImageRaster: true
@@ -1189,6 +1201,7 @@ profiles:
     colors:
       0: "black"
     features:
+      barcodeA: true
       barcodeB: true
       bitImageColumn: true
       bitImageRaster: true
@@ -1282,6 +1295,7 @@ profiles:
     colors:
       0: "black"
     features:
+      barcodeA: true
       barcodeB: true
       bitImageColumn: true
       bitImageRaster: true
@@ -1316,6 +1330,7 @@ profiles:
     colors:
       0: "black"
     features:
+      barcodeA: false
       barcodeB: false
       bitImageColumn: false
       bitImageRaster: true
