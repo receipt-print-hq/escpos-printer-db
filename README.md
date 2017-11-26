@@ -10,7 +10,9 @@ DPL, or ESC/P printer, it is not in-scope for being listed in this database.
 
 ## Browse
 
-TBD
+A browsable version of the printer database is hosted [here](https://mike42.me/escpos-printer-db). The single-page app that hosts this data is [also open to contributions](https://github.com/receipt-print-hq/escpos-printer-db-browser).
+
+The [data/](https://github.com/receipt-print-hq/escpos-printer-db/tree/master/data) directory in this repository contains the actual printer data, and is where you should send corrections.
 
 ## Contribute
 
