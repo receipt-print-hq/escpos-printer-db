@@ -193,6 +193,17 @@ encodings:
     iconv: "ISO_8859-7"
     name: "ISO_8859-7"
     python_encode: "iso8859_7"
+  OXHOO-EUROPEAN:
+    data:
+      - "ÇüéâäàåçêëèïîìÄÅ"
+      - "ÉæÆôöòûùÿÖÜñÑªº¿"
+      - "áíóú¢£¥₧ƒ¡ÃãÕõØø"
+      - "·¨°`´½¼×÷≤≥«»≠√¯"
+      - "⌠⌡∞◤↵↑↓→←┌┐└┘•®©"
+      - "™†§¶Γ◢Θ         "
+      - "ß   ε           "
+      - "τ               "
+    name: "Oxhoo-specific European"
   RK1048:
     iconv: "RK1048"
     name: "RK1048"
@@ -222,6 +233,38 @@ encodings:
     name: "Unknown"
     notes: "Code page that has not yet been identified."
 profiles:
+  AF-240:
+    codePages:
+      0: "OXHOO-EUROPEAN"
+    colors:
+      0: "black"
+    features:
+      barcodeA: false
+      barcodeB: false
+      bitImageColumn: false
+      bitImageRaster: false
+      graphics: false
+      highDensity: false
+      paperFullCut: false
+      paperPartCut: false
+      pdf417Code: false
+      pulseBel: false
+      pulseStandard: false
+      qrCode: false
+      starCommands: false
+    fonts:
+      0:
+        columns: 20
+        name: "Font A"
+    media:
+      width:
+        mm: 120
+        pixels: 100
+    name: "AF-240 Customer Display"
+    notes: "This is a two-line, ESC/POS-aware customer display from Oxhoo. The ESC/POS\
+      \ command mode can be activated persistently by sending:\n\n    echo -ne \"\\\
+      n\\x02\\x05\\x43\\x31\\x03\" > /dev/ttyUSB0\n"
+    vendor: "Oxhoo"
   NT-5890K:
     codePages:
       0: "CP437"
@@ -322,6 +365,56 @@ profiles:
     name: "NT-5890K"
     notes: ""
     vendor: "Netum"
+  OCD-100:
+    codePages:
+      0: "CP437"
+      1: "CP932"
+      2: "CP850"
+      3: "CP860"
+      4: "CP863"
+      5: "CP865"
+      6: "Unknown"
+      7: "Unknown"
+      8: "Unknown"
+      9: "CP852"
+      10: "CP862"
+      11: "CP866"
+      12: "CP1251"
+      13: "CP1254"
+      14: "CP1255"
+      15: "CP1257"
+      16: "CP1252"
+      17: "CP1253"
+      19: "CP858"
+    colors:
+      0: "black"
+    features:
+      barcodeA: false
+      barcodeB: false
+      bitImageColumn: false
+      bitImageRaster: false
+      graphics: false
+      highDensity: false
+      paperFullCut: false
+      paperPartCut: false
+      pdf417Code: false
+      pulseBel: false
+      pulseStandard: false
+      qrCode: false
+      starCommands: false
+    fonts:
+      0:
+        columns: 20
+        name: "Font A"
+    media:
+      width:
+        mm: 180
+        pixels: 100
+    name: "OCD-100 Customer Display"
+    notes: "This is a two-line, ESC/POS-aware customer display from Aures. It has\
+      \ some graphics support via custom fonts, but is otherwise text-only. This profile\
+      \ is also suitable for the OCD-150 pole-mounted display.\n"
+    vendor: "Aures"
   OCD-300:
     codePages:
       0: "CP437"
@@ -353,12 +446,12 @@ profiles:
       bitImageColumn: false
       bitImageRaster: false
       graphics: false
-      highDensity: true
+      highDensity: false
       paperFullCut: false
       paperPartCut: false
       pdf417Code: false
       pulseBel: false
-      pulseStandard: true
+      pulseStandard: false
       qrCode: false
       starCommands: false
     fonts:
@@ -367,9 +460,9 @@ profiles:
         name: "Font A"
     media:
       width:
-        mm: "Unknown"
-        pixels: "Unknown"
-    name: "Aures OCP-300 Customer Display"
+        mm: 130.2
+        pixels: 240
+    name: "OCD-300 Customer Display"
     notes: "This is a two-line, ESC/POS-aware customer display from Aures. It has\
       \ some graphics support via vendor-provided tools, but is otherwise text-only.\n"
     vendor: "Aures"

@@ -1,6 +1,6 @@
 ---
-OCD-300:
-  name: OCD-300 Customer Display
+OCD-100:
+  name: OCD-100 Customer Display
   vendor: Aures
   inherits: simple
   features:
@@ -15,12 +15,14 @@ OCD-300:
       columns: 20
   media:
     width:
-      mm: 130.2
-      # 12x32 pixels per char
-      pixels: 240
+      # 9x5.25mm per char, by 20 columns.
+      mm: 180
+      # 5x7 pixels per char, by 20 columns.
+      pixels: 100
   notes: >
     This is a two-line, ESC/POS-aware customer display from Aures. It has some
-    graphics support via vendor-provided tools, but is otherwise text-only.
+    graphics support via custom fonts, but is otherwise text-only.
+    This profile is also suitable for the OCD-150 pole-mounted display.
   codePages:
     0: CP437
     # Katakana (for Japan)
@@ -44,8 +46,5 @@ OCD-300:
     15: CP1257
     16: CP1252
     17: CP1253
-    18: CP1250
     19: CP858
-    # Arabic
-    20: Unknown
 ...
