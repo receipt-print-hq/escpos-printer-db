@@ -5,6 +5,10 @@ TM-T88IV:
   inherits: default
   notes: >
       Epson TM-T88IV profile
+  media:
+    width:
+      mm: 80
+      pixels: 512
   fonts:
     0:
       name: Font A
