@@ -1,0 +1,78 @@
+---
+CT-S651:
+  name: CT-S651
+  vendor: "Citizen"
+  inherits: default
+  notes: >
+    Citizen CT-S651 profile. This is a two-color thermal printer,
+    supporting paper sizes from 58mm up to 83mm
+  features:
+    barcodeA: true
+    barcodeB: true
+    bitImageRaster: true
+    bitImageColumn: true
+    graphics: true
+    starCommands: false
+    qrCode: true
+    pdf417Code: true
+    highDensity: true
+    pulseStandard: true
+    pulseBel: false
+    paperFullCut: true
+    paperPartCut: true
+  colors:
+    0: black
+    1: red
+  fonts:
+    0:
+      name: Font A
+      columns: 48
+    1:
+      name: Font B
+      columns: 64
+    2:
+      name: Font C
+      columns: 72
+  media:
+    width:
+      mm: 80
+      pixels: 640
+  codePages:
+    0: CP437
+    1: CP932
+    2: CP850
+    3: CP860
+    4: CP863
+    5: CP865
+    # Hiragana
+    13: CP857
+    14: CP737
+    15: ISO_8859-7
+    16: CP1252
+    17: CP866
+    18: CP852
+    21: CP874
+    # Thai Character Code 13
+    30: TCVN-3-1
+    31: TCVN-3-2
+    33: CP775
+    34: CP855
+    35: CP861
+    36: CP862
+    37: CP864
+    38: CP869
+    39: ISO_8859-2
+    40: ISO_8859-15
+    42: CP774
+    43: CP772
+    44: CP1125
+    45: CP1250
+    46: CP1251
+    47: CP1253
+    48: CP1254
+    49: CP1255
+    50: CP1256
+    51: CP1257
+    52: CP1258
+    53: RK1048
+...
