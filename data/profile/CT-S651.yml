@@ -17,7 +17,7 @@ CT-S651:
     pdf417Code: true
     highDensity: true
     pulseStandard: true
-    pulseBel: false
+    pulseBel: true
     paperFullCut: true
     paperPartCut: true
   colors:
@@ -44,6 +44,10 @@ CT-S651:
     3: CP860
     4: CP863
     5: CP865
+    6: CP852
+    7: CP866
+    8: CP857
+    9: CP1252
     # Hiragana
     13: CP857
     14: CP737
@@ -51,6 +55,7 @@ CT-S651:
     16: CP1252
     17: CP866
     18: CP852
+    19: CP858
     21: CP874
     # Thai Character Code 13
     30: TCVN-3-1
@@ -62,7 +67,7 @@ CT-S651:
     37: CP864
     38: CP869
     39: ISO_8859-2
-    40: ISO_8859-15
+    40: CP864
     42: CP774
     43: CP772
     44: CP1125
@@ -76,4 +81,3 @@ CT-S651:
     52: CP1258
     53: RK1048
 ...
-
