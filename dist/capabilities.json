@@ -173,6 +173,11 @@
             "name": "CP855",
             "python_encode": "cp855"
         },
+        "CP856": {
+            "iconv": "CP856",
+            "name": "CP856",
+            "python_encode": "cp856"
+        },
         "CP857": {
             "iconv": "CP857",
             "name": "CP857",
@@ -860,7 +865,8 @@
                 "43": "ISO_8859-9",
                 "44": "ISO_8859-15",
                 "45": "Unknown",
-                "46": "CP874"
+                "46": "CP856",
+                "47": "CP874"
             },
             "colors": {
                 "0": "black"
