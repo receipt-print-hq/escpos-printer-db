@@ -1,6 +1,6 @@
 ---
-RP326US:
-  name: RP326US
+RP326:
+  name: RP326
   vendor: Rongta
   inherits: default
   notes: ""
@@ -18,7 +18,8 @@ RP326US:
     7: CP866
     # MIK[Cyrillic /Bulgarian]
     8: Unknown
-    9: CP755
+    # CP755
+    9: Unknown
     # Iran
     10: Unknown
     15: CP862
