@@ -48,36 +48,23 @@ CT-S651:
     7: CP866
     8: CP857
     9: CP1252
-    # Hiragana
-    13: CP857
-    14: CP737
-    15: ISO_8859-7
     16: CP1252
     17: CP866
     18: CP852
     19: CP858
-    21: CP874
-    # Thai Character Code 13
+    # Thai code11 1 Pass
+    20: Unknown
+    # Thai code11 3 Pass
+    21: Unknown
+    # Thai code18 1 Pass
+    25: Unknown
+    # Thai code18 3 Pass
+    26: Unknown
+    # TCVN3
     30: TCVN-3-1
+    # TCVN3 Caps
     31: TCVN-3-2
-    33: CP775
-    34: CP855
-    35: CP861
-    36: CP862
-    37: CP864
-    38: CP869
-    39: ISO_8859-2
     40: CP864
-    42: CP774
-    43: CP772
-    44: CP1125
-    45: CP1250
-    46: CP1251
-    47: CP1253
-    48: CP1254
-    49: CP1255
-    50: CP1256
-    51: CP1257
-    52: CP1258
-    53: RK1048
+    # Space page (For user setting)
+    255: Unknown
 ...
