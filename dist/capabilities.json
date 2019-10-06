@@ -377,6 +377,74 @@
             "notes": "This is a two-line, ESC/POS-aware customer display from Oxhoo. The ESC/POS command mode can be activated persistently by sending:\n\n    echo -ne \"\\n\\x02\\x05\\x43\\x31\\x03\" > /dev/ttyUSB0\n",
             "vendor": "Oxhoo"
         },
+        "CT-S651": {
+            "codePages": {
+                "0": "CP437",
+                "1": "CP932",
+                "2": "CP850",
+                "3": "CP860",
+                "4": "CP863",
+                "5": "CP865",
+                "6": "CP852",
+                "7": "CP866",
+                "8": "CP857",
+                "9": "CP1252",
+                "16": "CP1252",
+                "17": "CP866",
+                "18": "CP852",
+                "19": "CP858",
+                "20": "Unknown",
+                "21": "Unknown",
+                "25": "Unknown",
+                "26": "Unknown",
+                "30": "TCVN-3-1",
+                "31": "TCVN-3-2",
+                "40": "CP864",
+                "255": "Unknown"
+            },
+            "colors": {
+                "0": "black",
+                "1": "red"
+            },
+            "features": {
+                "barcodeA": true,
+                "barcodeB": true,
+                "bitImageColumn": true,
+                "bitImageRaster": true,
+                "graphics": true,
+                "highDensity": true,
+                "paperFullCut": true,
+                "paperPartCut": true,
+                "pdf417Code": true,
+                "pulseBel": true,
+                "pulseStandard": true,
+                "qrCode": true,
+                "starCommands": false
+            },
+            "fonts": {
+                "0": {
+                    "columns": 48,
+                    "name": "Font A"
+                },
+                "1": {
+                    "columns": 64,
+                    "name": "Font B"
+                },
+                "2": {
+                    "columns": 72,
+                    "name": "Font C"
+                }
+            },
+            "media": {
+                "width": {
+                    "mm": 80,
+                    "pixels": 640
+                }
+            },
+            "name": "CT-S651",
+            "notes": "Citizen CT-S651 profile. This is a two-color thermal printer, supporting paper sizes from 58mm up to 83mm\n",
+            "vendor": "Citizen"
+        },
         "NT-5890K": {
             "codePages": {
                 "0": "CP437",
@@ -995,6 +1063,65 @@
             "name": "SP2000 Series",
             "notes": "Star SP2000 impact printer series with ESC/POS emulation enabled",
             "vendor": "Star Micronics"
+        },
+        "Sunmi-V2": {
+            "codePages": {
+                "0": "CP437",
+                "2": "CP850",
+                "3": "CP860",
+                "4": "CP863",
+                "5": "CP865",
+                "13": "CP857",
+                "14": "CP737",
+                "15": "ISO_8859-7",
+                "16": "CP1252",
+                "17": "CP866",
+                "18": "CP852",
+                "19": "CP858",
+                "21": "CP874",
+                "33": "CP775",
+                "34": "CP855",
+                "36": "CP862",
+                "37": "CP864",
+                "254": "CP855"
+            },
+            "colors": {
+                "0": "black"
+            },
+            "features": {
+                "barcodeA": true,
+                "barcodeB": true,
+                "bitImageColumn": false,
+                "bitImageRaster": true,
+                "graphics": false,
+                "highDensity": true,
+                "paperFullCut": false,
+                "paperPartCut": false,
+                "pdf417Code": true,
+                "pulseBel": false,
+                "pulseStandard": true,
+                "qrCode": true,
+                "starCommands": false
+            },
+            "fonts": {
+                "0": {
+                    "columns": 32,
+                    "name": "Font A"
+                },
+                "1": {
+                    "columns": 42,
+                    "name": "Font B"
+                }
+            },
+            "media": {
+                "width": {
+                    "mm": 57.5,
+                    "pixels": 384
+                }
+            },
+            "name": "Sunmi V2",
+            "notes": "Sunmi mini-POS Android device with a built-in Virtual Bluetooth thermal printer.\n",
+            "vendor": "Sunmi"
         },
         "TEP-200M": {
             "codePages": {
