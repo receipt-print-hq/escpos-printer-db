@@ -1579,6 +1579,48 @@ profiles:
     name: "TUP500 Series"
     notes: "Star TUP500 thermal printer series with ESC/POS emulation enabled"
     vendor: "Star Micronics"
+  ZJ-5870:
+    codePages:
+      0: "CP437"
+      1: "CP932"
+      2: "CP850"
+      3: "CP860"
+      4: "CP863"
+      5: "CP865"
+      16: "CP1252"
+      17: "CP866"
+      18: "CP852"
+    colors:
+      0: "black"
+    features:
+      barcodeA: false
+      barcodeB: false
+      bitImageColumn: true
+      bitImageRaster: true
+      graphics: false
+      highDensity: false
+      paperFullCut: false
+      paperPartCut: false
+      pdf417Code: false
+      pulseBel: false
+      pulseStandard: true
+      qrCode: false
+      starCommands: false
+    fonts:
+      0:
+        columns: 32
+        name: "Font A"
+    media:
+      width:
+        mm: 48
+        pixels: 384
+    name: "ZJ-5870 Thermal Receipt Printer"
+    notes: "ESC/POS Profile for ZiJiang ZJ-5870 Thermal Receipt Printer, which may\
+      \ be branded AGPtEK or Esky, and identifies itself as a POS-58 Thermal Printer\
+      \ on selftest. This profile is suitable for alphanumberic character mode, but\
+      \ is untested on Chinese character mode. (Change modes by holding down feed\
+      \ button during power-on until the mode LED turns off, then release immediately.)\n"
+    vendor: "ZiJiang"
   default:
     codePages:
       0: "CP437"
