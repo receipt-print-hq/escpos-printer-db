@@ -5,7 +5,7 @@ SP2000:
   inherits: default
   notes: Star SP2000 impact printer series with ESC/POS emulation enabled
   features:
-    starCommands: True
+    starCommands: true
   codePages:
     # "Normal"
     0: CP437

@@ -193,6 +193,17 @@ encodings:
     iconv: "ISO_8859-7"
     name: "ISO_8859-7"
     python_encode: "iso8859_7"
+  OXHOO-EUROPEAN:
+    data:
+      - "ÇüéâäàåçêëèïîìÄÅ"
+      - "ÉæÆôöòûùÿÖÜñÑªº¿"
+      - "áíóú¢£¥₧ƒ¡ÃãÕõØø"
+      - "·¨°`´½¼×÷≤≥«»≠√¯"
+      - "⌠⌡∞◤↵↑↓→←┌┐└┘•®©"
+      - "™†§¶Γ◢Θ         "
+      - "ß   ε           "
+      - "τ               "
+    name: "Oxhoo-specific European"
   RK1048:
     iconv: "RK1048"
     name: "RK1048"
@@ -222,6 +233,239 @@ encodings:
     name: "Unknown"
     notes: "Code page that has not yet been identified."
 profiles:
+  AF-240:
+    codePages:
+      0: "OXHOO-EUROPEAN"
+    colors:
+      0: "black"
+    features:
+      barcodeA: false
+      barcodeB: false
+      bitImageColumn: false
+      bitImageRaster: false
+      graphics: false
+      highDensity: false
+      paperFullCut: false
+      paperPartCut: false
+      pdf417Code: false
+      pulseBel: false
+      pulseStandard: false
+      qrCode: false
+      starCommands: false
+    fonts:
+      0:
+        columns: 20
+        name: "Font A"
+    media:
+      width:
+        mm: 120
+        pixels: 100
+    name: "AF-240 Customer Display"
+    notes: "This is a two-line, ESC/POS-aware customer display from Oxhoo. The ESC/POS\
+      \ command mode can be activated persistently by sending:\n\n    echo -ne \"\\\
+      n\\x02\\x05\\x43\\x31\\x03\" > /dev/ttyUSB0\n"
+    vendor: "Oxhoo"
+  NT-5890K:
+    codePages:
+      0: "CP437"
+      1: "CP932"
+      2: "CP850"
+      3: "CP860"
+      4: "CP863"
+      5: "CP865"
+      6: "Unknown"
+      7: "Unknown"
+      8: "Unknown"
+      9: "Unknown"
+      10: "Unknown"
+      16: "CP1252"
+      17: "CP866"
+      18: "CP852"
+      19: "CP858"
+      20: "Unknown"
+      21: "Unknown"
+      22: "Unknown"
+      23: "Unknown"
+      24: "CP747"
+      25: "CP1257"
+      27: "CP1258"
+      28: "CP864"
+      31: "Unknown"
+      32: "CP1255"
+      50: "CP437"
+      52: "CP437"
+      53: "CP858"
+      54: "CP852"
+      55: "CP860"
+      56: "CP861"
+      57: "CP863"
+      58: "CP865"
+      59: "CP866"
+      60: "CP855"
+      61: "CP857"
+      62: "CP862"
+      63: "CP864"
+      64: "CP737"
+      65: "CP851"
+      66: "CP869"
+      68: "CP772"
+      69: "CP774"
+      71: "CP1252"
+      72: "CP1250"
+      73: "CP1251"
+      74: "CP3840"
+      76: "CP3843"
+      77: "CP3844"
+      78: "CP3845"
+      79: "CP3846"
+      80: "CP3847"
+      81: "CP3848"
+      83: "CP2001"
+      84: "CP3001"
+      85: "CP3002"
+      86: "CP3011"
+      87: "CP3012"
+      88: "CP3021"
+      89: "CP3041"
+      90: "CP1253"
+      91: "CP1254"
+      92: "CP1256"
+      93: "CP720"
+      94: "CP1258"
+      95: "CP775"
+      96: "Unknown"
+      255: "Unknown"
+    colors:
+      0: "black"
+    features:
+      barcodeA: false
+      barcodeB: false
+      bitImageColumn: true
+      bitImageRaster: true
+      graphics: false
+      highDensity: true
+      paperFullCut: false
+      paperPartCut: false
+      pdf417Code: false
+      pulseBel: false
+      pulseStandard: true
+      qrCode: false
+      starCommands: false
+    fonts:
+      0:
+        columns: 32
+        name: "Font A"
+      1:
+        columns: 42
+        name: "Font B"
+    media:
+      width:
+        mm: 57.5
+        pixels: 384
+    name: "NT-5890K"
+    notes: ""
+    vendor: "Netum"
+  OCD-100:
+    codePages:
+      0: "CP437"
+      1: "CP932"
+      2: "CP850"
+      3: "CP860"
+      4: "CP863"
+      5: "CP865"
+      6: "Unknown"
+      7: "Unknown"
+      8: "Unknown"
+      9: "CP852"
+      10: "CP862"
+      11: "CP866"
+      12: "CP1251"
+      13: "CP1254"
+      14: "CP1255"
+      15: "CP1257"
+      16: "CP1252"
+      17: "CP1253"
+      19: "CP858"
+    colors:
+      0: "black"
+    features:
+      barcodeA: false
+      barcodeB: false
+      bitImageColumn: false
+      bitImageRaster: false
+      graphics: false
+      highDensity: false
+      paperFullCut: false
+      paperPartCut: false
+      pdf417Code: false
+      pulseBel: false
+      pulseStandard: false
+      qrCode: false
+      starCommands: false
+    fonts:
+      0:
+        columns: 20
+        name: "Font A"
+    media:
+      width:
+        mm: 180
+        pixels: 100
+    name: "OCD-100 Customer Display"
+    notes: "This is a two-line, ESC/POS-aware customer display from Aures. It has\
+      \ some graphics support via custom fonts, but is otherwise text-only. This profile\
+      \ is also suitable for the OCD-150 pole-mounted display.\n"
+    vendor: "Aures"
+  OCD-300:
+    codePages:
+      0: "CP437"
+      1: "CP932"
+      2: "CP850"
+      3: "CP860"
+      4: "CP863"
+      5: "CP865"
+      6: "Unknown"
+      7: "Unknown"
+      8: "Unknown"
+      9: "CP852"
+      10: "CP862"
+      11: "CP866"
+      12: "CP1251"
+      13: "CP1254"
+      14: "CP1255"
+      15: "CP1257"
+      16: "CP1252"
+      17: "CP1253"
+      18: "CP1250"
+      19: "CP858"
+      20: "Unknown"
+    colors:
+      0: "black"
+    features:
+      barcodeA: false
+      barcodeB: false
+      bitImageColumn: false
+      bitImageRaster: false
+      graphics: false
+      highDensity: false
+      paperFullCut: false
+      paperPartCut: false
+      pdf417Code: false
+      pulseBel: false
+      pulseStandard: false
+      qrCode: false
+      starCommands: false
+    fonts:
+      0:
+        columns: 20
+        name: "Font A"
+    media:
+      width:
+        mm: 130.2
+        pixels: 240
+    name: "OCD-300 Customer Display"
+    notes: "This is a two-line, ESC/POS-aware customer display from Aures. It has\
+      \ some graphics support via vendor-provided tools, but is otherwise text-only.\n"
+    vendor: "Aures"
   P822D:
     codePages:
       0: "CP437"
@@ -298,11 +542,15 @@ profiles:
     colors:
       0: "black"
     features:
+      barcodeA: true
       barcodeB: true
       bitImageColumn: true
       bitImageRaster: true
       graphics: false
       highDensity: true
+      paperFullCut: true
+      paperPartCut: true
+      pdf417Code: true
       pulseBel: false
       pulseStandard: true
       qrCode: true
@@ -321,6 +569,106 @@ profiles:
     name: "P822D"
     notes: ""
     vendor: "PBM"
+  POS-5890:
+    codePages:
+      0: "CP437"
+      1: "CP932"
+      2: "CP850"
+      3: "CP860"
+      4: "CP863"
+      5: "CP865"
+      6: "Unknown"
+      7: "Unknown"
+      8: "Unknown"
+      9: "Unknown"
+      10: "Unknown"
+      16: "CP1252"
+      17: "CP866"
+      18: "CP852"
+      19: "CP858"
+      20: "Unknown"
+      21: "Unknown"
+      22: "Unknown"
+      23: "Unknown"
+      24: "CP747"
+      25: "CP1257"
+      27: "CP1258"
+      28: "CP864"
+      31: "Unknown"
+      32: "CP1255"
+      50: "CP437"
+      52: "CP437"
+      53: "CP858"
+      54: "CP852"
+      55: "CP860"
+      56: "CP861"
+      57: "CP863"
+      58: "CP865"
+      59: "CP866"
+      60: "CP855"
+      61: "CP857"
+      62: "CP862"
+      63: "CP864"
+      64: "CP737"
+      65: "CP851"
+      66: "CP869"
+      68: "CP772"
+      69: "CP774"
+      71: "CP1252"
+      72: "CP1250"
+      73: "CP1251"
+      74: "CP3840"
+      76: "CP3843"
+      77: "CP3844"
+      78: "CP3845"
+      79: "CP3846"
+      80: "CP3847"
+      81: "CP3848"
+      83: "CP2001"
+      84: "CP3001"
+      85: "CP3002"
+      86: "CP3011"
+      87: "CP3012"
+      88: "CP3021"
+      89: "CP3041"
+      90: "CP1253"
+      91: "CP1254"
+      92: "CP1256"
+      93: "CP720"
+      94: "CP1258"
+      95: "CP775"
+      96: "Unknown"
+      255: "Unknown"
+    colors:
+      0: "black"
+    features:
+      barcodeA: false
+      barcodeB: false
+      bitImageColumn: false
+      bitImageRaster: true
+      graphics: false
+      highDensity: true
+      paperFullCut: false
+      paperPartCut: false
+      pdf417Code: false
+      pulseBel: false
+      pulseStandard: true
+      qrCode: false
+      starCommands: false
+    fonts:
+      0:
+        columns: 32
+        name: "Font A"
+      1:
+        columns: 42
+        name: "Font B"
+    media:
+      width:
+        mm: 57.5
+        pixels: 384
+    name: "POS5890 Series"
+    notes: "POS-5890 thermal printer series, also marketed under various other names.\n"
+    vendor: "Zjiang"
   SP2000:
     codePages:
       0: "CP437"
@@ -375,11 +723,15 @@ profiles:
     colors:
       0: "black"
     features:
+      barcodeA: true
       barcodeB: true
       bitImageColumn: true
       bitImageRaster: true
       graphics: true
       highDensity: true
+      paperFullCut: true
+      paperPartCut: true
+      pdf417Code: true
       pulseBel: false
       pulseStandard: true
       qrCode: true
@@ -465,11 +817,15 @@ profiles:
     colors:
       0: "black"
     features:
+      barcodeA: true
       barcodeB: true
       bitImageColumn: true
       bitImageRaster: true
       graphics: true
       highDensity: true
+      paperFullCut: true
+      paperPartCut: true
+      pdf417Code: true
       pulseBel: false
       pulseStandard: true
       qrCode: true
@@ -555,11 +911,15 @@ profiles:
     colors:
       0: "black"
     features:
+      barcodeA: true
       barcodeB: true
       bitImageColumn: true
       bitImageRaster: true
       graphics: true
       highDensity: true
+      paperFullCut: true
+      paperPartCut: true
+      pdf417Code: true
       pulseBel: false
       pulseStandard: true
       qrCode: true
@@ -648,11 +1008,15 @@ profiles:
     colors:
       0: "black"
     features:
+      barcodeA: true
       barcodeB: true
       bitImageColumn: true
       bitImageRaster: true
       graphics: true
       highDensity: true
+      paperFullCut: true
+      paperPartCut: true
+      pdf417Code: true
       pulseBel: false
       pulseStandard: true
       qrCode: true
@@ -687,11 +1051,15 @@ profiles:
     colors:
       0: "black"
     features:
+      barcodeA: true
       barcodeB: true
       bitImageColumn: true
       bitImageRaster: true
       graphics: true
       highDensity: true
+      paperFullCut: true
+      paperPartCut: true
+      pdf417Code: true
       pulseBel: false
       pulseStandard: true
       qrCode: true
@@ -728,11 +1096,15 @@ profiles:
     colors:
       0: "black"
     features:
+      barcodeA: true
       barcodeB: true
       bitImageColumn: true
       bitImageRaster: true
       graphics: true
       highDensity: true
+      paperFullCut: true
+      paperPartCut: true
+      pdf417Code: true
       pulseBel: false
       pulseStandard: true
       qrCode: true
@@ -753,6 +1125,87 @@ profiles:
       \ TM-T88II. The code page mapping is documented in the \"TM-T88II/T88III Technical\
       \ Reference Guide\".\n"
     vendor: "Epson"
+  TM-T88IV:
+    codePages:
+      0: "CP437"
+      1: "CP932"
+      2: "CP850"
+      3: "CP860"
+      4: "CP863"
+      5: "CP865"
+      16: "CP1252"
+      17: "CP866"
+      18: "CP852"
+      19: "CP858"
+      255: "Unknown"
+    colors:
+      0: "black"
+    features:
+      barcodeA: true
+      barcodeB: true
+      bitImageColumn: true
+      bitImageRaster: true
+      graphics: true
+      highDensity: true
+      paperFullCut: true
+      paperPartCut: true
+      pdf417Code: true
+      pulseBel: false
+      pulseStandard: true
+      qrCode: true
+      starCommands: false
+    fonts:
+      0:
+        columns: 42
+        name: "Font A"
+      1:
+        columns: 56
+        name: "Font B"
+    media:
+      width:
+        mm: "Unknown"
+        pixels: "Unknown"
+    name: "TM-T88IV"
+    notes: "Epson TM-T88IV profile\n"
+    vendor: "Epson"
+  TM-T88IV-SA:
+    codePages:
+      0: "CP437"
+      20: "Unknown"
+      21: "CP874"
+      26: "Unknown"
+      30: "TCVN-3-1"
+      31: "TCVN-3-2"
+    colors:
+      0: "black"
+    features:
+      barcodeA: true
+      barcodeB: true
+      bitImageColumn: true
+      bitImageRaster: true
+      graphics: true
+      highDensity: true
+      paperFullCut: true
+      paperPartCut: true
+      pdf417Code: true
+      pulseBel: false
+      pulseStandard: true
+      qrCode: true
+      starCommands: false
+    fonts:
+      0:
+        columns: 42
+        name: "Font A"
+      1:
+        columns: 56
+        name: "Font B"
+    media:
+      width:
+        mm: "Unknown"
+        pixels: "Unknown"
+    name: "TM-T88IV South Asia"
+    notes: "Epson TM-T88IV profile (South Asia models)\n"
+    vendor: "Epson"
   TM-U220:
     codePages:
       0: "CP437"
@@ -760,11 +1213,15 @@ profiles:
       0: "black"
       1: "alternate"
     features:
+      barcodeA: false
       barcodeB: false
       bitImageColumn: true
       bitImageRaster: false
       graphics: false
       highDensity: false
+      paperFullCut: false
+      paperPartCut: false
+      pdf417Code: false
       pulseBel: false
       pulseStandard: true
       qrCode: false
@@ -837,11 +1294,15 @@ profiles:
     colors:
       0: "black"
     features:
+      barcodeA: true
       barcodeB: true
       bitImageColumn: true
       bitImageRaster: true
       graphics: true
       highDensity: true
+      paperFullCut: true
+      paperPartCut: true
+      pdf417Code: true
       pulseBel: false
       pulseStandard: true
       qrCode: true
@@ -914,11 +1375,15 @@ profiles:
     colors:
       0: "black"
     features:
+      barcodeA: true
       barcodeB: true
       bitImageColumn: true
       bitImageRaster: true
       graphics: true
       highDensity: true
+      paperFullCut: true
+      paperPartCut: true
+      pdf417Code: true
       pulseBel: false
       pulseStandard: true
       qrCode: true
@@ -1046,11 +1511,15 @@ profiles:
     colors:
       0: "black"
     features:
+      barcodeA: true
       barcodeB: true
       bitImageColumn: true
       bitImageRaster: true
       graphics: true
       highDensity: true
+      paperFullCut: true
+      paperPartCut: true
+      pdf417Code: true
       pulseBel: false
       pulseStandard: true
       qrCode: true
@@ -1077,11 +1546,15 @@ profiles:
     colors:
       0: "black"
     features:
+      barcodeA: false
       barcodeB: false
       bitImageColumn: false
       bitImageRaster: true
       graphics: false
       highDensity: true
+      paperFullCut: false
+      paperPartCut: false
+      pdf417Code: false
       pulseBel: false
       pulseStandard: true
       qrCode: false
