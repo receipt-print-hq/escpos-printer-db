@@ -1,0 +1,18 @@
+---
+TM-T20II-42col:
+  name: TM-T20II (42 column mode)
+  vendor: Epson
+  inherits: TM-T20II
+  notes: Epson TM-T20II profile (42 column mode)
+  media:
+    width:
+      mm: 68.3
+      pixels: 546
+  fonts:
+    0:
+      name: Font A
+      columns: 42
+    1:
+      name: Font B
+      columns: 60
+...
