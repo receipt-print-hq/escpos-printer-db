@@ -10,7 +10,8 @@ T-1:
       pixels: 504
   codePages:
     0: CP437
-    1: Katakana
+    # Katakana
+    1: Unknown
     2: CP850
     3: CP860
     4: CP863
