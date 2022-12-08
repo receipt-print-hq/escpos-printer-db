@@ -1,0 +1,101 @@
+---
+mcPrint:
+  name: Star mcPrint2/mcPrint3
+  vendor: "Star Micronics"
+  inherits: default
+  notes: >
+      Star mcPrint2/mcPrint3 printers. Technical documentation is in
+      the "StarPRNT Command specifications Rev. 2.40" document, which
+      can be found online.
+  features:
+    starCommands: true
+  codePages:
+    # "Normal". The actual content of this page can be changed by
+    # memory switches, so it's not really usable.
+    0: Unknown
+    1: CP437
+    # Katakana
+    2: CP932
+    3: CP437
+    4: CP858
+    5: CP852
+    6: CP860
+    # Icelandic
+    7: CP861
+    # Canadian French
+    8: CP863
+    # Nordic
+    9: CP865
+    # Cyrillic Russian
+    10: CP866
+    # Cyrillic Bulgarian
+    11: CP855
+    # Turkey
+    12: CP857
+    # Israel (Hebrew)
+    13: CP862
+    # Arabic
+    14: CP864
+    # Greek
+    15: CP737
+    # Greek
+    16: CP851
+    # Greek
+    17: CP869
+    # Greek
+    18: CP928
+    # Lithuanian
+    19: CP772
+    # Lithuanian
+    20: CP774
+    # Thai
+    21: CP874
+    # Windows Latin-1
+    32: CP1252
+    # Windows Latin-2
+    33: CP1250
+    # Windows Cyrillic
+    34: CP1251
+    # IBM Russian
+    64: CP3840
+    # Gost
+    65: CP3841
+    # Polish
+    66: CP3843
+    # CS2
+    67: CP3844
+    # Hungarian
+    68: CP3845
+    # Turkish
+    69: CP3846
+    # Brazil-ABNT
+    70: CP3847
+    # Brazil-ABICOMP
+    71: CP3848
+    # Arabic
+    72: CP1001
+    # Lithuanian-KBL
+    73: CP2001
+    # Estonian-1
+    74: CP3001
+    # Estonan-2
+    75: CP3002
+    # Latvian-1
+    76: CP3011
+    # Latvian-2
+    77: CP3012
+    # Bulgarian
+    78: CP3021
+    # Maltese
+    79: CP3041
+    # Thai Character Code 42
+    96: Unknown
+    # Thai Character Code 11
+    97: Unknown
+    # Thai Character Code 13
+    98: Unknown
+    # Thai Character Code 18
+    102: Unknown
+    # "User setting"
+    255: Unknown
+...

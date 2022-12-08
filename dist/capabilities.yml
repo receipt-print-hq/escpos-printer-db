@@ -376,9 +376,8 @@ profiles:
         mm: 120
         pixels: 100
     name: "AF-240 Customer Display"
-    notes: "This is a two-line, ESC/POS-aware customer display from Oxhoo. The ESC/POS\
-      \ command mode can be activated persistently by sending:\n\n    echo -ne \"\\\
-      n\\x02\\x05\\x43\\x31\\x03\" > /dev/ttyUSB0\n"
+    notes: "This is a two-line, ESC/POS-aware customer display from Oxhoo. The ESC/POS command mode can\
+      \ be activated persistently by sending:\n\n    echo -ne \"\\n\\x02\\x05\\x43\\x31\\x03\" > /dev/ttyUSB0\n"
     vendor: "Oxhoo"
 
   CT-S651:
@@ -444,8 +443,8 @@ profiles:
 
     name: "CT-S651"
 
-    notes: "Citizen CT-S651 profile. This is a two-color thermal printer, supporting\
-      \ paper sizes from 58mm up to 83mm\n"
+    notes: "Citizen CT-S651 profile. This is a two-color thermal printer, supporting paper sizes from\
+      \ 58mm up to 83mm\n"
 
     vendor: "Citizen"
 
@@ -862,9 +861,9 @@ profiles:
 
     name: "OCD-100 Customer Display"
 
-    notes: "This is a two-line, ESC/POS-aware customer display from Aures. It has\
-      \ some graphics support via custom fonts, but is otherwise text-only. This profile\
-      \ is also suitable for the OCD-150 pole-mounted display.\n"
+    notes: "This is a two-line, ESC/POS-aware customer display from Aures. It has some graphics support\
+      \ via custom fonts, but is otherwise text-only. This profile is also suitable for the OCD-150 pole-mounted\
+      \ display.\n"
 
     vendor: "Aures"
 
@@ -923,8 +922,8 @@ profiles:
 
     name: "OCD-300 Customer Display"
 
-    notes: "This is a two-line, ESC/POS-aware customer display from Aures. It has\
-      \ some graphics support via vendor-provided tools, but is otherwise text-only.\n"
+    notes: "This is a two-line, ESC/POS-aware customer display from Aures. It has some graphics support\
+      \ via vendor-provided tools, but is otherwise text-only.\n"
 
     vendor: "Aures"
 
@@ -1731,8 +1730,7 @@ profiles:
 
     name: "Sunmi V2"
 
-    notes: "Sunmi mini-POS Android device with a built-in Virtual Bluetooth thermal\
-      \ printer.\n"
+    notes: "Sunmi mini-POS Android device with a built-in Virtual Bluetooth thermal printer.\n"
 
     vendor: "Sunmi"
 
@@ -2074,8 +2072,8 @@ profiles:
 
     name: "TH230+"
 
-    notes: "Profile for TH230+. Use bitImageColumn to print properly. TH230+ supports\
-      \ native qr codes and PDF417 codes\n"
+    notes: "Profile for TH230+. Use bitImageColumn to print properly. TH230+ supports native qr codes\
+      \ and PDF417 codes\n"
 
     vendor: "Wincor Nixdorf"
 
@@ -2210,9 +2208,8 @@ profiles:
 
     name: "TM-L90"
 
-    notes: "Epson TM-L90 profile. The standard 80mm paper width version was used here.\
-      \ The code page mapping is documented in the \"TM-L90 Technical Reference Guide\"\
-      .\n"
+    notes: "Epson TM-L90 profile. The standard 80mm paper width version was used here. The code page mapping\
+      \ is documented in the \"TM-L90 Technical Reference Guide\".\n"
 
     vendor: "Epson"
 
@@ -2871,13 +2868,12 @@ profiles:
 
     name: "TM-T88II"
 
-    notes: "Epson TM-T88II profile. The specs where taken from a TM-T88IIP machine\
-      \ (I assume the P just stands for parallel port). The standart 80mm paper width\
-      \ version was used here. There is also a custom 58mm factory option. If you\
-      \ are using the custom version change media width to 50.8mm and 360px accordingly.\
-      \ This printer is discontinued by the Vendor and has similar feature support\
-      \ to the TM-T88III. The code page mapping is documented in the \"TM-T88II/T88III\
-      \ Technical Reference Guide\".\n"
+    notes: "Epson TM-T88II profile. The specs where taken from a TM-T88IIP machine (I assume the P just\
+      \ stands for parallel port). The standart 80mm paper width version was used here. There is also\
+      \ a custom 58mm factory option. If you are using the custom version change media width to 50.8mm\
+      \ and 360px accordingly. This printer is discontinued by the Vendor and has similar feature support\
+      \ to the TM-T88III. The code page mapping is documented in the \"TM-T88II/T88III Technical Reference\
+      \ Guide\".\n"
 
     vendor: "Epson"
 
@@ -2929,9 +2925,8 @@ profiles:
 
     name: "TM-T88III"
 
-    notes: "Epson TM-T88III profile. This printer has similar feature support to the\
-      \ TM-T88II. The code page mapping is documented in the \"TM-T88II/T88III Technical\
-      \ Reference Guide\".\n"
+    notes: "Epson TM-T88III profile. This printer has similar feature support to the TM-T88II. The code\
+      \ page mapping is documented in the \"TM-T88II/T88III Technical Reference Guide\".\n"
 
     vendor: "Epson"
 
@@ -3418,7 +3413,6 @@ profiles:
     vendor: "Star Micronics"
 
   ZJ-5870:
-
     codePages:
       0: "CP437"
       1: "CP932"
@@ -3429,10 +3423,8 @@ profiles:
       3: "CP860"
       4: "CP863"
       5: "CP865"
-
     colors:
       0: "black"
-
     features:
       barcodeA: no
       barcodeB: no
@@ -3447,25 +3439,19 @@ profiles:
       pulseStandard: yes
       qrCode: no
       starCommands: no
-
     fonts:
       0:
         columns: 32
         name: "Font A"
-
     media:
       width:
         mm: 48
         pixels: 384
-
     name: "ZJ-5870 Thermal Receipt Printer"
-
-    notes: "ESC/POS Profile for ZiJiang ZJ-5870 Thermal Receipt Printer, which may\
-      \ be branded AGPtEK or Esky, and identifies itself as a POS-58 Thermal Printer\
-      \ on selftest. This profile is suitable for alphanumberic character mode, but\
-      \ is untested on Chinese character mode. (Change modes by holding down feed\
-      \ button during power-on until the mode LED turns off, then release immediately.)\n"
-
+    notes: "ESC/POS Profile for ZiJiang ZJ-5870 Thermal Receipt Printer, which may be branded AGPtEK or\
+      \ Esky, and identifies itself as a POS-58 Thermal Printer on selftest. This profile is suitable\
+      \ for alphanumberic character mode, but is untested on Chinese character mode. (Change modes by\
+      \ holding down feed button during power-on until the mode LED turns off, then release immediately.)\n"
     vendor: "ZiJiang"
 
   default:
@@ -3629,11 +3615,144 @@ profiles:
 
     name: "Default"
 
-    notes: "Default ESC/POS profile, suitable for standards-compliant or Epson-branded\
-      \ printers. This profile allows the use of standard ESC/POS features, and can\
-      \ encode a variety of code pages.\n"
+    notes: "Default ESC/POS profile, suitable for standards-compliant or Epson-branded printers. This\
+      \ profile allows the use of standard ESC/POS features, and can encode a variety of code pages.\n"
 
     vendor: "Generic"
+
+  mcPrint:
+
+    codePages:
+
+      0: "Unknown"
+
+      1: "CP437"
+
+      10: "CP866"
+
+      102: "Unknown"
+
+      11: "CP855"
+
+      12: "CP857"
+
+      13: "CP862"
+
+      14: "CP864"
+
+      15: "CP737"
+
+      16: "CP851"
+
+      17: "CP869"
+
+      18: "CP928"
+
+      19: "CP772"
+
+      2: "CP932"
+
+      20: "CP774"
+
+      21: "CP874"
+
+      255: "Unknown"
+
+      3: "CP437"
+
+      32: "CP1252"
+
+      33: "CP1250"
+
+      34: "CP1251"
+
+      4: "CP858"
+
+      5: "CP852"
+
+      6: "CP860"
+
+      64: "CP3840"
+
+      65: "CP3841"
+
+      66: "CP3843"
+
+      67: "CP3844"
+
+      68: "CP3845"
+
+      69: "CP3846"
+
+      7: "CP861"
+
+      70: "CP3847"
+
+      71: "CP3848"
+
+      72: "CP1001"
+
+      73: "CP2001"
+
+      74: "CP3001"
+
+      75: "CP3002"
+
+      76: "CP3011"
+
+      77: "CP3012"
+
+      78: "CP3021"
+
+      79: "CP3041"
+
+      8: "CP863"
+
+      9: "CP865"
+
+      96: "Unknown"
+
+      97: "Unknown"
+
+      98: "Unknown"
+
+    colors:
+      0: "black"
+
+    features:
+      barcodeA: yes
+      barcodeB: yes
+      bitImageColumn: yes
+      bitImageRaster: yes
+      graphics: yes
+      highDensity: yes
+      paperFullCut: yes
+      paperPartCut: yes
+      pdf417Code: yes
+      pulseBel: no
+      pulseStandard: yes
+      qrCode: yes
+      starCommands: yes
+
+    fonts:
+      0:
+        columns: 42
+        name: "Font A"
+      1:
+        columns: 56
+        name: "Font B"
+
+    media:
+      width:
+        mm: "Unknown"
+        pixels: "Unknown"
+
+    name: "Star mcPrint2/mcPrint3"
+
+    notes: "Star mcPrint2/mcPrint3 printers. Technical documentation is in the \"StarPRNT Command specifications\
+      \ Rev. 2.40\" document, which can be found online.\n"
+
+    vendor: "Star Micronics"
 
   simple:
     codePages:
@@ -3666,7 +3785,7 @@ profiles:
         mm: "Unknown"
         pixels: "Unknown"
     name: "Simple"
-    notes: "A profile for use in printers with unknown or poor compatibility. This\
-      \ profile indicates that a small number of features are supported, so that commands\
-      \ are not sent a printer that is unlikely to understand them.\n"
+    notes: "A profile for use in printers with unknown or poor compatibility. This profile indicates that\
+      \ a small number of features are supported, so that commands are not sent a printer that is unlikely\
+      \ to understand them.\n"
     vendor: "Generic"
