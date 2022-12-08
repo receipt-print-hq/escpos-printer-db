@@ -1,0 +1,50 @@
+---
+ITPP047:
+  name: ITPP047
+  vendor: "Munbyn"
+  notes: >
+      Munbyn ITPP047/ITPP102 receipt printer with cutter.
+
+      This printer has all the standard features, but a
+      somewhat reduced codepage set. This profile might work
+      for other china printers (Meihengtong, ...), too.
+
+      For technical information, go to support.munbyn.com,
+      look for "Printer - Drivers / SDK", then download the
+      "ITPP047 SDK", which contains the "ITPP047 Program Manual".
+  inherits: default
+  media:
+    width:
+      mm: 80
+      pixels: 512
+  codePages:
+    0: CP437
+    # Katakana (for Japan)
+    1: CP932
+    # PC850: Multilingual
+    2: CP850
+    # PC860: Portuguese
+    3: CP860
+    # PC863 [Canadian French]
+    4: CP863
+    # PC865:Nodic
+    5: CP865
+    # West Europe
+    6: Unknown
+    # Greek
+    7: Unknown
+    # Hebrew
+    8: Unknown
+    # CP755
+    9: Unknown
+    # Iran
+    10: Unknown
+    16: CP1252
+    17: CP866
+    18: CP852
+    19: CP858
+    # Iran II
+    20: Unknown
+    # Latvian
+    21: Unknown
+...

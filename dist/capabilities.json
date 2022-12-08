@@ -458,6 +458,64 @@
             "notes": "Citizen CT-S651 profile. This is a two-color thermal printer, supporting paper sizes from 58mm up to 83mm\n",
             "vendor": "Citizen"
         },
+        "ITPP047": {
+            "codePages": {
+                "0": "CP437",
+                "1": "CP932",
+                "2": "CP850",
+                "3": "CP860",
+                "4": "CP863",
+                "5": "CP865",
+                "6": "Unknown",
+                "7": "Unknown",
+                "8": "Unknown",
+                "9": "Unknown",
+                "10": "Unknown",
+                "16": "CP1252",
+                "17": "CP866",
+                "18": "CP852",
+                "19": "CP858",
+                "20": "Unknown",
+                "21": "Unknown"
+            },
+            "colors": {
+                "0": "black"
+            },
+            "features": {
+                "barcodeA": true,
+                "barcodeB": true,
+                "bitImageColumn": true,
+                "bitImageRaster": true,
+                "graphics": true,
+                "highDensity": true,
+                "paperFullCut": true,
+                "paperPartCut": true,
+                "pdf417Code": true,
+                "pulseBel": false,
+                "pulseStandard": true,
+                "qrCode": true,
+                "starCommands": false
+            },
+            "fonts": {
+                "0": {
+                    "columns": 42,
+                    "name": "Font A"
+                },
+                "1": {
+                    "columns": 56,
+                    "name": "Font B"
+                }
+            },
+            "media": {
+                "width": {
+                    "mm": 80,
+                    "pixels": 512
+                }
+            },
+            "name": "ITPP047",
+            "notes": "Munbyn ITPP047/ITPP102 receipt printer with cutter.\nThis printer has all the standard features, but a somewhat reduced codepage set. This profile might work for other china printers (Meihengtong, ...), too.\nFor technical information, go to support.munbyn.com, look for \"Printer - Drivers / SDK\", then download the \"ITPP047 SDK\", which contains the \"ITPP047 Program Manual\".\n",
+            "vendor": "Munbyn"
+        },
         "KR-306": {
             "codePages": {
                 "0": "CP437",

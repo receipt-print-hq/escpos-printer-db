@@ -448,6 +448,67 @@ profiles:
 
     vendor: "Citizen"
 
+  ITPP047:
+
+    codePages:
+      0: "CP437"
+      1: "CP932"
+      10: "Unknown"
+      16: "CP1252"
+      17: "CP866"
+      18: "CP852"
+      19: "CP858"
+      2: "CP850"
+      20: "Unknown"
+      21: "Unknown"
+      3: "CP860"
+      4: "CP863"
+      5: "CP865"
+      6: "Unknown"
+      7: "Unknown"
+      8: "Unknown"
+      9: "Unknown"
+
+    colors:
+      0: "black"
+
+    features:
+      barcodeA: yes
+      barcodeB: yes
+      bitImageColumn: yes
+      bitImageRaster: yes
+      graphics: yes
+      highDensity: yes
+      paperFullCut: yes
+      paperPartCut: yes
+      pdf417Code: yes
+      pulseBel: no
+      pulseStandard: yes
+      qrCode: yes
+      starCommands: no
+
+    fonts:
+      0:
+        columns: 42
+        name: "Font A"
+      1:
+        columns: 56
+        name: "Font B"
+
+    media:
+      width:
+        mm: 80
+        pixels: 512
+
+    name: "ITPP047"
+
+    notes: "Munbyn ITPP047/ITPP102 receipt printer with cutter.\nThis printer has all the standard features,\
+      \ but a somewhat reduced codepage set. This profile might work for other china printers (Meihengtong,\
+      \ ...), too.\nFor technical information, go to support.munbyn.com, look for \"Printer - Drivers\
+      \ / SDK\", then download the \"ITPP047 SDK\", which contains the \"ITPP047 Program Manual\".\n"
+
+    vendor: "Munbyn"
+
   KR-306:
 
     codePages:
