@@ -29,8 +29,8 @@ ITPP047:
     4: CP863
     # PC865:Nodic
     5: CP865
-    # West Europe
-    6: Unknown
+    # West Europe (actually CP1252)
+    6: CP1252
     # Greek
     7: Unknown
     # Hebrew
@@ -39,7 +39,9 @@ ITPP047:
     9: Unknown
     # Iran
     10: Unknown
-    16: CP1252
+    # docs claim this to be CP1252, but it isn't
+    #16: CP1252
+    16: Unknown
     17: CP866
     18: CP852
     19: CP858
