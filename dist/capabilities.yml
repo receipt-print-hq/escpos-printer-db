@@ -1586,6 +1586,143 @@ profiles:
 
     vendor: "EPOS"
 
+  TM-L90:
+
+    codePages:
+
+      0: "CP437"
+
+      1: "CP932"
+
+      11: "CP851"
+
+      12: "CP853"
+
+      13: "CP857"
+
+      14: "CP737"
+
+      15: "ISO_8859-7"
+
+      16: "CP1252"
+
+      17: "CP866"
+
+      18: "CP852"
+
+      19: "CP858"
+
+      2: "CP850"
+
+      20: "Unknown"
+
+      21: "CP874"
+
+      22: "Unknown"
+
+      23: "Unknown"
+
+      24: "Unknown"
+
+      25: "Unknown"
+
+      255: "Unknown"
+
+      26: "Unknown"
+
+      3: "CP860"
+
+      30: "TCVN-3-1"
+
+      31: "TCVN-3-2"
+
+      32: "CP720"
+
+      33: "CP775"
+
+      34: "CP855"
+
+      35: "CP861"
+
+      36: "CP862"
+
+      37: "CP864"
+
+      38: "CP869"
+
+      39: "ISO_8859-2"
+
+      4: "CP863"
+
+      40: "ISO_8859-15"
+
+      41: "CP1098"
+
+      42: "CP774"
+
+      43: "CP772"
+
+      44: "CP1125"
+
+      45: "CP1250"
+
+      46: "CP1251"
+
+      47: "CP1253"
+
+      48: "CP1254"
+
+      49: "CP1255"
+
+      5: "CP865"
+
+      50: "CP1256"
+
+      51: "CP1257"
+
+      52: "CP1258"
+
+      53: "RK1048"
+
+    colors:
+      0: "black"
+
+    features:
+      barcodeA: yes
+      barcodeB: yes
+      bitImageColumn: yes
+      bitImageRaster: yes
+      graphics: yes
+      highDensity: yes
+      paperFullCut: yes
+      paperPartCut: yes
+      pdf417Code: yes
+      pulseBel: no
+      pulseStandard: yes
+      qrCode: yes
+      starCommands: no
+
+    fonts:
+      0:
+        columns: 48
+        name: "Font A"
+      1:
+        columns: 64
+        name: "Font B"
+
+    media:
+      width:
+        mm: 80
+        pixels: 576
+
+    name: "TM-L90"
+
+    notes: "Epson TM-L90 profile. The standard 80mm paper width version was used here.\
+      \ The code page mapping is documented in the \"TM-L90 Technical Reference Guide\"\
+      .\n"
+
+    vendor: "Epson"
+
   TM-P80:
 
     codePages:
