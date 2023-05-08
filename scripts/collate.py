@@ -31,7 +31,7 @@ def load_profiles():
     profiles_raw = {}
     profiles_dir = os.path.dirname(__file__) + "/../data/profile/"
     for profile_fn in os.listdir(profiles_dir):
-        if not profile_fn[-3:] == 'yml':
+        if not profile_fn[-3:] == "yml":
             continue
 
         profile_dict = yaml.safe_load(open(profiles_dir + profile_fn).read())
@@ -132,7 +132,7 @@ def filter_encodings(encodings_raw, profiles_subsituted):
     """
     # Give everything a name if not set
     for name, encoding in encodings_raw.items():
-        if not "name" in encoding:
+        if "name" not in encoding:
             encoding["name"] = name
 
     # Strip out un-used code pages
