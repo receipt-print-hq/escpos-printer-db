@@ -1235,6 +1235,55 @@
             "notes": "Sunmi mini-POS Android device with a built-in Virtual Bluetooth thermal printer.\n",
             "vendor": "Sunmi"
         },
+        "T-1": {
+            "codePages": {
+                "0": "CP437",
+                "1": "Unknown",
+                "2": "CP850",
+                "3": "CP860",
+                "4": "CP863",
+                "5": "CP865",
+                "19": "CP858",
+                "255": "Unknown"
+            },
+            "colors": {
+                "0": "black"
+            },
+            "features": {
+                "barcodeA": true,
+                "barcodeB": true,
+                "bitImageColumn": true,
+                "bitImageRaster": true,
+                "graphics": true,
+                "highDensity": true,
+                "paperFullCut": true,
+                "paperPartCut": true,
+                "pdf417Code": true,
+                "pulseBel": false,
+                "pulseStandard": true,
+                "qrCode": true,
+                "starCommands": false
+            },
+            "fonts": {
+                "0": {
+                    "columns": 42,
+                    "name": "Font A"
+                },
+                "1": {
+                    "columns": 56,
+                    "name": "Font B"
+                }
+            },
+            "media": {
+                "width": {
+                    "mm": 80,
+                    "pixels": 504
+                }
+            },
+            "name": "T-1",
+            "notes": "Metapace T-1 Thermal Printer Rev. 1.00",
+            "vendor": "Metapace"
+        },
         "TEP-200M": {
             "codePages": {
                 "0": "CP437",
