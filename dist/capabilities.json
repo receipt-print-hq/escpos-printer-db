@@ -1311,7 +1311,7 @@
                 }
             },
             "name": "TM-L90",
-            "notes": "Epson TM-L90 profile\n",
+            "notes": "Epson TM-L90 profile. The standard 80mm paper width version was used here. The code page mapping is documented in the \"TM-L90 Technical Reference Guide\".\n",
             "vendor": "Epson"
         },
         "TM-P80": {
