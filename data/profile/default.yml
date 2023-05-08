@@ -7,13 +7,19 @@ default:
       Epson-branded printers. This profile allows the use of standard
       ESC/POS features, and can encode a variety of code pages.
   features:
+    barcodeA: true
     barcodeB: true
     bitImageRaster: true
     bitImageColumn: true
     graphics: true
     starCommands: false
     qrCode: true
+    pdf417Code: true
     highDensity: true
+    pulseStandard: true
+    pulseBel: false
+    paperFullCut: true
+    paperPartCut: true
   colors:
     0: black
   fonts:

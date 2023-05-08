@@ -1,12 +1,10 @@
 ---
-TM-T88III:
-  name: TM-T88III
+TM-T88IV:
+  name: TM-T88IV
   vendor: "Epson"
   inherits: default
   notes: >
-      Epson TM-T88III profile. This printer has similar feature support to the
-      TM-T88II. The code page mapping is documented in the
-      "TM-T88II/T88III Technical Reference Guide".
+      Epson TM-T88IV profile
   media:
     width:
       mm: 80
@@ -27,7 +25,7 @@ TM-T88III:
     5: CP865
     16: CP1252
     17: CP866
-    18: CP862
+    18: CP852
     19: CP858
     255: Unknown
 ...

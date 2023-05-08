@@ -649,6 +649,19 @@ TCVN-3-2:
     - " ỎÕÓỌỒỔỖỐỘỜỞỠỚỢÙ"
     - " ỦŨÚỤỪỬỮỨỰỲỶỸÝỴ "
 
+OXHOO-EUROPEAN:
+  name: Oxhoo-specific European
+  data:
+    - "ÇüéâäàåçêëèïîìÄÅ"
+    - "ÉæÆôöòûùÿÖÜñÑªº¿"
+    - "áíóú¢£¥₧ƒ¡ÃãÕõØø"
+    - "·¨°`´½¼×÷≤≥«»≠√¯"
+    - "⌠⌡∞◤↵↑↓→←┌┐└┘•®©"
+    # Some unidentified chars
+    - "™†§¶Γ◢Θ         "
+    - "ß   ε           "
+    - "τ               "
+
 Unknown:
   name: Unknown
   notes: Code page that has not yet been identified.
