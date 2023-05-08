@@ -1,0 +1,128 @@
+---
+KR-306:
+  name: KR-306
+  vendor: Kefar
+  notes: >
+    Kefar KR-306 printer with 200mm/s speed
+  features:
+    barcodeA: true
+    barcodeB: true
+    bitImageRaster: true
+    bitImageColumn: true
+    graphics: false
+    starCommands: false
+    qrCode: true
+    pdf417Code: true
+    highDensity: true
+    pulseStandard: true
+    pulseBel: false
+    paperFullCut: true
+    paperPartCut: true
+  colors:
+    0: black
+  fonts:
+    0:
+      name: Font A
+      columns: 48
+    1:
+      name: Font B
+      columns: 64
+  media:
+    width:
+      mm: 72
+      pixels: 576
+  codePages:
+    0: CP437
+    # Katakana
+    1: Unknown
+    2: CP850
+    3: CP860
+    4: CP863
+    5: CP865
+    # West Europe
+    6: Unknown
+    # Greek
+    7: Unknown
+    # Hebrew
+    8: Unknown
+    # East Europe
+    9: Unknown
+    # Iran
+    10: Unknown
+    # Windows CP-1252
+    11: CP1252
+    12: CP866
+    13: CP852
+    14: CP858
+    # IranII
+    15: Unknown
+    # Latvian
+    16: Unknown
+    # Arabic
+    17: Unknown
+    # PT1511251
+    18: Unknown
+    19: CP747
+    # WPC1257
+    20: Unknown
+    # Thai
+    21: Unknown
+    # Vietnam
+    22: Unknown
+    23: CP864
+    # PC1001
+    24: Unknown
+    # Uigur
+    25: Unknown
+    # Hebrew
+    26: Unknown
+    27: CP1255
+    28: CP437
+    # Katakana
+    29: Unknown
+    30: CP437
+    31: CP858
+    32: CP852
+    33: CP860
+    34: CP861
+    35: CP863
+    36: CP865
+    37: CP866
+    38: CP855
+    39: CP857
+    40: CP862
+    41: CP864
+    42: CP737
+    43: CP851
+    44: CP869
+    45: CP928
+    46: CP772
+    47: CP774
+    48: CP874
+    # Windows CP-1252
+    49: CP1252
+    # Windows CP-1250
+    50: CP1250
+    # Windows CP-1251
+    51: CP1251
+    52: CP3840
+    53: CP3841
+    54: CP3843
+    55: CP3844
+    56: CP3845
+    57: CP3846
+    58: CP3847
+    59: CP3848
+    60: CP1001
+    61: CP2001
+    62: CP3001
+    63: CP3002
+    64: CP3011
+    65: CP3012
+    66: CP3021
+    67: CP3041
+    68: CP852
+    69: Unknown
+    # Windows CP-1256 (Arabic)
+    70: CP1256
+...
