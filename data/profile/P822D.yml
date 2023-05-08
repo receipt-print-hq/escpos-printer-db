@@ -9,7 +9,7 @@ P822D:
   codePages:
     0: CP437
     # Katakana
-    1: Unknown
+    1: KATAKANA
     2: CP850
     3: CP860
     4: CP863

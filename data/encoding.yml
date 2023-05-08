@@ -662,6 +662,18 @@ OXHOO-EUROPEAN:
     - "ß   ε           "
     - "τ               "
 
+KATAKANA:
+  name: Katakana (codepage 1)
+  data:
+    - "▁▂▃▄▅▆▇█▏▎▍▌▋▊▉┼"
+    - "┴┬┤├¯─│▕┌┐└┘╭╮╰╯"
+    - " ｡｢｣､･ｦｧｨｩｪｫｬｭｮｯ"
+    - "ｰｱｲｳｴｵｶｷｸｹｺｻｼｽｾｿ"
+    - "ﾀﾁﾂﾃﾄﾅﾆﾇﾈﾉﾊﾋﾌﾍﾎﾏ"
+    - "ﾐﾑﾒﾓﾔﾕﾖﾗﾘﾙﾚﾛﾜﾝﾞﾟ"
+    - "═╞╪╡◢◣◥◤♠♥♦♣●○╱╲"
+    - "╳円年月日時分秒〒市区町村人▓\u00A0"
+
 Unknown:
   name: Unknown
   notes: Code page that has not yet been identified.

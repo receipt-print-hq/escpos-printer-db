@@ -34,7 +34,7 @@ KR-306:
   codePages:
     0: CP437
     # Katakana
-    1: Unknown
+    1: KATAKANA
     2: CP850
     3: CP860
     4: CP863
@@ -79,7 +79,7 @@ KR-306:
     27: CP1255
     28: CP437
     # Katakana
-    29: Unknown
+    29: KATAKANA
     30: CP437
     31: CP858
     32: CP852
