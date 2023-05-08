@@ -3,14 +3,15 @@ T-1:
   name: T-1
   vendor: Metapace
   inherits: default
-  notes: Metapace T-1 Thermal Printer Rev. 1.00   
+  notes: Metapace T-1 Thermal Printer Rev. 1.00
   media:
     width:
       mm: 80
       pixels: 504
   codePages:
     0: CP437
-    1: Katakana
+    # Katakana
+    1: Unknown
     2: CP850
     3: CP860
     4: CP863

@@ -1421,6 +1421,47 @@ profiles:
 
     vendor: "Sunmi"
 
+  T-1:
+    codePages:
+      0: "CP437"
+      1: "Unknown"
+      19: "CP858"
+      2: "CP850"
+      255: "Unknown"
+      3: "CP860"
+      4: "CP863"
+      5: "CP865"
+    colors:
+      0: "black"
+    features:
+      barcodeA: yes
+      barcodeB: yes
+      bitImageColumn: yes
+      bitImageRaster: yes
+      graphics: yes
+      highDensity: yes
+      paperFullCut: yes
+      paperPartCut: yes
+      pdf417Code: yes
+      pulseBel: no
+      pulseStandard: yes
+      qrCode: yes
+      starCommands: no
+    fonts:
+      0:
+        columns: 42
+        name: "Font A"
+      1:
+        columns: 56
+        name: "Font B"
+    media:
+      width:
+        mm: 80
+        pixels: 504
+    name: "T-1"
+    notes: "Metapace T-1 Thermal Printer Rev. 1.00"
+    vendor: "Metapace"
+
   TEP-200M:
 
     codePages:
