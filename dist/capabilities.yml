@@ -290,6 +290,18 @@ encodings:
     name: "ISO_8859-9"
     python_encode: "iso8859_9"
 
+  KATAKANA:
+    data:
+      - "▁▂▃▄▅▆▇█▏▎▍▌▋▊▉┼"
+      - "┴┬┤├¯─│▕┌┐└┘╭╮╰╯"
+      - " ｡｢｣､･ｦｧｨｩｪｫｬｭｮｯ"
+      - "ｰｱｲｳｴｵｶｷｸｹｺｻｼｽｾｿ"
+      - "ﾀﾁﾂﾃﾄﾅﾆﾇﾈﾉﾊﾋﾌﾍﾎﾏ"
+      - "ﾐﾑﾒﾓﾔﾕﾖﾗﾘﾙﾚﾛﾜﾝﾞﾟ"
+      - "═╞╪╡◢◣◥◤♠♥♦♣●○╱╲"
+      - "╳円年月日時分秒〒市区町村人▓ "
+    name: "Katakana (codepage 1)"
+
   OXHOO-EUROPEAN:
     data:
       - "ÇüéâäàåçêëèïîìÄÅ"
@@ -443,7 +455,7 @@ profiles:
 
       0: "CP437"
 
-      1: "Unknown"
+      1: "KATAKANA"
 
       10: "Unknown"
 
@@ -485,7 +497,7 @@ profiles:
 
       28: "CP437"
 
-      29: "Unknown"
+      29: "KATAKANA"
 
       3: "CP860"
 
@@ -922,7 +934,7 @@ profiles:
 
       0: "CP437"
 
-      1: "Unknown"
+      1: "KATAKANA"
 
       10: "Unknown"
 
@@ -1282,7 +1294,7 @@ profiles:
 
       0: "CP437"
 
-      1: "Unknown"
+      1: "KATAKANA"
 
       10: "Unknown"
 
@@ -1607,7 +1619,7 @@ profiles:
   T-1:
     codePages:
       0: "CP437"
-      1: "Unknown"
+      1: "KATAKANA"
       19: "CP858"
       2: "CP850"
       255: "Unknown"
