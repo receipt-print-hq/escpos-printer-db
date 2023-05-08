@@ -7,6 +7,17 @@ TM-T88III:
       Epson TM-T88III profile. This printer has similar feature support to the
       TM-T88II. The code page mapping is documented in the
       "TM-T88II/T88III Technical Reference Guide".
+  media:
+    width:
+      mm: 80
+      pixels: 512
+  fonts:
+    0:
+      name: Font A
+      columns: 42
+    1:
+      name: Font B
+      columns: 56
   codePages:
     0: CP437
     1: CP932

@@ -1675,8 +1675,8 @@
             },
             "media": {
                 "width": {
-                    "mm": "Unknown",
-                    "pixels": "Unknown"
+                    "mm": 80,
+                    "pixels": 512
                 }
             },
             "name": "TM-T88III",
