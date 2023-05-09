@@ -1400,6 +1400,142 @@
             "notes": "",
             "vendor": "EPOS"
         },
+        "TH230": {
+            "codePages": {
+                "0": "CP437",
+                "1": "CP850",
+                "2": "CP852",
+                "3": "CP860",
+                "4": "CP863",
+                "5": "CP865",
+                "6": "CP858",
+                "7": "CP866",
+                "8": "CP1252",
+                "9": "CP862",
+                "10": "CP737",
+                "11": "CP874",
+                "12": "CP857",
+                "16": "CP1254",
+                "17": "CP1250",
+                "18": "Unknown",
+                "19": "Unknown",
+                "20": "Unknown",
+                "21": "Unknown",
+                "22": "CP864",
+                "23": "CP720",
+                "24": "CP1256",
+                "25": "Unknown",
+                "26": "KATAKANA",
+                "27": "CP775",
+                "28": "CP1257",
+                "29": "Unknown"
+            },
+            "colors": {
+                "0": "black"
+            },
+            "features": {
+                "barcodeA": true,
+                "barcodeB": true,
+                "bitImageColumn": true,
+                "bitImageRaster": true,
+                "graphics": true,
+                "highDensity": true,
+                "paperFullCut": true,
+                "paperPartCut": true,
+                "pdf417Code": false,
+                "pulseBel": false,
+                "pulseStandard": true,
+                "qrCode": false,
+                "starCommands": false
+            },
+            "fonts": {
+                "0": {
+                    "columns": 44,
+                    "name": "Font A"
+                },
+                "1": {
+                    "columns": 57,
+                    "name": "Font B"
+                }
+            },
+            "media": {
+                "width": {
+                    "mm": 72,
+                    "pixels": 576
+                }
+            },
+            "name": "TH230",
+            "notes": "Profile for TH230. Use bitImageColumn to print properly.\n",
+            "vendor": "Wincor Nixdorf"
+        },
+        "TH230Plus": {
+            "codePages": {
+                "0": "CP437",
+                "1": "CP850",
+                "2": "CP852",
+                "3": "CP860",
+                "4": "CP863",
+                "5": "CP865",
+                "6": "CP858",
+                "7": "CP866",
+                "8": "CP1252",
+                "9": "CP862",
+                "10": "CP737",
+                "11": "CP874",
+                "12": "CP857",
+                "16": "CP1254",
+                "17": "CP1250",
+                "18": "Unknown",
+                "19": "Unknown",
+                "20": "Unknown",
+                "21": "Unknown",
+                "22": "CP864",
+                "23": "CP720",
+                "24": "CP1256",
+                "25": "Unknown",
+                "26": "KATAKANA",
+                "27": "CP775",
+                "28": "CP1257",
+                "29": "Unknown"
+            },
+            "colors": {
+                "0": "black"
+            },
+            "features": {
+                "barcodeA": true,
+                "barcodeB": true,
+                "bitImageColumn": true,
+                "bitImageRaster": true,
+                "graphics": true,
+                "highDensity": true,
+                "paperFullCut": true,
+                "paperPartCut": true,
+                "pdf417Code": true,
+                "pulseBel": false,
+                "pulseStandard": true,
+                "qrCode": true,
+                "starCommands": false
+            },
+            "fonts": {
+                "0": {
+                    "columns": 44,
+                    "name": "Font A"
+                },
+                "1": {
+                    "columns": 57,
+                    "name": "Font B"
+                }
+            },
+            "media": {
+                "width": {
+                    "mm": 72,
+                    "pixels": 576
+                }
+            },
+            "name": "TH230+",
+            "notes": "Profile for TH230+. Use bitImageColumn to print properly. TH230+ supports native qr codes and PDF417 codes\n",
+            "vendor": "Wincor Nixdorf"
+        },
         "TM-L90": {
             "codePages": {
                 "0": "CP437",

@@ -1,0 +1,11 @@
+---
+TH230Plus:
+  name: TH230+
+  vendor: Wincor Nixdorf
+  notes: >
+      Profile for TH230+. Use bitImageColumn to print properly.
+      TH230+ supports native qr codes and PDF417 codes
+  inherits: TH230
+  features:
+    qrCode: true
+    pdf417Code: true
