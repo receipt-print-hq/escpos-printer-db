@@ -1,0 +1,19 @@
+---
+RP-F10-58mm:
+  name: RP-F10
+  vendor: Seiko
+  notes: >
+      Seiko RP-F10 series with 58mm paper
+  inherits: RP-F10-80mm
+  fonts:
+    0:
+      name: Font A
+      columns: 36
+    1:
+      name: Font B
+      columns: 54
+  media:
+    width:
+      mm: 54
+      pixels: 432
+...
