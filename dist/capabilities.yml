@@ -1288,6 +1288,126 @@ profiles:
 
     vendor: "Zjiang"
 
+  RP-F10-58mm:
+
+    codePages:
+      0: "CP437"
+      1: "KATAKANA"
+      13: "CP857"
+      14: "CP737"
+      16: "CP1252"
+      17: "CP866"
+      18: "CP852"
+      19: "CP858"
+      2: "CP850"
+      255: "Unknown"
+      3: "CP860"
+      34: "CP855"
+      37: "CP864"
+      4: "CP863"
+      45: "CP1250"
+      46: "CP1251"
+      47: "CP1253"
+      48: "CP1254"
+      5: "CP865"
+
+    colors:
+      0: "black"
+
+    features:
+      barcodeA: yes
+      barcodeB: yes
+      bitImageColumn: yes
+      bitImageRaster: yes
+      graphics: yes
+      highDensity: yes
+      paperFullCut: yes
+      paperPartCut: yes
+      pdf417Code: yes
+      pulseBel: no
+      pulseStandard: yes
+      qrCode: yes
+      starCommands: no
+
+    fonts:
+      0:
+        columns: 36
+        name: "Font A"
+      1:
+        columns: 54
+        name: "Font B"
+
+    media:
+      width:
+        mm: 54
+        pixels: 432
+
+    name: "RP-F10"
+
+    notes: "Seiko RP-F10 series with 58mm paper\n"
+
+    vendor: "Seiko"
+
+  RP-F10-80mm:
+
+    codePages:
+      0: "CP437"
+      1: "KATAKANA"
+      13: "CP857"
+      14: "CP737"
+      16: "CP1252"
+      17: "CP866"
+      18: "CP852"
+      19: "CP858"
+      2: "CP850"
+      255: "Unknown"
+      3: "CP860"
+      34: "CP855"
+      37: "CP864"
+      4: "CP863"
+      45: "CP1250"
+      46: "CP1251"
+      47: "CP1253"
+      48: "CP1254"
+      5: "CP865"
+
+    colors:
+      0: "black"
+
+    features:
+      barcodeA: yes
+      barcodeB: yes
+      bitImageColumn: yes
+      bitImageRaster: yes
+      graphics: yes
+      highDensity: yes
+      paperFullCut: yes
+      paperPartCut: yes
+      pdf417Code: yes
+      pulseBel: no
+      pulseStandard: yes
+      qrCode: yes
+      starCommands: no
+
+    fonts:
+      0:
+        columns: 48
+        name: "Font A"
+      1:
+        columns: 72
+        name: "Font B"
+
+    media:
+      width:
+        mm: 72
+        pixels: 576
+
+    name: "RP-F10"
+
+    notes: "Seiko RP-F10 series with 80mm paper\n"
+
+    vendor: "Seiko"
+
   RP326:
 
     codePages:
