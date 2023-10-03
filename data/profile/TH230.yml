@@ -1,4 +1,6 @@
 ---
+# More info on this printer is posted at
+# https://www.dieboldnixdorf.com/-/media/diebold/ag-downloads/poslotterysystems/manuals/peripherals/thxxx/th230_mf_operating_manual_english.pdf
 TH230:
   name: TH230
   vendor: Wincor Nixdorf
@@ -31,6 +33,8 @@ TH230:
     width:
       mm: 72
       pixels: 576
+    # @page 33
+    dpi: 203
   codePages:
     0: CP437
     1: CP850

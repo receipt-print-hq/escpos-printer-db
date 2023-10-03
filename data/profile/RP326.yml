@@ -1,4 +1,6 @@
 ---
+# More info on this printer is posted at
+# https://www.rongtatech.com/rp326-80mm-thermal-printer-for-receipt-printting_p68.html
 RP326:
   name: RP326
   vendor: Rongta
@@ -6,6 +8,8 @@ RP326:
   notes: ""
   features:
     graphics: false
+  media:
+    dpi: 203
   codePages:
     0: CP437
     # Katakana

@@ -1,4 +1,6 @@
 ---
+# More info on this printer is posted at
+# http://www.cnfujun.com/en/init.php/product/index?id=23
 ZJ-5870:
   name: ZJ-5870 Thermal Receipt Printer
   vendor: ZiJiang
@@ -34,6 +36,7 @@ ZJ-5870:
     width:
       mm: 48
       pixels: 384
+    dpi: 203
   codePages:
     0: CP437
     1: CP932

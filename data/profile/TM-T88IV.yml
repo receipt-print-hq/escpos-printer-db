@@ -1,4 +1,6 @@
 ---
+# More info on this printer is posted at
+# https://files.support.epson.com/pdf/pos/bulk/tm-t88iv_eng_trg_revc_02.pdf
 TM-T88IV:
   name: TM-T88IV
   vendor: "Epson"
@@ -9,6 +11,8 @@ TM-T88IV:
     width:
       mm: 80
       pixels: 512
+    # @page 24
+    dpi: 180
   fonts:
     0:
       name: Font A

@@ -1,9 +1,12 @@
 ---
 # More info on this printer is posted at
 # https://github.com/mike42/escpos-php/issues/6
+# https://www.dreamits.net/product/e-pos-thermal-printer-tep-220mc/
 TEP-200M:
   name: TEP200M Series
   vendor: EPOS
   notes: ""
   inherits: default
+  media:
+    dpi: 203
 ...

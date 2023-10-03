@@ -1,4 +1,6 @@
 ---
+# More info on this printer is posted at
+# https://download.epson-biz.com/modules/pos/index.php?page=single_doc&cid=1352&pcat=3&pid=21&ml_lang=de
 TM-T88III:
   name: TM-T88III
   vendor: "Epson"
@@ -11,6 +13,8 @@ TM-T88III:
     width:
       mm: 80
       pixels: 512
+    # @page 55
+    dpi: 180
   fonts:
     0:
       name: Font A

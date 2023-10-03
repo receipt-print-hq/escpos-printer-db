@@ -16,4 +16,5 @@ RP-F10-58mm:
     width:
       mm: 54
       pixels: 432
+    dpi: 203
 ...

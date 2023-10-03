@@ -1,4 +1,6 @@
 ---
+# More info on this printer is posted at
+# https://www.citizen-systems.com/resource/support/POS/CT-S651/Official_Docs/CT-S651II_Manual_ENG.pdf
 CT-S651:
   name: CT-S651
   vendor: "Citizen"
@@ -37,6 +39,8 @@ CT-S651:
     width:
       mm: 80
       pixels: 640
+    # @page 14
+    dpi: 203
   codePages:
     0: CP437
     1: CP932

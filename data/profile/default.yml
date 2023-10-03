@@ -33,6 +33,7 @@ default:
     width:
       mm: Unknown
       pixels: Unknown
+    dpi: Unknown
   codePages:
     0: CP437
     1: CP932

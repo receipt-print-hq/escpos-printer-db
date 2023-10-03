@@ -1,4 +1,6 @@
 ---
+# More info on this printer is posted at
+# https://www.manualslib.com/manual/165071/Star-Micronics-Sp2000.html?page=154#manual
 SP2000:
   name: SP2000 Series
   vendor: Star Micronics
@@ -6,6 +8,8 @@ SP2000:
   notes: Star SP2000 impact printer series with ESC/POS emulation enabled
   features:
     starCommands: true
+  media:
+    dpi: 85
   codePages:
     # "Normal"
     0: CP437

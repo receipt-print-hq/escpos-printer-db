@@ -1,4 +1,6 @@
 ---
+# More info on this printer is posted at
+# https://drv.oemdrivers.com/printer-pos-58-usb-drivers/58MM-user-manual.pdf
 POS-5890:
   name: POS5890 Series
   vendor: Zjiang
@@ -14,6 +16,8 @@ POS-5890:
     width:
       mm: 57.5
       pixels: 384
+    # @page 11
+    dpi: 203
   notes: >
       POS-5890 thermal printer series, also marketed under various other names.
   codePages:
