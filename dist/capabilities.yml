@@ -3815,6 +3815,60 @@ profiles:
 
     vendor: "Star Micronics"
 
+  safe:
+
+    codePages:
+      0: "CP437"
+      1: "CP932"
+      16: "CP1252"
+      17: "CP866"
+      18: "CP852"
+      19: "CP858"
+      2: "CP850"
+      255: "Unknown"
+      3: "CP860"
+      4: "CP863"
+      5: "CP865"
+
+    colors:
+      0: "black"
+
+    features:
+      barcodeA: yes
+      barcodeB: yes
+      bitImageColumn: yes
+      bitImageRaster: yes
+      graphics: yes
+      highDensity: yes
+      paperFullCut: yes
+      paperPartCut: yes
+      pdf417Code: yes
+      pulseBel: no
+      pulseStandard: yes
+      qrCode: yes
+      starCommands: no
+
+    fonts:
+      0:
+        columns: 42
+        name: "Font A"
+      1:
+        columns: 56
+        name: "Font B"
+
+    media:
+      width:
+        mm: "Unknown"
+        pixels: "Unknown"
+
+    name: "Safe"
+
+    notes: "Default \"safe\" ESC/POS profile, suitable for standards-compliant or Epson-branded printers.\
+      \ This profile is similar to the \"generic\" profile, but has a lot less codepages to avoid encoding\
+      \ errors.\n"
+
+    vendor: "Generic"
+
   simple:
     codePages:
       0: "CP437"

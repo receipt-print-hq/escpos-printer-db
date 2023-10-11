@@ -2965,6 +2965,58 @@
             "notes": "Star mcPrint2/mcPrint3 printers. Technical documentation is in the \"StarPRNT Command specifications Rev. 2.40\" document, which can be found online.\n",
             "vendor": "Star Micronics"
         },
+        "safe": {
+            "codePages": {
+                "0": "CP437",
+                "1": "CP932",
+                "2": "CP850",
+                "3": "CP860",
+                "4": "CP863",
+                "5": "CP865",
+                "16": "CP1252",
+                "17": "CP866",
+                "18": "CP852",
+                "19": "CP858",
+                "255": "Unknown"
+            },
+            "colors": {
+                "0": "black"
+            },
+            "features": {
+                "barcodeA": true,
+                "barcodeB": true,
+                "bitImageColumn": true,
+                "bitImageRaster": true,
+                "graphics": true,
+                "highDensity": true,
+                "paperFullCut": true,
+                "paperPartCut": true,
+                "pdf417Code": true,
+                "pulseBel": false,
+                "pulseStandard": true,
+                "qrCode": true,
+                "starCommands": false
+            },
+            "fonts": {
+                "0": {
+                    "columns": 42,
+                    "name": "Font A"
+                },
+                "1": {
+                    "columns": 56,
+                    "name": "Font B"
+                }
+            },
+            "media": {
+                "width": {
+                    "mm": "Unknown",
+                    "pixels": "Unknown"
+                }
+            },
+            "name": "Safe",
+            "notes": "Default \"safe\" ESC/POS profile, suitable for standards-compliant or Epson-branded printers. This profile is similar to the \"generic\" profile, but has a lot less codepages to avoid encoding errors.\n",
+            "vendor": "Generic"
+        },
         "simple": {
             "codePages": {
                 "0": "CP437"
