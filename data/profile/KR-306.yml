@@ -31,7 +31,6 @@ KR-306:
     width:
       mm: 72
       pixels: 576
-    dpi: 203
   codePages:
     0: CP437
     # Katakana

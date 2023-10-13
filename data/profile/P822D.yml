@@ -12,7 +12,6 @@ P822D:
     width:
       mm: 79.5
       pixels: 576
-    dpi: 180
   codePages:
     0: CP437
     # Katakana

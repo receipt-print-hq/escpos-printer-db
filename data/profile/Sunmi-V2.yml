@@ -28,7 +28,6 @@ Sunmi-V2:
     width:
       mm: 57.5
       pixels: 384
-    dpi: 170
   codePages:
     0: CP437
     2: CP850
