@@ -1,4 +1,6 @@
 ---
+# More info on this printer is posted at
+# https://www.epson-biz.com/modules/pos/index.php?page=single_doc&cid=6420&pcat=3&pid=27
 TM-L90:
   name: TM-L90
   vendor: "Epson"
@@ -11,6 +13,8 @@ TM-L90:
     width:
       mm: 80
       pixels: 576
+    # @page 128
+    dpi: 203
   fonts:
     0:
       name: Font A

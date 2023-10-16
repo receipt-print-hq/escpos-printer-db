@@ -1,4 +1,6 @@
 ---
+# More info on this printer is posted at
+# https://files.support.epson.com/pdf/pos/bulk/tm-t20ii_trg_en_revd.pdf
 TM-T20II:
   name: TM-T20II
   vendor: Epson
@@ -8,6 +10,8 @@ TM-T20II:
     width:
       mm: 72
       pixels: 576
+    # @page 22
+    dpi: 203
   fonts:
     0:
       name: Font A

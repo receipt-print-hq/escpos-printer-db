@@ -1,4 +1,6 @@
 ---
+# More info on this printer is posted at
+# https://www.manualslib.com/manual/1051268/Metapace-T-1.html?page=20#manual
 T-1:
   name: T-1
   vendor: Metapace
@@ -8,6 +10,7 @@ T-1:
     width:
       mm: 80
       pixels: 504
+    dpi: 180
   codePages:
     0: CP437
     # Katakana

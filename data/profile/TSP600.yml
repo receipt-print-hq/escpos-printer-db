@@ -1,7 +1,15 @@
 ---
+# More info on this printer is posted at
+# https://www.manualslib.es/manual/496700/Star-Tsp600-Serie.html?page=12
 TSP600:
   name: TSP600 Series
   vendor: Star Micronics
   inherits: SP2000
   notes: Star TSP600 thermal printer series with ESC/POS emulation enabled
+  media:
+    width:
+      mm: 72
+      pixels: 576
+    # @page 12
+    dpi: 203
 ...

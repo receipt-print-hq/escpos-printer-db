@@ -1,4 +1,6 @@
 ---
+# More info on this printer is posted at
+# https://www.sii-ps.com/rpf10/RPF_UG_EN_04.pdf
 RP-F10-80mm:
   name: RP-F10
   vendor: Seiko
@@ -31,6 +33,8 @@ RP-F10-80mm:
     width:
       mm: 72
       pixels: 576
+    # @page 51
+    dpi: 203
   codePages:
     0: CP437
     1: KATAKANA

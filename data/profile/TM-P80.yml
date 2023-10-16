@@ -1,4 +1,6 @@
 ---
+# More info on this printer is posted at
+# https://files.support.epson.com/pdf/pos/bulk/tm-p80_trg_en_revc.pdf
 TM-P80:
   name: TM-P80
   vendor: Epson
@@ -18,4 +20,6 @@ TM-P80:
     width:
       mm: 72
       pixels: 576
+    # @page 91
+    dpi: 203
 ...

@@ -1,4 +1,6 @@
 ---
+# More info on this printer is posted at
+# https://files.support.epson.com/pdf/pos/bulk/tm-u220_trg_en_std_reve.pdf
 TM-U220:
   name: TM-U220
   vendor: Epson
@@ -13,6 +15,7 @@ TM-U220:
     1: alternate
   media:
     width:
-      mm: 80
-      pixels: Unknown
+      # @page 20
+      mm: 63.4
+      pixels: 400
 ...

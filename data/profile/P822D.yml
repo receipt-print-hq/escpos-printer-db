@@ -1,4 +1,6 @@
 ---
+# More info on this printer is posted at
+# http://www.pbmpos.com/goods/911283
 P822D:
   name: P822D
   vendor: PBM
@@ -6,6 +8,10 @@ P822D:
   notes: ""
   features:
     graphics: false
+  media:
+    width:
+      mm: 79.5
+      pixels: 576
   codePages:
     0: CP437
     # Katakana

@@ -1,4 +1,6 @@
 ---
+# More info on this printer is posted at
+# https://download.epson-biz.com/modules/pos/index.php?page=single_doc&cid=1352&pcat=3&pid=21&ml_lang=de
 TM-T88II:
   name: TM-T88II
   vendor: "Epson"
@@ -22,6 +24,8 @@ TM-T88II:
     width:
       mm: 72
       pixels: 512
+    # @page 55
+    dpi: 180
   codePages:
     0: CP437
     1: CP932
