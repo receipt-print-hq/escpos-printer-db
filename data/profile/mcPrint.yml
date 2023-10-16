@@ -48,8 +48,9 @@ mcPrint:
     19: CP772
     # Lithuanian
     20: CP774
-    # Thai
-    21: CP874
+    # Thai (disabled because Euro sign is missing)
+    # 21: CP874
+    21: Unknown
     # Windows Latin-1
     32: CP1252
     # Windows Latin-2
