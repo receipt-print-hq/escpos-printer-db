@@ -4,6 +4,7 @@ KR-306:
   vendor: Kefar
   notes: >
     Kefar KR-306 printer with 200mm/s speed
+  inherits: default
   features:
     barcodeA: true
     barcodeB: true

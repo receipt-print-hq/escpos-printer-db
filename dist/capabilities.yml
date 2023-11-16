@@ -1519,6 +1519,7 @@ profiles:
         name: "Font B"
 
     media:
+      dpi: 203
       width:
         mm: 54
         pixels: 432
@@ -1710,6 +1711,9 @@ profiles:
 
     media:
       dpi: 203
+      width:
+        mm: "Unknown"
+        pixels: "Unknown"
 
     name: "RP326"
 
@@ -1847,6 +1851,9 @@ profiles:
 
     media:
       dpi: 85
+      width:
+        mm: "Unknown"
+        pixels: "Unknown"
 
     name: "SP2000 Series"
 
@@ -2112,6 +2119,9 @@ profiles:
 
     media:
       dpi: 203
+      width:
+        mm: "Unknown"
+        pixels: "Unknown"
 
     name: "TEP200M Series"
 
