@@ -82,6 +82,14 @@ def substitute_profile(profile_name, profiles_raw, encodings_raw):
         for d in values[::-1]
         for k, v in (d["features"].items() if "features" in d else [])
     )
+    # copy mandatory 'width' node from inheritance if not available
+    if "media" in profile and "width" not in profile["media"]:
+        profile["media"] = dict(
+            (k, v)
+            for d in values[::-1]
+            for k, v in (d["media"].items() if "media" in d else [])
+        )
+
     if "inherits" in profile:
         del profile["inherits"]
 

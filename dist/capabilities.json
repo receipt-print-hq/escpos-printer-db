@@ -1178,6 +1178,7 @@
                 }
             },
             "media": {
+                "dpi": 203,
                 "width": {
                     "mm": 54,
                     "pixels": 432
@@ -1324,7 +1325,11 @@
                 }
             },
             "media": {
-                "dpi": 203
+                "dpi": 203,
+                "width": {
+                    "mm": "Unknown",
+                    "pixels": "Unknown"
+                }
             },
             "name": "RP326",
             "notes": "",
@@ -1411,7 +1416,11 @@
                 }
             },
             "media": {
-                "dpi": 85
+                "dpi": 85,
+                "width": {
+                    "mm": "Unknown",
+                    "pixels": "Unknown"
+                }
             },
             "name": "SP2000 Series",
             "notes": "Star SP2000 impact printer series with ESC/POS emulation enabled",
@@ -1620,7 +1629,11 @@
                 }
             },
             "media": {
-                "dpi": 203
+                "dpi": 203,
+                "width": {
+                    "mm": "Unknown",
+                    "pixels": "Unknown"
+                }
             },
             "name": "TEP200M Series",
             "notes": "",

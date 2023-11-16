@@ -13,6 +13,7 @@ RP-F10-58mm:
       name: Font B
       columns: 54
   media:
+    dpi: 203
     width:
       mm: 54
       pixels: 432
