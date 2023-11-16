@@ -6,6 +6,7 @@ RP-F10-80mm:
   vendor: Seiko
   notes: >
       Seiko RP-F10 series with 80mm paper
+  inherits: default
   features:
     barcodeA: true
     barcodeB: true

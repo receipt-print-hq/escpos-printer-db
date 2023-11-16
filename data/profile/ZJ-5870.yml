@@ -12,6 +12,7 @@ ZJ-5870:
       but is untested on Chinese character mode.
       (Change modes by holding down feed button during power-on
       until the mode LED turns off, then release immediately.)
+  inherits: default
   features:
     barcodeA: false
     barcodeB: false
