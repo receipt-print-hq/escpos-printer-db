@@ -1,0 +1,14 @@
+---
+# More info on this printer is posted at
+# https://files.support.epson.com/pdf/pos/bulk/tm-u220_trg_en_std_reve.pdf
+TM-U220B:
+  name: TM-U220B
+  vendor: Epson
+  inherits: TM-U220
+  notes: Two-color impact printer with 76mm output
+  features:
+    bitImageRaster: false
+    bitImageColumn: true
+    highDensity: false
+    paperPartCut: true
+...
