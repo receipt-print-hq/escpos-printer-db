@@ -2620,6 +2620,49 @@
             "notes": "Two-color impact printer with 80mm output",
             "vendor": "Epson"
         },
+        "TM-U220B": {
+            "codePages": {
+                "0": "CP437"
+            },
+            "colors": {
+                "0": "black",
+                "1": "alternate"
+            },
+            "features": {
+                "barcodeA": false,
+                "barcodeB": false,
+                "bitImageColumn": true,
+                "bitImageRaster": false,
+                "graphics": false,
+                "highDensity": false,
+                "paperFullCut": false,
+                "paperPartCut": true,
+                "pdf417Code": false,
+                "pulseBel": false,
+                "pulseStandard": true,
+                "qrCode": false,
+                "starCommands": false
+            },
+            "fonts": {
+                "0": {
+                    "columns": 42,
+                    "name": "Font A"
+                },
+                "1": {
+                    "columns": 56,
+                    "name": "Font B"
+                }
+            },
+            "media": {
+                "width": {
+                    "mm": 63.4,
+                    "pixels": 400
+                }
+            },
+            "name": "TM-U220B",
+            "notes": "Two-color impact printer with 76mm output",
+            "vendor": "Epson"
+        },
         "TSP600": {
             "codePages": {
                 "0": "CP437",
