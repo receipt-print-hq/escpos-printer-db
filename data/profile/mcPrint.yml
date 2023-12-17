@@ -1,5 +1,5 @@
 ---
-mcPrint:
+MCPRINT:
   name: Star mcPrint2/mcPrint3
   vendor: "Star Micronics"
   inherits: default
