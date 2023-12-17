@@ -3131,6 +3131,7 @@
                 }
             },
             "media": {
+                "dpi": "Unknown",
                 "width": {
                     "mm": "Unknown",
                     "pixels": "Unknown"
