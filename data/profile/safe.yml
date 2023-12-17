@@ -1,0 +1,48 @@
+---
+safe:
+  name: Safe
+  vendor: Generic
+  notes: >
+      Default "safe" ESC/POS profile, suitable for standards-compliant or
+      Epson-branded printers. This profile is similar to the "generic" profile,
+      but has a lot less codepages to avoid encoding errors.
+  features:
+    barcodeA: true
+    barcodeB: true
+    bitImageRaster: true
+    bitImageColumn: true
+    graphics: true
+    starCommands: false
+    qrCode: true
+    pdf417Code: true
+    highDensity: true
+    pulseStandard: true
+    pulseBel: false
+    paperFullCut: true
+    paperPartCut: true
+  colors:
+    0: black
+  fonts:
+    0:
+      name: Font A
+      columns: 42
+    1:
+      name: Font B
+      columns: 56
+  media:
+    width:
+      mm: Unknown
+      pixels: Unknown
+  codePages:
+    0: CP437
+    1: CP932
+    2: CP850
+    3: CP860
+    4: CP863
+    5: CP865
+    16: CP1252
+    17: CP866
+    18: CP852
+    19: CP858
+    255: Unknown
+...
