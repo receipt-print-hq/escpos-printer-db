@@ -3165,6 +3165,7 @@ profiles:
       3: "CP860"
       4: "CP863"
       5: "CP865"
+      6: "CP1251"
 
     colors:
       0: "black"
