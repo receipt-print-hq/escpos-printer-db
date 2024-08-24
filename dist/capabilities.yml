@@ -3156,7 +3156,6 @@ profiles:
     codePages:
       0: "CP437"
       1: "CP932"
-      6: "CP1251"
       16: "CP1252"
       17: "CP866"
       18: "CP862"
@@ -3166,6 +3165,7 @@ profiles:
       3: "CP860"
       4: "CP863"
       5: "CP865"
+      6: "CP1251"
 
     colors:
       0: "black"
