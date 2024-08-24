@@ -40,7 +40,7 @@ ITPP047:
     # Iran
     10: Unknown
     # docs claim this to be CP1252, but it isn't
-    #16: CP1252
+    # 16: CP1252
     16: Unknown
     17: CP866
     18: CP852
