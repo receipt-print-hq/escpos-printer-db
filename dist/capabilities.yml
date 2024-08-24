@@ -450,6 +450,69 @@ profiles:
 
     vendor: "Citizen"
 
+  ITPP047:
+
+    codePages:
+      0: "CP437"
+      1: "CP932"
+      10: "Unknown"
+      16: "Unknown"
+      17: "CP866"
+      18: "CP852"
+      19: "CP858"
+      2: "CP850"
+      20: "Unknown"
+      21: "Unknown"
+      3: "CP860"
+      4: "CP863"
+      5: "CP865"
+      6: "CP1252"
+      7: "Unknown"
+      8: "Unknown"
+      9: "Unknown"
+
+    colors:
+      0: "black"
+
+    features:
+      barcodeA: yes
+      barcodeB: yes
+      bitImageColumn: yes
+      bitImageRaster: yes
+      graphics: yes
+      highDensity: yes
+      paperFullCut: yes
+      paperPartCut: yes
+      pdf417Code: yes
+      pulseBel: no
+      pulseStandard: yes
+      qrCode: yes
+      starCommands: no
+
+    fonts:
+      0:
+        columns: 42
+        name: "Font A"
+      1:
+        columns: 56
+        name: "Font B"
+
+    media:
+      width:
+        mm: 80
+        pixels: 512
+
+    name: "ITPP047"
+
+    notes: "Munbyn ITPP047/ITPP102 receipt printer with cutter.\nThis printer has\
+      \ all the standard features, but a somewhat reduced codepage set. This profile\
+      \ might work for other china printers (Meihengtong, ...), too.\nFor technical\
+      \ information, go to support.munbyn.com, look for \"Printer - Drivers / SDK\"\
+      , then download the \"ITPP047 SDK\", which contains the \"ITPP047 Program Manual\"\
+      .\n"
+
+    vendor: "Munbyn"
+
   KR-306:
 
     codePages:
@@ -3945,6 +4008,195 @@ profiles:
     notes: "Default ESC/POS profile, suitable for standards-compliant or Epson-branded\
       \ printers. This profile allows the use of standard ESC/POS features, and can\
       \ encode a variety of code pages.\n"
+
+    vendor: "Generic"
+
+  mcPrint:
+
+    codePages:
+
+      0: "Unknown"
+
+      1: "CP437"
+
+      10: "CP866"
+
+      102: "Unknown"
+
+      11: "CP855"
+
+      12: "CP857"
+
+      13: "CP862"
+
+      14: "CP864"
+
+      15: "CP737"
+
+      16: "CP851"
+
+      17: "CP869"
+
+      18: "CP928"
+
+      19: "CP772"
+
+      2: "CP932"
+
+      20: "CP774"
+
+      21: "Unknown"
+
+      255: "Unknown"
+
+      3: "CP437"
+
+      32: "CP1252"
+
+      33: "CP1250"
+
+      34: "CP1251"
+
+      4: "CP858"
+
+      5: "CP852"
+
+      6: "CP860"
+
+      64: "CP3840"
+
+      65: "CP3841"
+
+      66: "CP3843"
+
+      67: "CP3844"
+
+      68: "CP3845"
+
+      69: "CP3846"
+
+      7: "CP861"
+
+      70: "CP3847"
+
+      71: "CP3848"
+
+      72: "CP1001"
+
+      73: "CP2001"
+
+      74: "CP3001"
+
+      75: "CP3002"
+
+      76: "CP3011"
+
+      77: "CP3012"
+
+      78: "CP3021"
+
+      79: "CP3041"
+
+      8: "CP863"
+
+      9: "CP865"
+
+      96: "Unknown"
+
+      97: "Unknown"
+
+      98: "Unknown"
+
+    colors:
+      0: "black"
+
+    features:
+      barcodeA: yes
+      barcodeB: yes
+      bitImageColumn: yes
+      bitImageRaster: yes
+      graphics: yes
+      highDensity: yes
+      paperFullCut: yes
+      paperPartCut: yes
+      pdf417Code: yes
+      pulseBel: no
+      pulseStandard: yes
+      qrCode: yes
+      starCommands: yes
+
+    fonts:
+      0:
+        columns: 42
+        name: "Font A"
+      1:
+        columns: 56
+        name: "Font B"
+
+    media:
+      dpi: "Unknown"
+      width:
+        mm: "Unknown"
+        pixels: "Unknown"
+
+    name: "Star mcPrint2/mcPrint3"
+
+    notes: "Star mcPrint2/mcPrint3 printers. Technical documentation is in the \"\
+      StarPRNT Command specifications Rev. 2.40\" document, which can be found online.\n"
+
+    vendor: "Star Micronics"
+
+  safe:
+
+    codePages:
+      0: "CP437"
+      1: "CP932"
+      16: "CP1252"
+      17: "CP866"
+      18: "CP852"
+      19: "CP858"
+      2: "CP850"
+      255: "Unknown"
+      3: "CP860"
+      4: "CP863"
+      5: "CP865"
+
+    colors:
+      0: "black"
+
+    features:
+      barcodeA: yes
+      barcodeB: yes
+      bitImageColumn: yes
+      bitImageRaster: yes
+      graphics: yes
+      highDensity: yes
+      paperFullCut: yes
+      paperPartCut: yes
+      pdf417Code: yes
+      pulseBel: no
+      pulseStandard: yes
+      qrCode: yes
+      starCommands: no
+
+    fonts:
+      0:
+        columns: 42
+        name: "Font A"
+      1:
+        columns: 56
+        name: "Font B"
+
+    media:
+      width:
+        mm: "Unknown"
+        pixels: "Unknown"
+
+    name: "Safe"
+
+    notes: "Default \"safe\" ESC/POS profile, suitable for standards-compliant or\
+      \ Epson-branded printers. This profile is similar to the \"generic\" profile,\
+      \ but has a lot less codepages to avoid encoding errors.\n"
 
     vendor: "Generic"
 
