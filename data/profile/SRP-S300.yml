@@ -1,0 +1,65 @@
+---
+# More info on this printer is posted at
+# https://www.bixolon.com/_upload/manual/Manual_User_SRP-S320_ENG_V2.00.pdf
+# https://www.bixolon.com/_upload/manual/Manual_Command_Thermal_POS_Printer_ENG_V1.00[11].pdf
+SRP-S300:
+  name: SRP-S300
+  vendor: Bixolon
+  inherits: default
+  notes: Bixolon SRP-S300 profile
+  media:
+    width:
+      mm: 80
+      pixels: 640
+    # @page 41
+    dpi: 203
+  fonts:
+    0:
+      name: Font A
+      columns: 48
+    1:
+      name: Font B
+      columns: 64
+    2:
+      name: Font C
+      columns: 64
+  codePages:
+    0: CP437
+    1: CP932
+    2: CP850
+    3: CP860
+    4: CP863
+    5: CP865
+    16: CP1252
+    17: CP866
+    18: CP852
+    19: CP858
+    # Thai Character Code 11
+    21: CP874
+    # Thai Character Code 13
+    22: Unknown
+    # Thai Character Code 14
+    23: Unknown
+    # Thai Character Code 16
+    24: Unknown
+    # Thai Character Code 17
+    25: Unknown
+    # Thai Character Code 18
+    26: Unknown
+    30: TCVN-3-1
+    31: TCVN-3-2
+    33: CP775
+    34: CP855
+    35: CP861
+    36: CP862
+    37: CP864
+    38: CP869
+    39: ISO_8859-2
+    40: ISO_8859-15
+    41: CP1098
+    42: CP774
+    47: CP1253
+    49: CP1255
+    50: CP1256
+    255: Unknown
+...
