@@ -1426,6 +1426,84 @@
             "notes": "Star SP2000 impact printer series with ESC/POS emulation enabled",
             "vendor": "Star Micronics"
         },
+        "SRP-S300": {
+            "codePages": {
+                "0": "CP437",
+                "1": "CP932",
+                "2": "CP850",
+                "3": "CP860",
+                "4": "CP863",
+                "5": "CP865",
+                "16": "CP1252",
+                "17": "CP866",
+                "18": "CP852",
+                "19": "CP858",
+                "21": "CP874",
+                "22": "Unknown",
+                "23": "Unknown",
+                "24": "Unknown",
+                "25": "Unknown",
+                "26": "Unknown",
+                "30": "TCVN-3-1",
+                "31": "TCVN-3-2",
+                "33": "CP775",
+                "34": "CP855",
+                "35": "CP861",
+                "36": "CP862",
+                "37": "CP864",
+                "38": "CP869",
+                "39": "ISO_8859-2",
+                "40": "ISO_8859-15",
+                "41": "CP1098",
+                "42": "CP774",
+                "47": "CP1253",
+                "49": "CP1255",
+                "50": "CP1256",
+                "255": "Unknown"
+            },
+            "colors": {
+                "0": "black"
+            },
+            "features": {
+                "barcodeA": true,
+                "barcodeB": true,
+                "bitImageColumn": true,
+                "bitImageRaster": true,
+                "graphics": true,
+                "highDensity": true,
+                "paperFullCut": true,
+                "paperPartCut": true,
+                "pdf417Code": true,
+                "pulseBel": false,
+                "pulseStandard": true,
+                "qrCode": true,
+                "starCommands": false
+            },
+            "fonts": {
+                "0": {
+                    "columns": 48,
+                    "name": "Font A"
+                },
+                "1": {
+                    "columns": 64,
+                    "name": "Font B"
+                },
+                "2": {
+                    "columns": 64,
+                    "name": "Font C"
+                }
+            },
+            "media": {
+                "dpi": 203,
+                "width": {
+                    "mm": 80,
+                    "pixels": 640
+                }
+            },
+            "name": "SRP-S300",
+            "notes": "Bixolon SRP-S300 profile",
+            "vendor": "Bixolon"
+        },
         "Sunmi-V2": {
             "codePages": {
                 "0": "CP437",
