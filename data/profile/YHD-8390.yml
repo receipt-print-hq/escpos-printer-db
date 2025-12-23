@@ -1,0 +1,73 @@
+---
+YHD-8390:
+  name: YHD-8390
+  vendor: YHDAA Shenzhen Yuhengda Technology Co., Ltd.
+  inherits: simple
+  notes: >
+    YHDAA YHD-8390 thermal printer profile
+
+    Codepage changing most likely work only
+    with the factory/vendor provided software.
+  features:
+    barcodeA: true # CODABAR, CODE39,                  EAN8, EAN13, ITF, UPC-A, UPC-E
+    barcodeB: true # CODABAR, CODE39, CODE93, CODE128, EAN8, EAN13, ITF, UPC-A, UPC-E
+    qrCode: true
+    pdf417Code: true
+    bitImageRaster: true
+    bitImageColumn: true
+    graphics: false
+    starCommands: false
+    highDensity: true
+    pulseStandard: true
+    pulseBel: false
+    paperFullCut: false
+    paperPartCut: true
+  colors:
+    0: black
+  fonts:
+    0:
+      name: Font A
+      columns: 48
+    1:
+      name: Font B
+      columns: 64
+  media:
+    width:
+      mm: 80
+      pixels: 640
+    dpi: 203
+  codePages:
+    0: CP437
+    1: KATAKANA
+    2: CP850
+    3: CP860
+    4: CP863
+    5: CP865
+    6: Unknown  # West Europe
+    7: Unknown  # Greek
+    8: Unknown  # Hebrew
+    9: Unknown  # East Europe
+    10: Unknown # Iran
+    11: CP1252
+    12: CP866
+    13: CP852
+    14: CP858
+    15: Unknown # Iran II
+    16: Unknown # Latvian
+    17: Unknown # Arabic
+    18: CP1251
+    19: Unknown # CP747
+    20: CP1257
+    21: Unknown # Vietnam
+    22: CP864
+    23: CP1001
+    24: CP857
+    25: CP862
+    26: Unknown # CP928
+    27: CP869
+    28: CP851
+    29: CP737
+    30: CP871
+    31: CP1256
+    32: CP1258
+...
