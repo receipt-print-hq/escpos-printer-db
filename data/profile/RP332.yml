@@ -1,0 +1,82 @@
+---
+RP332:
+  name: RP332
+  vendor: Rongta
+  inherits: default
+  notes: >
+      A low-cost ESC/POS thermal printer from Rongta with support for
+      80mm and 58mm paper (defaulting to 80mm). Supports USB, serial,
+      and Ethernet-based connections.
+  features:
+    bitImageRaster: true
+    bitImageColumn: true
+    graphics: false
+    qrCode: true
+    highDensity: false
+    paperFullCut: true
+    paperPartCut: false
+  colors:
+    0: black
+  fonts:
+    0:
+      name: Font A
+      columns: 42
+    1:
+      name: Font B
+      columns: 56
+    3:
+      name: Chinese
+      columns: 21
+  media:
+    width:
+      mm: 72
+      pixels: Unknown
+    dpi: 203
+  codePages:
+    0: CP437
+    1: Katakana
+    2: CP850
+    3: CP860
+    4: CP863
+    5: CP865
+    6: CP1251
+    7: CP866
+    # 8: MIK[Cyrillic/Bulgarian]
+    8: Unknown
+    15: CP862
+    16: CP1252
+    17: CP1253
+    18: CP852
+    19: CP858
+    # 20: Iran II
+    20: Unknown
+    # 21: Latvian
+    21: Unknown
+    22: CP864
+    23: ISO_8859-1
+    24: CP737
+    25: CP1257
+    # 26: Thai
+    26: Unknown
+    27: CP720
+    28: CP855
+    29: CP857
+    30: CP1250
+    31: CP775
+    32: CP1254
+    34: CP1256
+    35: CP1258
+    36: ISO_8859-2
+    37: ISO_8859-3
+    38: ISO_8859-4
+    39: ISO_8859-5
+    40: ISO_8859-6
+    41: ISO_8859-7
+    42: ISO_8859-8
+    43: ISO_8859-9
+    44: ISO_8859-15
+    # 45: Thai2
+    45: Unknown
+    46: CP856
+    47: CP874
+...
