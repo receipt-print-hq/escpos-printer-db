@@ -9,8 +9,8 @@ YHD-8390:
     Codepage changing most likely work only
     with the factory/vendor provided software.
   features:
-    barcodeA: true # CODABAR, CODE39,                  EAN8, EAN13, ITF, UPC-A, UPC-E
-    barcodeB: true # CODABAR, CODE39, CODE93, CODE128, EAN8, EAN13, ITF, UPC-A, UPC-E
+    barcodeA: true # CODABAR,CODE39,               EAN8,EAN13,ITF,UPC-A,UPC-E
+    barcodeB: true # CODABAR,CODE39,CODE93,CODE128,EAN8,EAN13,ITF,UPC-A,UPC-E
     qrCode: true
     pdf417Code: true
     bitImageRaster: true
