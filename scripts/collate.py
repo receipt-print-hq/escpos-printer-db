@@ -20,7 +20,7 @@ def load_encodings():
     Load in all the encodings from the encoding definition file
     """
     encoding_fn = os.path.dirname(__file__) + "/../data/encoding.yml"
-    encodings_raw = yaml.safe_load(open(encoding_fn).read())
+    encodings_raw = yaml.safe_load(open(encoding_fn, encoding="utf-8").read())
     return encodings_raw
 
 
@@ -34,7 +34,9 @@ def load_profiles():
         if not profile_fn[-3:] == "yml":
             continue
 
-        profile_dict = yaml.safe_load(open(profiles_dir + profile_fn).read())
+        profile_dict = yaml.safe_load(
+            open(profiles_dir + profile_fn, encoding="utf-8").read()
+        )
         # One item per file
         assert (
             len(profile_dict) == 1
