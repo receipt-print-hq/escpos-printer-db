@@ -1,0 +1,28 @@
+---
+# More info on this printer is posted at
+# https://support.epson.net/setupnavi/?PINF=bsmanual&OSC=WS&LG2=EN&MKN=TM-T70II
+TM-T70II-CH:
+  name: TM-T70II Chinese
+  vendor: "Epson"
+  notes: >
+      Epson TM-T70II Chinese models. This profile applies to both Traditional
+      Chinese and Simplified Chinese models. These models are 203dpi so they
+      print more columns per line than the ANK model. They also support the
+      same character fonts (ESC M) and code pages (ESC t) as the ANK model but
+      they each have different Kanji fonts (FS &) than the other. The
+      Traditional Chinese model uses Big5 for Kanji encoding and the
+      Simplified Chinese model uses GB18030-2022 Level 2.
+  inherits: TM-T70II
+  fonts:
+    0:
+      name: Font A # 12x24
+      columns: 48
+    1:
+      name: Font B # 9x17
+      columns: 64
+  media:
+    width:
+      mm: 79.5 # paper width +/- 0.5mm, printable width 72mm
+      pixels: 576
+    dpi: 203
+...
