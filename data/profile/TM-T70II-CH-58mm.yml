@@ -1,0 +1,24 @@
+---
+# More info on this printer is posted at
+# https://support.epson.net/setupnavi/?PINF=bsmanual&OSC=WS&LG2=EN&MKN=TM-T70II
+TM-T70II-CH-58mm:
+  name: TM-T70II Traditional Chinese
+  vendor: "Epson"
+  notes: >
+      Epson TM-T70II Traditional Chinese model with 58mm paper. Only the
+      Traditional Chinese model supports both 58mm and 80mm paper, other models
+      support only 80mm paper.
+  inherits: TM-T70II-CH
+  fonts:
+    0:
+      name: Font A # 12x24
+      columns: 34
+    1:
+      name: Font B # 9x17
+      columns: 46
+  media:
+    width:
+      mm: 57.5 # paper width +/- 0.5mm, printable width 52mm
+      pixels: 416
+    dpi: 203
+...

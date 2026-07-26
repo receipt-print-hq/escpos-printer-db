@@ -1,0 +1,15 @@
+---
+# More info on this printer is posted at
+# https://www.starmicronics.com/support/Mannualfolder/tsp800ii_hm_en.pdf
+TSP800:
+  name: TSP800 Series
+  vendor: Star Micronics
+  inherits: SP2000
+  notes: Star TSP800 thermal printer series with ESC/POS emulation enabled
+  media:
+    width:
+      mm: 104
+      pixels: 833
+    # @page 12
+    dpi: 203
+...
