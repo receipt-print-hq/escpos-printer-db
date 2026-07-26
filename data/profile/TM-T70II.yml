@@ -1,0 +1,57 @@
+---
+# More info on this printer is posted at
+# https://support.epson.net/setupnavi/?PINF=bsmanual&OSC=WS&LG2=EN&MKN=TM-T70II
+TM-T70II:
+  name: TM-T70II
+  vendor: "Epson"
+  notes: >
+      Epson TM-T70II ANK (alphanumeric) model. The TM-T70II supports different
+      code pages (ESC t) than the original TM-T70. This model does not support
+      Kanji fonts (FS &).
+  inherits: TM-T70
+  codePages:
+  # https://download4.epson.biz/sec_pubs/pos/reference_en/charcode/supported_codepage.html
+    0: CP437        # USA, Standard Europe
+    1: CP932        # Katakana
+    2: CP850        # Multilingual
+    3: CP860        # Portuguese
+    4: CP863        # Canadian-French
+    5: CP865        # Nordic
+    11: CP851       # Greek
+    12: CP853       # Turkish
+    13: CP857       # Turkish
+    14: CP737       # Greek
+    15: ISO_8859-7  # Greek
+    16: CP1252      # Windows 1252
+    17: CP866       # Cyrillic #2
+    18: CP852       # Latin 2
+    19: CP858       # Euro
+    20: Unknown     # Thai Character Code 42
+    21: CP874       # Thai Character Code 11
+    26: Unknown     # Thai Character Code 18
+    30: TCVN-3-1    # Vietnamese
+    31: TCVN-3-2    # Vietnamese
+    32: CP720       # Arabic
+    33: CP775       # Baltic Rim
+    34: CP855       # Cyrillic
+    35: CP861       # Icelandic
+    36: CP862       # Hebrew
+    37: CP864       # Arabic
+    38: CP869       # Greek
+    39: ISO_8859-2  # Latin 2
+    40: ISO_8859-15 # Latin 9
+    41: CP1098      # Farsi
+    42: CP774       # Lithuanian
+    43: CP772       # Lithuanian
+    44: CP1125      # Ukranian
+    45: CP1250      # Latin 2
+    46: CP1251      # Cyrillic
+    47: CP1253      # Greek
+    48: CP1254      # Turkish
+    49: CP1255      # Hebrew
+    50: CP1256      # Arabic
+    51: CP1257      # Balitc Rim
+    52: CP1258      # Vietnamese
+    53: RK1048      # Kazakhstan
+    255: Unknown    # User-Defined Page
+...
