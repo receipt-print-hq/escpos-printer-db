@@ -1,0 +1,38 @@
+---
+# More info on this printer is posted at
+# https://support.epson.net/setupnavi/?PINF=bsmanual&OSC=WS&LG2=EN&MKN=TM-T70
+TM-T70-SA:
+  name: TM-T70 South Asia
+  vendor: "Epson"
+  notes: >
+      Epson TM-T70 South Asia model. This model is 203dpi so it prints more
+      columns per line than the ANK model. It also supports different
+      character fonts (ESC M) and code pages (ESC t) than the ANK model.
+  inherits: TM-T70
+  fonts:
+    0:
+      name: Font A # 12x24
+      columns: 48
+    1:
+      name: Font B # 9x17
+      columns: 64
+    97:
+      name: Special Font A # 12x24
+      columns: 48
+    98:
+      name: Special Font B # 9x24
+      columns: 64
+  media:
+    width:
+      mm: 79.5 # paper width +/- 0.5mm, printable width 72mm
+      pixels: 576
+    dpi: 203
+  codePages:
+  # https://download4.epson.biz/sec_pubs/pos/reference_en/charcode/supported_codepage.html
+    0: CP437        # USA, Standard Europe
+    20: Unknown     # Thai Character Code 42
+    21: CP874       # Thai Character Code 11
+    26: Unknown     # Thai Character Code 18
+    30: TCVN-3-1    # Vietnamese
+    31: TCVN-3-2    # Vietnamese
+...
