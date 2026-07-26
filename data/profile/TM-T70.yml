@@ -1,0 +1,50 @@
+---
+# More info on this printer is posted at
+# https://support.epson.net/setupnavi/?PINF=bsmanual&OSC=WS&LG2=EN&MKN=TM-T70
+TM-T70:
+  name: TM-T70
+  vendor: "Epson"
+  notes: >
+      Epson TM-T70 ANK (alphanumeric) model.
+  features:
+    barcodeA: true        # GS k Function A
+    barcodeB: true        # GS k Function B
+    bitImageRaster: true  # GS v 0
+    bitImageColumn: true  # ESC *
+    graphics: true        # GS ( L
+    starCommands: false   # Star Micronics commands
+    qrCode: true          # GS ( k _ _ 49
+    pdf417Code: true      # GS ( k _ _ 48
+    highDensity: true     # ESC * 24 dot mode
+    pulseStandard: true   # ESC p
+    pulseBel: false
+    paperFullCut: false
+    paperPartCut: true
+  colors:
+    0: black
+  fonts:
+    0:
+      name: Font A # 12x24
+      columns: 42
+    1:
+      name: Font B # 9x17
+      columns: 56
+  media:
+    width:
+      mm: 79.5 # paper width +/- 0.5mm, printable width 72.2mm
+      pixels: 512
+    dpi: 180
+  codePages:
+  # https://download4.epson.biz/sec_pubs/pos/reference_en/charcode/supported_codepage.html
+    0: CP437        # USA, Standard Europe
+    1: CP932        # Katakana
+    2: CP850        # Multilingual
+    3: CP860        # Portuguese
+    4: CP863        # Canadian-French
+    5: CP865        # Nordic
+    16: CP1252      # Windows 1252
+    17: CP866       # Cyrillic #2
+    18: CP852       # Latin2
+    19: CP858       # Euro
+    255: Unknown    # User-Defined Page
+...
