@@ -1,0 +1,71 @@
+---
+# https://download4.epson.biz/sec_pubs/bs/pdf/TM-m30III_trg_en_revE.pdf
+# Table with dimensions is on page 121
+TM-m30III:
+  name: TM-m30III
+  vendor: "Epson"
+  inherits: default
+  notes: >
+      Epson TM-m30III profile. Tested with a TM-m30III (112) (SKU C31CK50112),
+      which is the standard model, black, EU, without WiFi/Bluetooth support,
+      using 80mm paper.
+  fonts:
+    0:
+      name: Font A
+      columns: 48
+    1:
+      name: Font B
+      columns: 57
+    2:
+      name: Font C
+      columns: 64
+  media:
+    width:
+      mm: 80
+      pixels: 576
+    dpi: 203
+  codePages:
+    0: CP437
+    1: CP932
+    2: CP850
+    3: CP860
+    4: CP863
+    5: CP865
+    11: Unknown
+    12: Unknown
+    13: CP857
+    14: CP737
+    15: ISO_8859-7
+    16: CP1252
+    17: CP866
+    18: CP852
+    19: Unknown
+    20: Unknown
+    21: CP874
+    26: Unknown
+    30: TCVN-3-1
+    31: TCVN-3-2
+    32: Unknown
+    33: CP775
+    34: CP855
+    35: CP861
+    36: CP862
+    37: CP864
+    38: CP869
+    39: ISO_8859-2
+    40: ISO_8859-15
+    41: Unknown
+    42: CP774
+    43: CP772
+    44: CP1125
+    45: CP1250
+    46: CP1251
+    47: CP1253
+    48: CP1254
+    49: CP1255
+    50: CP1256
+    51: CP1257
+    52: CP1258
+    53: RK1048
+    255: Unknown
+...

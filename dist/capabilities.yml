@@ -3512,6 +3512,95 @@ profiles:
     notes: "Two-color impact printer with 76mm output"
     vendor: "Epson"
 
+  TM-m30III:
+
+    codePages:
+      0: "CP437"
+      1: "CP932"
+      11: "Unknown"
+      12: "Unknown"
+      13: "CP857"
+      14: "CP737"
+      15: "ISO_8859-7"
+      16: "CP1252"
+      17: "CP866"
+      18: "CP852"
+      19: "Unknown"
+      2: "CP850"
+      20: "Unknown"
+      21: "CP874"
+      255: "Unknown"
+      26: "Unknown"
+      3: "CP860"
+      30: "TCVN-3-1"
+      31: "TCVN-3-2"
+      32: "Unknown"
+      33: "CP775"
+      34: "CP855"
+      35: "CP861"
+      36: "CP862"
+      37: "CP864"
+      38: "CP869"
+      39: "ISO_8859-2"
+      4: "CP863"
+      40: "ISO_8859-15"
+      41: "Unknown"
+      42: "CP774"
+      43: "CP772"
+      44: "CP1125"
+      45: "CP1250"
+      46: "CP1251"
+      47: "CP1253"
+      48: "CP1254"
+      49: "CP1255"
+      5: "CP865"
+      50: "CP1256"
+      51: "CP1257"
+      52: "CP1258"
+      53: "RK1048"
+
+    colors:
+      0: "black"
+
+    features:
+      barcodeA: yes
+      barcodeB: yes
+      bitImageColumn: yes
+      bitImageRaster: yes
+      graphics: yes
+      highDensity: yes
+      paperFullCut: yes
+      paperPartCut: yes
+      pdf417Code: yes
+      pulseBel: no
+      pulseStandard: yes
+      qrCode: yes
+      starCommands: no
+
+    fonts:
+      0:
+        columns: 48
+        name: "Font A"
+      1:
+        columns: 57
+        name: "Font B"
+      2:
+        columns: 64
+        name: "Font C"
+
+    media:
+      dpi: 203
+      width:
+        mm: 80
+        pixels: 576
+
+    name: "TM-m30III"
+
+    notes: "Epson TM-m30III profile. Tested with a TM-m30III (112) (SKU C31CK50112), which is the standard\
+      \ model, black, EU, without WiFi/Bluetooth support, using 80mm paper.\n"
+
+    vendor: "Epson"
+
   TSP600:
 
     codePages:
