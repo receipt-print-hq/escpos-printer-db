@@ -9,8 +9,8 @@ YHD-8390:
     Codepage changing most likely work only
     with the factory/vendor provided software.
   features:
-    barcodeA: true # CODABAR,CODE39,               EAN8,EAN13,ITF,UPC-A,UPC-E
-    barcodeB: true # CODABAR,CODE39,CODE93,CODE128,EAN8,EAN13,ITF,UPC-A,UPC-E
+    barcodeA: true  # CODABAR,CODE39,               EAN8,EAN13,ITF,UPC-A,UPC-E
+    barcodeB: true  # CODABAR,CODE39,CODE93,CODE128,EAN8,EAN13,ITF,UPC-A,UPC-E
     qrCode: true
     pdf417Code: true
     bitImageRaster: true
@@ -43,27 +43,27 @@ YHD-8390:
     3: CP860
     4: CP863
     5: CP865
-    6: Unknown  # West Europe
-    7: Unknown  # Greek
-    8: Unknown  # Hebrew
-    9: Unknown  # East Europe
-    10: Unknown # Iran
+    6: Unknown   # West Europe
+    7: Unknown   # Greek
+    8: Unknown   # Hebrew
+    9: Unknown   # East Europe
+    10: Unknown  # Iran
     11: CP1252
     12: CP866
     13: CP852
     14: CP858
-    15: Unknown # Iran II
-    16: Unknown # Latvian
-    17: Unknown # Arabic
+    15: Unknown  # Iran II
+    16: Unknown  # Latvian
+    17: Unknown  # Arabic
     18: CP1251
-    19: Unknown # CP747
+    19: Unknown  # CP747
     20: CP1257
-    21: Unknown # Vietnam
+    21: Unknown  # Vietnam
     22: CP864
     23: CP1001
     24: CP857
     25: CP862
-    26: Unknown # CP928
+    26: Unknown  # CP928
     27: CP869
     28: CP851
     29: CP737
