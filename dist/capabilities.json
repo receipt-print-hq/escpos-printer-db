@@ -227,6 +227,10 @@
             "name": "CP869",
             "python_encode": "cp869"
         },
+        "CP871": {
+            "iconv": "CP871",
+            "name": "CP871"
+        },
         "CP874": {
             "iconv": "CP874",
             "name": "CP874",
@@ -1393,6 +1397,93 @@
             "notes": "",
             "vendor": "Rongta"
         },
+        "RP332": {
+            "codePages": {
+                "0": "CP437",
+                "1": "KATAKANA",
+                "2": "CP850",
+                "3": "CP860",
+                "4": "CP863",
+                "5": "CP865",
+                "6": "CP1251",
+                "7": "CP866",
+                "8": "Unknown",
+                "15": "CP862",
+                "16": "CP1252",
+                "17": "CP1253",
+                "18": "CP852",
+                "19": "CP858",
+                "20": "Unknown",
+                "21": "Unknown",
+                "22": "CP864",
+                "23": "ISO_8859-1",
+                "24": "CP737",
+                "25": "CP1257",
+                "26": "Unknown",
+                "27": "CP720",
+                "28": "CP855",
+                "29": "CP857",
+                "30": "CP1250",
+                "31": "CP775",
+                "32": "CP1254",
+                "34": "CP1256",
+                "35": "CP1258",
+                "36": "ISO_8859-2",
+                "37": "ISO_8859-3",
+                "38": "ISO_8859-4",
+                "39": "ISO_8859-5",
+                "40": "ISO_8859-6",
+                "41": "ISO_8859-7",
+                "42": "ISO_8859-8",
+                "43": "ISO_8859-9",
+                "44": "ISO_8859-15",
+                "45": "Unknown",
+                "46": "CP856",
+                "47": "CP874"
+            },
+            "colors": {
+                "0": "black"
+            },
+            "features": {
+                "barcodeA": true,
+                "barcodeB": true,
+                "bitImageColumn": true,
+                "bitImageRaster": true,
+                "graphics": false,
+                "highDensity": false,
+                "paperFullCut": true,
+                "paperPartCut": false,
+                "pdf417Code": true,
+                "pulseBel": false,
+                "pulseStandard": true,
+                "qrCode": true,
+                "starCommands": false
+            },
+            "fonts": {
+                "0": {
+                    "columns": 42,
+                    "name": "Font A"
+                },
+                "1": {
+                    "columns": 56,
+                    "name": "Font B"
+                },
+                "3": {
+                    "columns": 21,
+                    "name": "Chinese"
+                }
+            },
+            "media": {
+                "dpi": 203,
+                "width": {
+                    "mm": 72,
+                    "pixels": "Unknown"
+                }
+            },
+            "name": "RP332",
+            "notes": "A low-cost ESC/POS thermal printer from Rongta with support for 80mm and 58mm paper (defaulting to 80mm). Supports USB, serial, and Ethernet-based connections.\n",
+            "vendor": "Rongta"
+        },
         "SP2000": {
             "codePages": {
                 "0": "CP437",
@@ -1812,7 +1903,7 @@
                 "barcodeA": true,
                 "barcodeB": true,
                 "bitImageColumn": true,
-                "bitImageRaster": true,
+                "bitImageRaster": false,
                 "graphics": true,
                 "highDensity": true,
                 "paperFullCut": true,
@@ -1841,7 +1932,7 @@
                 }
             },
             "name": "TH230",
-            "notes": "Profile for TH230. Use bitImageColumn to print properly.\n",
+            "notes": null,
             "vendor": "Wincor Nixdorf"
         },
         "TH230Plus": {
@@ -1881,7 +1972,7 @@
                 "barcodeA": true,
                 "barcodeB": true,
                 "bitImageColumn": true,
-                "bitImageRaster": true,
+                "bitImageRaster": false,
                 "graphics": true,
                 "highDensity": true,
                 "paperFullCut": true,
@@ -1910,7 +2001,7 @@
                 }
             },
             "name": "TH230+",
-            "notes": "Profile for TH230+. Use bitImageColumn to print properly. TH230+ supports native qr codes and PDF417 codes\n",
+            "notes": "TH230+ supports native qr codes and PDF417 codes\n",
             "vendor": "Wincor Nixdorf"
         },
         "TM-L90": {
@@ -2374,6 +2465,541 @@
             },
             "name": "TM-T20II (42 column mode)",
             "notes": "Epson TM-T20II profile (42 column mode)",
+            "vendor": "Epson"
+        },
+        "TM-T20III": {
+            "codePages": {
+                "0": "CP437",
+                "1": "CP932",
+                "2": "CP850",
+                "3": "CP860",
+                "4": "CP863",
+                "5": "CP865",
+                "12": "CP853",
+                "13": "CP857",
+                "14": "CP737",
+                "15": "ISO_8859-7",
+                "16": "CP1252",
+                "17": "CP866",
+                "18": "CP852",
+                "19": "CP858",
+                "30": "TCVN-3-1",
+                "31": "TCVN-3-2",
+                "32": "CP720",
+                "33": "CP775",
+                "34": "CP855",
+                "35": "CP861",
+                "36": "CP862",
+                "37": "CP864",
+                "38": "CP869",
+                "39": "ISO_8859-2",
+                "40": "ISO_8859-15",
+                "41": "CP1098",
+                "44": "CP1125",
+                "45": "CP1250",
+                "46": "CP1251",
+                "47": "CP1253",
+                "48": "CP1254",
+                "49": "CP1255",
+                "50": "CP1256",
+                "51": "CP1257",
+                "52": "CP1258",
+                "53": "RK1048",
+                "255": "Unknown"
+            },
+            "colors": {
+                "0": "black"
+            },
+            "features": {
+                "barcodeA": true,
+                "barcodeB": true,
+                "bitImageColumn": true,
+                "bitImageRaster": true,
+                "graphics": true,
+                "highDensity": true,
+                "paperFullCut": true,
+                "paperPartCut": true,
+                "pdf417Code": true,
+                "pulseBel": false,
+                "pulseStandard": true,
+                "qrCode": true,
+                "starCommands": false
+            },
+            "fonts": {
+                "0": {
+                    "columns": 48,
+                    "name": "Font A"
+                },
+                "1": {
+                    "columns": 64,
+                    "name": "Font B"
+                }
+            },
+            "media": {
+                "dpi": 203,
+                "width": {
+                    "mm": 80,
+                    "pixels": 576
+                }
+            },
+            "name": "TM-T20III",
+            "notes": "Epson TM-T20III, 80mm thermal receipt printer. Feature support is close to the TM-T20II/T88 generation. Default code page PC437, default international character set USA. Epson pages 11 (PC851), 20/21/26 (Thai) and 42/43 (PC1118/PC1119) are omitted for lack of an unambiguous codec mapping.\n",
+            "vendor": "Epson"
+        },
+        "TM-T70": {
+            "codePages": {
+                "0": "CP437",
+                "1": "CP932",
+                "2": "CP850",
+                "3": "CP860",
+                "4": "CP863",
+                "5": "CP865",
+                "16": "CP1252",
+                "17": "CP866",
+                "18": "CP852",
+                "19": "CP858",
+                "255": "Unknown"
+            },
+            "colors": {
+                "0": "black"
+            },
+            "features": {
+                "barcodeA": true,
+                "barcodeB": true,
+                "bitImageColumn": true,
+                "bitImageRaster": true,
+                "graphics": true,
+                "highDensity": true,
+                "paperFullCut": false,
+                "paperPartCut": true,
+                "pdf417Code": true,
+                "pulseBel": false,
+                "pulseStandard": true,
+                "qrCode": true,
+                "starCommands": false
+            },
+            "fonts": {
+                "0": {
+                    "columns": 42,
+                    "name": "Font A"
+                },
+                "1": {
+                    "columns": 56,
+                    "name": "Font B"
+                }
+            },
+            "media": {
+                "dpi": 180,
+                "width": {
+                    "mm": 79.5,
+                    "pixels": 512
+                }
+            },
+            "name": "TM-T70",
+            "notes": "Epson TM-T70 ANK (alphanumeric) model.\n",
+            "vendor": "Epson"
+        },
+        "TM-T70-SA": {
+            "codePages": {
+                "0": "CP437",
+                "20": "Unknown",
+                "21": "CP874",
+                "26": "Unknown",
+                "30": "TCVN-3-1",
+                "31": "TCVN-3-2"
+            },
+            "colors": {
+                "0": "black"
+            },
+            "features": {
+                "barcodeA": true,
+                "barcodeB": true,
+                "bitImageColumn": true,
+                "bitImageRaster": true,
+                "graphics": true,
+                "highDensity": true,
+                "paperFullCut": false,
+                "paperPartCut": true,
+                "pdf417Code": true,
+                "pulseBel": false,
+                "pulseStandard": true,
+                "qrCode": true,
+                "starCommands": false
+            },
+            "fonts": {
+                "0": {
+                    "columns": 48,
+                    "name": "Font A"
+                },
+                "1": {
+                    "columns": 64,
+                    "name": "Font B"
+                },
+                "97": {
+                    "columns": 48,
+                    "name": "Special Font A"
+                },
+                "98": {
+                    "columns": 64,
+                    "name": "Special Font B"
+                }
+            },
+            "media": {
+                "dpi": 203,
+                "width": {
+                    "mm": 79.5,
+                    "pixels": 576
+                }
+            },
+            "name": "TM-T70 South Asia",
+            "notes": "Epson TM-T70 South Asia model. This model is 203dpi so it prints more columns per line than the ANK model. It also supports different character fonts (ESC M) and code pages (ESC t) than the ANK model.\n",
+            "vendor": "Epson"
+        },
+        "TM-T70II": {
+            "codePages": {
+                "0": "CP437",
+                "1": "CP932",
+                "2": "CP850",
+                "3": "CP860",
+                "4": "CP863",
+                "5": "CP865",
+                "11": "CP851",
+                "12": "CP853",
+                "13": "CP857",
+                "14": "CP737",
+                "15": "ISO_8859-7",
+                "16": "CP1252",
+                "17": "CP866",
+                "18": "CP852",
+                "19": "CP858",
+                "20": "Unknown",
+                "21": "CP874",
+                "26": "Unknown",
+                "30": "TCVN-3-1",
+                "31": "TCVN-3-2",
+                "32": "CP720",
+                "33": "CP775",
+                "34": "CP855",
+                "35": "CP861",
+                "36": "CP862",
+                "37": "CP864",
+                "38": "CP869",
+                "39": "ISO_8859-2",
+                "40": "ISO_8859-15",
+                "41": "CP1098",
+                "42": "CP774",
+                "43": "CP772",
+                "44": "CP1125",
+                "45": "CP1250",
+                "46": "CP1251",
+                "47": "CP1253",
+                "48": "CP1254",
+                "49": "CP1255",
+                "50": "CP1256",
+                "51": "CP1257",
+                "52": "CP1258",
+                "53": "RK1048",
+                "255": "Unknown"
+            },
+            "colors": {
+                "0": "black"
+            },
+            "features": {
+                "barcodeA": true,
+                "barcodeB": true,
+                "bitImageColumn": true,
+                "bitImageRaster": true,
+                "graphics": true,
+                "highDensity": true,
+                "paperFullCut": false,
+                "paperPartCut": true,
+                "pdf417Code": true,
+                "pulseBel": false,
+                "pulseStandard": true,
+                "qrCode": true,
+                "starCommands": false
+            },
+            "fonts": {
+                "0": {
+                    "columns": 42,
+                    "name": "Font A"
+                },
+                "1": {
+                    "columns": 56,
+                    "name": "Font B"
+                }
+            },
+            "media": {
+                "dpi": 180,
+                "width": {
+                    "mm": 79.5,
+                    "pixels": 512
+                }
+            },
+            "name": "TM-T70II",
+            "notes": "Epson TM-T70II ANK (alphanumeric) model. The TM-T70II supports different code pages (ESC t) than the original TM-T70. This model does not support Kanji fonts (FS &).\n",
+            "vendor": "Epson"
+        },
+        "TM-T70II-CH": {
+            "codePages": {
+                "0": "CP437",
+                "1": "CP932",
+                "2": "CP850",
+                "3": "CP860",
+                "4": "CP863",
+                "5": "CP865",
+                "11": "CP851",
+                "12": "CP853",
+                "13": "CP857",
+                "14": "CP737",
+                "15": "ISO_8859-7",
+                "16": "CP1252",
+                "17": "CP866",
+                "18": "CP852",
+                "19": "CP858",
+                "20": "Unknown",
+                "21": "CP874",
+                "26": "Unknown",
+                "30": "TCVN-3-1",
+                "31": "TCVN-3-2",
+                "32": "CP720",
+                "33": "CP775",
+                "34": "CP855",
+                "35": "CP861",
+                "36": "CP862",
+                "37": "CP864",
+                "38": "CP869",
+                "39": "ISO_8859-2",
+                "40": "ISO_8859-15",
+                "41": "CP1098",
+                "42": "CP774",
+                "43": "CP772",
+                "44": "CP1125",
+                "45": "CP1250",
+                "46": "CP1251",
+                "47": "CP1253",
+                "48": "CP1254",
+                "49": "CP1255",
+                "50": "CP1256",
+                "51": "CP1257",
+                "52": "CP1258",
+                "53": "RK1048",
+                "255": "Unknown"
+            },
+            "colors": {
+                "0": "black"
+            },
+            "features": {
+                "barcodeA": true,
+                "barcodeB": true,
+                "bitImageColumn": true,
+                "bitImageRaster": true,
+                "graphics": true,
+                "highDensity": true,
+                "paperFullCut": false,
+                "paperPartCut": true,
+                "pdf417Code": true,
+                "pulseBel": false,
+                "pulseStandard": true,
+                "qrCode": true,
+                "starCommands": false
+            },
+            "fonts": {
+                "0": {
+                    "columns": 48,
+                    "name": "Font A"
+                },
+                "1": {
+                    "columns": 64,
+                    "name": "Font B"
+                }
+            },
+            "media": {
+                "dpi": 203,
+                "width": {
+                    "mm": 79.5,
+                    "pixels": 576
+                }
+            },
+            "name": "TM-T70II Chinese",
+            "notes": "Epson TM-T70II Chinese models. This profile applies to both Traditional Chinese and Simplified Chinese models. These models are 203dpi so they print more columns per line than the ANK model. They also support the same character fonts (ESC M) and code pages (ESC t) as the ANK model but they each have different Kanji fonts (FS &) than the other. The Traditional Chinese model uses Big5 for Kanji encoding and the Simplified Chinese model uses GB18030-2022 Level 2.\n",
+            "vendor": "Epson"
+        },
+        "TM-T70II-CH-58mm": {
+            "codePages": {
+                "0": "CP437",
+                "1": "CP932",
+                "2": "CP850",
+                "3": "CP860",
+                "4": "CP863",
+                "5": "CP865",
+                "11": "CP851",
+                "12": "CP853",
+                "13": "CP857",
+                "14": "CP737",
+                "15": "ISO_8859-7",
+                "16": "CP1252",
+                "17": "CP866",
+                "18": "CP852",
+                "19": "CP858",
+                "20": "Unknown",
+                "21": "CP874",
+                "26": "Unknown",
+                "30": "TCVN-3-1",
+                "31": "TCVN-3-2",
+                "32": "CP720",
+                "33": "CP775",
+                "34": "CP855",
+                "35": "CP861",
+                "36": "CP862",
+                "37": "CP864",
+                "38": "CP869",
+                "39": "ISO_8859-2",
+                "40": "ISO_8859-15",
+                "41": "CP1098",
+                "42": "CP774",
+                "43": "CP772",
+                "44": "CP1125",
+                "45": "CP1250",
+                "46": "CP1251",
+                "47": "CP1253",
+                "48": "CP1254",
+                "49": "CP1255",
+                "50": "CP1256",
+                "51": "CP1257",
+                "52": "CP1258",
+                "53": "RK1048",
+                "255": "Unknown"
+            },
+            "colors": {
+                "0": "black"
+            },
+            "features": {
+                "barcodeA": true,
+                "barcodeB": true,
+                "bitImageColumn": true,
+                "bitImageRaster": true,
+                "graphics": true,
+                "highDensity": true,
+                "paperFullCut": false,
+                "paperPartCut": true,
+                "pdf417Code": true,
+                "pulseBel": false,
+                "pulseStandard": true,
+                "qrCode": true,
+                "starCommands": false
+            },
+            "fonts": {
+                "0": {
+                    "columns": 34,
+                    "name": "Font A"
+                },
+                "1": {
+                    "columns": 46,
+                    "name": "Font B"
+                }
+            },
+            "media": {
+                "dpi": 203,
+                "width": {
+                    "mm": 57.5,
+                    "pixels": 416
+                }
+            },
+            "name": "TM-T70II Traditional Chinese",
+            "notes": "Epson TM-T70II Traditional Chinese model with 58mm paper. Only the Traditional Chinese model supports both 58mm and 80mm paper, other models support only 80mm paper.\n",
+            "vendor": "Epson"
+        },
+        "TM-T70II-SA": {
+            "codePages": {
+                "0": "CP437",
+                "1": "CP932",
+                "2": "CP850",
+                "3": "CP860",
+                "4": "CP863",
+                "5": "CP865",
+                "11": "CP851",
+                "12": "CP853",
+                "13": "CP857",
+                "14": "CP737",
+                "15": "ISO_8859-7",
+                "16": "CP1252",
+                "17": "CP866",
+                "18": "CP852",
+                "19": "CP858",
+                "20": "Unknown",
+                "21": "CP874",
+                "26": "Unknown",
+                "30": "TCVN-3-1",
+                "31": "TCVN-3-2",
+                "32": "CP720",
+                "33": "CP775",
+                "34": "CP855",
+                "35": "CP861",
+                "36": "CP862",
+                "37": "CP864",
+                "38": "CP869",
+                "39": "ISO_8859-2",
+                "40": "ISO_8859-15",
+                "41": "CP1098",
+                "42": "CP774",
+                "43": "CP772",
+                "44": "CP1125",
+                "45": "CP1250",
+                "46": "CP1251",
+                "47": "CP1253",
+                "48": "CP1254",
+                "49": "CP1255",
+                "50": "CP1256",
+                "51": "CP1257",
+                "52": "CP1258",
+                "53": "RK1048"
+            },
+            "colors": {
+                "0": "black"
+            },
+            "features": {
+                "barcodeA": true,
+                "barcodeB": true,
+                "bitImageColumn": true,
+                "bitImageRaster": true,
+                "graphics": true,
+                "highDensity": true,
+                "paperFullCut": false,
+                "paperPartCut": true,
+                "pdf417Code": true,
+                "pulseBel": false,
+                "pulseStandard": true,
+                "qrCode": true,
+                "starCommands": false
+            },
+            "fonts": {
+                "0": {
+                    "columns": 48,
+                    "name": "Font A"
+                },
+                "1": {
+                    "columns": 64,
+                    "name": "Font B"
+                },
+                "97": {
+                    "columns": 48,
+                    "name": "Special Font A"
+                },
+                "98": {
+                    "columns": 64,
+                    "name": "Special Font B"
+                }
+            },
+            "media": {
+                "dpi": 203,
+                "width": {
+                    "mm": 79.5,
+                    "pixels": 576
+                }
+            },
+            "name": "TM-T70II South Asia",
+            "notes": "Epson TM-T70 South Asia model. This model supports different character fonts (ESC M) than the Chinese models and does not support code page 255 (User-Defined Page) or Kanji fonts (FS &).\n",
             "vendor": "Epson"
         },
         "TM-T88II": {
@@ -2980,6 +3606,97 @@
             "notes": "Star TSP600 thermal printer series with ESC/POS emulation enabled",
             "vendor": "Star Micronics"
         },
+        "TSP800": {
+            "codePages": {
+                "0": "CP437",
+                "1": "CP437",
+                "2": "CP932",
+                "3": "CP437",
+                "4": "CP858",
+                "5": "CP852",
+                "6": "CP860",
+                "7": "CP861",
+                "8": "CP863",
+                "9": "CP865",
+                "10": "CP866",
+                "11": "CP855",
+                "12": "CP857",
+                "13": "CP862",
+                "14": "CP864",
+                "15": "CP737",
+                "16": "CP851",
+                "17": "CP869",
+                "18": "CP928",
+                "19": "CP772",
+                "20": "CP774",
+                "21": "CP874",
+                "32": "CP1252",
+                "33": "CP1250",
+                "34": "CP1251",
+                "64": "CP3840",
+                "65": "CP3841",
+                "66": "CP3843",
+                "67": "CP3844",
+                "68": "CP3845",
+                "69": "CP3846",
+                "70": "CP3847",
+                "71": "CP3848",
+                "72": "CP1001",
+                "73": "CP2001",
+                "74": "CP3001",
+                "75": "CP3002",
+                "76": "CP3011",
+                "77": "CP3012",
+                "78": "CP3021",
+                "79": "CP3041",
+                "96": "Unknown",
+                "97": "Unknown",
+                "98": "Unknown",
+                "99": "Unknown",
+                "100": "Unknown",
+                "101": "Unknown",
+                "102": "Unknown",
+                "255": "Unknown"
+            },
+            "colors": {
+                "0": "black"
+            },
+            "features": {
+                "barcodeA": true,
+                "barcodeB": true,
+                "bitImageColumn": true,
+                "bitImageRaster": true,
+                "graphics": true,
+                "highDensity": true,
+                "paperFullCut": true,
+                "paperPartCut": true,
+                "pdf417Code": true,
+                "pulseBel": false,
+                "pulseStandard": true,
+                "qrCode": true,
+                "starCommands": true
+            },
+            "fonts": {
+                "0": {
+                    "columns": 42,
+                    "name": "Font A"
+                },
+                "1": {
+                    "columns": 56,
+                    "name": "Font B"
+                }
+            },
+            "media": {
+                "dpi": 203,
+                "width": {
+                    "mm": 104,
+                    "pixels": 833
+                }
+            },
+            "name": "TSP800 Series",
+            "notes": "Star TSP800 thermal printer series with ESC/POS emulation enabled",
+            "vendor": "Star Micronics"
+        },
         "TUP500": {
             "codePages": {
                 "0": "CP437",
@@ -3069,6 +3786,81 @@
             "name": "TUP500 Series",
             "notes": "Star TUP500 thermal printer series with ESC/POS emulation enabled",
             "vendor": "Star Micronics"
+        },
+        "YHD-8390": {
+            "codePages": {
+                "0": "CP437",
+                "1": "KATAKANA",
+                "2": "CP850",
+                "3": "CP860",
+                "4": "CP863",
+                "5": "CP865",
+                "6": "Unknown",
+                "7": "Unknown",
+                "8": "Unknown",
+                "9": "Unknown",
+                "10": "Unknown",
+                "11": "CP1252",
+                "12": "CP866",
+                "13": "CP852",
+                "14": "CP858",
+                "15": "Unknown",
+                "16": "Unknown",
+                "17": "Unknown",
+                "18": "CP1251",
+                "19": "Unknown",
+                "20": "CP1257",
+                "21": "Unknown",
+                "22": "CP864",
+                "23": "CP1001",
+                "24": "CP857",
+                "25": "CP862",
+                "26": "Unknown",
+                "27": "CP869",
+                "28": "CP851",
+                "29": "CP737",
+                "30": "CP871",
+                "31": "CP1256",
+                "32": "CP1258"
+            },
+            "colors": {
+                "0": "black"
+            },
+            "features": {
+                "barcodeA": true,
+                "barcodeB": true,
+                "bitImageColumn": true,
+                "bitImageRaster": true,
+                "graphics": false,
+                "highDensity": true,
+                "paperFullCut": false,
+                "paperPartCut": true,
+                "pdf417Code": true,
+                "pulseBel": false,
+                "pulseStandard": true,
+                "qrCode": true,
+                "starCommands": false
+            },
+            "fonts": {
+                "0": {
+                    "columns": 48,
+                    "name": "Font A"
+                },
+                "1": {
+                    "columns": 64,
+                    "name": "Font B"
+                }
+            },
+            "media": {
+                "dpi": 203,
+                "width": {
+                    "mm": 80,
+                    "pixels": 640
+                }
+            },
+            "name": "YHD-8390",
+            "notes": "YHDAA YHD-8390 thermal printer profile\nCodepage changing most likely work only with the factory/vendor provided software.\n",
+            "vendor": "YHDAA Shenzhen Yuhengda Technology Co., Ltd."
         },
         "ZJ-5870": {
             "codePages": {
