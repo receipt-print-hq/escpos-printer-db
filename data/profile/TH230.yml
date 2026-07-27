@@ -3,7 +3,7 @@
 TH230:
   name: TH230
   vendor: Wincor Nixdorf
-  notes:
+  notes: ""
   inherits: default
   features:
     barcodeA: true

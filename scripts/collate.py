@@ -76,6 +76,9 @@ def substitute_profile(profile_name, profiles_raw, encodings_raw):
         assert (
             i in profiles_raw[profile_name].keys()
         ), f"{profile_name}: Profile key '{i}' must be defined in every profile"
+        assert (
+            profiles_raw[profile_name][i] is not None
+        ), f"{profile_name}: Profile key '{i}' must be defined in every profile and must not be None."
     # Merge base profiles and sub-profiles by overriding entire keys, except for
     # 'features' list, which are merged item-by-item.
     profile = dict((k, v) for d in values[::-1] for k, v in d.items())
