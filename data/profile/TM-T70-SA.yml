@@ -11,24 +11,25 @@ TM-T70-SA:
   inherits: TM-T70
   fonts:
     0:
-      name: Font A # 12x24
+      name: Font A  # 12x24
       columns: 48
     1:
-      name: Font B # 9x17
+      name: Font B  # 9x17
       columns: 64
     97:
-      name: Special Font A # 12x24
+      name: Special Font A  # 12x24
       columns: 48
     98:
-      name: Special Font B # 9x24
+      name: Special Font B  # 9x24
       columns: 64
   media:
     width:
-      mm: 79.5 # paper width +/- 0.5mm, printable width 72mm
+      mm: 79.5  # paper width +/- 0.5mm, printable width 72mm
       pixels: 576
     dpi: 203
   codePages:
-  # https://download4.epson.biz/sec_pubs/pos/reference_en/charcode/supported_codepage.html
+    # https://download4.epson.biz
+    #  /sec_pubs/pos/reference_en/charcode/supported_codepage.html
     0: CP437        # USA, Standard Europe
     20: Unknown     # Thai Character Code 42
     21: CP874       # Thai Character Code 11
