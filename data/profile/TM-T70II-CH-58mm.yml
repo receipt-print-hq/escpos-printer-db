@@ -11,14 +11,14 @@ TM-T70II-CH-58mm:
   inherits: TM-T70II-CH
   fonts:
     0:
-      name: Font A # 12x24
+      name: Font A  # 12x24
       columns: 34
     1:
-      name: Font B # 9x17
+      name: Font B  # 9x17
       columns: 46
   media:
     width:
-      mm: 57.5 # paper width +/- 0.5mm, printable width 52mm
+      mm: 57.5  # paper width +/- 0.5mm, printable width 52mm
       pixels: 416
     dpi: 203
 ...
