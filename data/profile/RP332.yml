@@ -34,7 +34,7 @@ RP332:
     dpi: 203
   codePages:
     0: CP437
-    1: Katakana
+    1: KATAKANA
     2: CP850
     3: CP860
     4: CP863
