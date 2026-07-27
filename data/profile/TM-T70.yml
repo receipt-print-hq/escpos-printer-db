@@ -24,18 +24,19 @@ TM-T70:
     0: black
   fonts:
     0:
-      name: Font A # 12x24
+      name: Font A  # 12x24
       columns: 42
     1:
-      name: Font B # 9x17
+      name: Font B  # 9x17
       columns: 56
   media:
     width:
-      mm: 79.5 # paper width +/- 0.5mm, printable width 72.2mm
+      mm: 79.5  # paper width +/- 0.5mm, printable width 72.2mm
       pixels: 512
     dpi: 180
   codePages:
-  # https://download4.epson.biz/sec_pubs/pos/reference_en/charcode/supported_codepage.html
+    # https://download4.epson.biz
+    # /sec_pubs/pos/reference_en/charcode/supported_codepage.html
     0: CP437        # USA, Standard Europe
     1: CP932        # Katakana
     2: CP850        # Multilingual
