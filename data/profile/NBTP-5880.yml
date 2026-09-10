@@ -1,0 +1,43 @@
+---
+# NETBYE NBTP-5880 thermal receipt printer
+# Vendor specifications:
+# https://netbye.com/products/nbtp-5880-58mm-high-speed-pos-thermal-receipt-printer
+NBTP-5880:
+  name: NBTP-5880
+  vendor: NETBYE
+  inherits: default
+  notes: >
+      NETBYE NBTP-5880 58mm direct thermal receipt printer. 203 dpi,
+      384 dots per line, 48mm print width, 90mm/s. Manual tear-off rather
+      than an auto cutter. Drives a cash drawer at DC 12V/1A.
+
+      The vendor specification lists ESC/POS compatibility, 1D barcodes
+      (UPC-A, UPC-E, EAN-13, EAN-8, CODE39, ITF25, CODABAR, CODE93,
+      CODE128) and 2D barcodes (PDF417, QR Code, DATA Matrix), so the
+      default profile is used as the base.
+
+      Font columns are derived from the character sizes given for the
+      NBTP-8080 in the same series (Font A 12x24 dots, Font B 9x17 dots)
+      over this model's 384 dot line; the NBTP-5880 specification does
+      not state them directly.
+
+      Code page support has not been confirmed against a physical unit,
+      so only CP437 is claimed here.
+  features:
+    # Vendor specification states "Cutter: Manual Cutting".
+    paperFullCut: false
+    paperPartCut: false
+  fonts:
+    0:
+      name: Font A
+      columns: 32
+    1:
+      name: Font B
+      columns: 42
+  media:
+    width:
+      mm: 57.5
+      pixels: 384
+    dpi: 203
+  codePages:
+    0: CP437
