@@ -1,0 +1,43 @@
+---
+# NETBYE NBTP-8040 thermal receipt printer
+# Vendor specifications:
+# https://netbye.com/products/nbtp-8040-80mm-blue-tooth-usb-serial-lan-with-thermal-paper
+NBTP-8040:
+  name: NBTP-8040
+  vendor: NETBYE
+  inherits: default
+  notes: >
+      NETBYE NBTP-8040 80mm direct thermal receipt printer with auto
+      cutter. 203 dpi, 576 dots per line, 72mm print width, 200mm/s,
+      128 kbyte input buffer, 256 kbyte NV flash. Interface options:
+      USB+Ethernet, USB+LAN+RS232, USB+Wi-Fi, USB+Bluetooth. A paper
+      separator allows 58mm rolls (48mm print width).
+
+      The vendor specification lists ESC/POS compatibility, bitmap
+      download and printing (max 20K per bitmap), 1D barcodes (UPC-A,
+      UPC-E, EAN-13, EAN-8, CODE39, ITF25, CODABAR, CODE93, CODE128)
+      and 2D barcodes (PDF417, QR Code, DATA Matrix).
+
+      Font columns are derived from the specified character sizes
+      (Font A 12x24 dots, Font B 9x17 dots) over a 576 dot line.
+
+      The specification confirms an auto cutter but does not distinguish
+      full from partial cut, so both are left at the default profile's
+      values rather than being narrowed.
+
+      Code page support has not been confirmed against a physical unit,
+      so only CP437 is claimed here.
+  fonts:
+    0:
+      name: Font A
+      columns: 48
+    1:
+      name: Font B
+      columns: 64
+  media:
+    width:
+      mm: 80
+      pixels: 576
+    dpi: 203
+  codePages:
+    0: CP437
