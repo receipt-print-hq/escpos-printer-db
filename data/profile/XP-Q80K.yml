@@ -1,0 +1,33 @@
+---
+# Tested on a real unit (USB + LAN + WiFi model) over raw TCP port 9100,
+# driven by the Rust `escpos` crate 0.20.1 (https://crates.io/crates/escpos).
+# Hardware-confirmed: raster images (GS v 0) at 576 px on 80mm paper,
+# full cut (GS V A 0), plain ASCII text in the default code page.
+# Not tested, left disabled or at the inherited value: partial cut, column
+# images, GS ( L graphics, barcodes, QR, PDF417, cash drawer pulse, font
+# column counts, and every code page other than the default.
+# Vendor config commands were captured from Xprinter's own "Xtest" app and
+# replayed to confirm them.
+XP-Q80K:
+  name: XP-Q80K
+  vendor: Xprinter
+  inherits: simple
+  notes: >
+    Xprinter XP-Q80K, 80mm thermal receipt printer with auto-cutter. After an
+    auto-cut it beeps until the ticket is torn off; this is controlled by the
+    beeper bit (0x02) of the software DIP switches, written with the vendor
+    command 1F 1B 1F BF n, which sets all DIP switches at once. On the tested
+    unit n = 0x28 turns the beeper off and n = 0x2A turns it on; the printer
+    must be power-cycled to apply it. The meaning of the other DIP bits is
+    unknown. The printer accepts one TCP connection at a time.
+  features:
+    bitImageRaster: true
+    paperFullCut: true
+    pulseStandard: false
+  media:
+    width:
+      mm: 80
+      pixels: 576
+    # 576 px over the 72mm print width; not measured
+    dpi: 203
+...
