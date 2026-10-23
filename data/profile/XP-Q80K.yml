@@ -6,8 +6,8 @@
 # Not tested, left disabled or at the inherited value: partial cut, column
 # images, GS ( L graphics, barcodes, QR, PDF417, cash drawer pulse, font
 # column counts, and every code page other than the default.
-# Vendor config commands were captured from Xprinter's own "Xtest" app and
-# replayed to confirm them.
+# Vendor config commands were captured from Xprinter's own "Xtest" app or
+# read from its "Xprinter Test" Windows tool, then replayed to confirm them.
 XP-Q80K:
   name: XP-Q80K
   vendor: Xprinter
@@ -20,6 +20,30 @@ XP-Q80K:
     unit n = 0x28 turns the beeper off and n = 0x2A turns it on; the printer
     must be power-cycled to apply it. The meaning of the other DIP bits is
     unknown. The printer accepts one TCP connection at a time.
+
+    Network settings use the same 1F 1B 1F prefix, sent raw to port 9100.
+    Addresses are 4 raw bytes each (192.168.1.200 = C0 A8 01 C8); strings are
+    NUL-terminated ASCII. Confirmed on hardware:
+
+        1F 1B 1F B2 <ip> <mask> <gateway>          LAN static IP, applied live
+        1F 1B 1F B3 <keytype> <ssid> 00 <key> 00   WiFi SSID and key only
+        1F 1B 1F B4 <ip> <mask> <gateway> <keytype> <ssid> 00 <key> 00
+                                                   WiFi static IP, SSID and key
+
+    keytype 06 worked for a WPA2 network. B2 does not change the WiFi IP. After
+    B4 the printer drops off for a few seconds, then joins the WiFi with the
+    given address; the LAN address is unchanged. After B3 alone the printer did
+    not appear on the new network's subnet; B4, which also sets the address,
+    fixed that.
+
+    Read from the vendor's Windows tool (Xprinter Test V3.6C) but not tested:
+    B0 <mask> sets the subnet mask, B1 <gateway> the gateway, 22 <ip> the LAN
+    IP only.
+
+    Factory defaults on the tested unit: LAN 192.168.123.100, WiFi
+    192.168.123.115. Port 80 accepts TCP but never answers HTTP, so there is no
+    web configuration page; the current network settings are only shown on the
+    self-test page (hold FEED while powering on).
   features:
     bitImageRaster: true
     paperFullCut: true
