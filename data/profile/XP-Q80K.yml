@@ -6,8 +6,10 @@
 # Not tested, left disabled or at the inherited value: partial cut, column
 # images, GS ( L graphics, barcodes, QR, PDF417, cash drawer pulse, font
 # column counts, and every code page other than the default.
-# Vendor config commands were captured from Xprinter's own "Xtest" app and
-# replayed to confirm them.
+# Vendor config commands were captured from Xprinter's own "Xtest" app or
+# read from its "Xprinter Test" V3.6C Windows tool; the notes say which ones
+# were replayed on the printer to confirm them.
+# Contributed by Tissoura AI (https://tissoura.ai).
 XP-Q80K:
   name: XP-Q80K
   vendor: Xprinter
@@ -18,8 +20,72 @@ XP-Q80K:
     beeper bit (0x02) of the software DIP switches, written with the vendor
     command 1F 1B 1F BF n, which sets all DIP switches at once. On the tested
     unit n = 0x28 turns the beeper off and n = 0x2A turns it on; the printer
-    must be power-cycled to apply it. The meaning of the other DIP bits is
-    unknown. The printer accepts one TCP connection at a time.
+    must be power-cycled to apply it. The printer accepts one TCP connection
+    at a time.
+
+    The vendor tool's "P80 DIP Settings" dialog builds the BF byte as below
+    (bit set = second choice). Only bit 1 was confirmed on this unit; the
+    rest is read from the tool, and the tool's own default is 0x2A.
+
+        bit 0  cutter            0 = enabled, 1 = disabled
+        bit 1  beeper            0 = off, 1 = on
+        bit 2  print density     0 = set (1-8), 1 = default
+        bit 3  Chinese mode      0 = on, 1 = off
+        bit 4  chars per line    0 = 48/64, 1 = 42/56 (font A/B)
+        bit 5  cut with drawer   0 = no, 1 = yes
+        bits 6-7 serial baud rate (4 choices)
+
+    Network settings use the same 1F 1B 1F prefix, sent raw to port 9100.
+    Addresses are 4 raw bytes each (192.168.1.200 = C0 A8 01 C8); strings are
+    NUL-terminated ASCII. Confirmed on hardware:
+
+        1F 1B 1F B2 <ip> <mask> <gateway>          LAN static IP, applied live
+        1F 1B 1F B3 <keytype> <ssid> 00 <key> 00   WiFi SSID and key only
+        1F 1B 1F B4 <ip> <mask> <gateway> <keytype> <ssid> 00 <key> 00
+                                                   WiFi static IP, SSID and key
+
+    keytype 06 worked for a WPA2 network. B2 does not change the WiFi IP. After
+    B4 the printer drops off for a few seconds, then joins the WiFi with the
+    given address; the LAN address is unchanged. After B3 alone the printer did
+    not appear on the new network's subnet; B4, which also sets the address,
+    fixed that.
+
+    Read from the vendor's Windows tool (Xprinter Test V3.6C) but not tested:
+    B0 <mask> sets the subnet mask, B1 <gateway> the gateway, 22 <ip> the LAN
+    IP only.
+
+    Factory defaults on the tested unit: LAN 192.168.123.100, WiFi
+    192.168.123.115. Port 80 accepts TCP but never answers HTTP, so there is no
+    web configuration page; the current network settings are only shown on the
+    self-test page (hold FEED while powering on).
+
+    1F 1B 1F 67 00 prints the self-test page (confirmed on this unit).
+
+    Other 1F 1B 1F commands found in the vendor tool, with the setting each
+    button sends. Not tested on this unit; some belong to other Xprinter
+    models (the tool covers XP-58, XP-76 and XP-80), so the printer may
+    ignore them.
+
+        11 11 00                   factory reset
+        FC 01 02 n                 cut when cover closes (n from a list)
+        13 14 n                    print density, n = 1..
+        E1 13 14 n                 print width
+        E0 13 14 n 04 02 03 00     cutter alarm, n = 1 on / 0 off
+        A0 n t1(2) t2(2)           sound and light alarm; t1 = take-paper
+                                   timeout, t2 = alarm timeout, seconds,
+                                   big-endian
+        F4 11 22 33 n              reprint, n = 55 or 33
+        46 4F 4E 54 n              language ("FONT" n)
+        BE n 0A 00                 serial baud rate
+        B8 13 14 00 00             USB mode: printer class
+        B8 13 14 01 00             USB mode: virtual COM port
+        FB 01 02 01 / FB 01 02 00  USB serial number fixed / random
+        80 04 05 06 n              black mark off / on
+        81 04 05 06 n              black mark paper maximum length (mm)
+        82 04 05 06 n              black mark width upper limit (mm)
+        83 04 05 06 30 n           black mark sensitivity (P80)
+        42 65 65 70 n 0A 00        beeper ("Beep"), n = 08 or 06 (P76)
+        60 04 05 06 n 0A 00        dot-matrix density, n = 33/55/77 (P76)
   features:
     bitImageRaster: true
     paperFullCut: true
